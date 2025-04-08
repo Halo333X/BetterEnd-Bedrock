@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:lantern_woods/tree/filalux_gen_scatter_feature"
     },
-    "iterations": 16,
+    "iterations": 9,
     "coordinate_eval_order": "zxy",
     "x": {
         "distribution": "uniform",
