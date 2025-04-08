@@ -1,4 +1,4 @@
-import { world, system, Player } from "@minecraft/server";
+import { world, system, Player, EquipmentSlot } from "@minecraft/server";
 
 // Biomes
 
