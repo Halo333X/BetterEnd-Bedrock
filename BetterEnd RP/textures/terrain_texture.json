@@ -5,52 +5,52 @@
   "texture_data": {
     // Pillars
     "azure_jadestone_pillar": {
-
+      "textures": "textures/blocks/pillars/azure_jadestone_pillar_top"
     },
     "azure_jadestone_pillar_side": {
-
+      "textures": "textures/blocks/pillars/azure_jadestone_pillar_side"
     },
     "flavolite_pillar": {
-
+      "textures": "textures/blocks/pillars/flavolite_pillar_top"
     },
     "flavolite_pillar_side": {
-
+      "textures": "textures/blocks/pillars/flavolite_pillar_side"
     },
     "sandy_jadestone_pillar": {
-
+      "textures": "textures/blocks/pillars/sandy_jadestone_pillar_top"
     },
     "sandy_jadestone_pillar_side": {
-
+      "textures": "textures/blocks/pillars/sandy_jadestone_pillar_side"
     },
     "smaragdant_crystal_pillar": {
-
+      "textures": "textures/blocks/pillars/smaragdant_crystal_jadestone_pillar_top"
     },
     "smaragdant_crystal_pillar_side": {
-
+      "textures": "textures/blocks/pillars/smaragdant_crystal_jadestone_pillar_side"
     },
     "sulphuric_rock_pillar": {
-
+      "textures": "textures/blocks/pillars/sulphuric_rock_pillar_top"
     },
     "sulphuric_rock_pillar_side": {
-
+      "textures": "textures/blocks/pillars/sulphuric_rock_pillar_side"
     },
     "umbralith_pillar": {
-
+      "textures": "textures/blocks/pillars/umbralith_pillar_top"
     },
     "umbralith_pillar_side": {
-
+      "textures": "textures/blocks/pillars/umbralith_pillar_side"
     },
     "violecite_pillar": {
-
+      "textures": "textures/blocks/pillars/violecite_pillar_top"
     },
     "violecite_pillar_side": {
-
+      "textures": "textures/blocks/pillars/violecite_pillar_side"
     },
     "virid_jadestone_pillar": {
-
+      "textures": "textures/blocks/pillars/virid_jadestone_pillar_top"
     },
     "virid_jadestone_pillar_side": {
-
+      "textures": "textures/blocks/pillars/virid_jadestone_pillar_side"
     },
     // Wood
     "helix_tree_bar_stool": {
@@ -81,14 +81,14 @@
       "textures": "textures/blocks/wood/helix_tree/helix_tree_planks"
     },
     "helix_tree_door_lower": {
-			"textures": "textures/blocks/wood/helix_tree/helix_tree_door_bottom"
-		},
-		"helix_tree_door_upper": {
-			"textures": "textures/blocks/wood/helix_tree/helix_tree_door_top"
-		},
-		"helix_tree_trapdoor": {
-			"textures": "textures/blocks/wood/helix_tree/helix_tree_trapdoor"
-		},
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_door_bottom"
+    },
+    "helix_tree_door_upper": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_door_top"
+    },
+    "helix_tree_trapdoor": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_trapdoor"
+    },
     "helix_tree_crafting_table_bottom": {
       "textures": "textures/blocks/wood/helix_tree/helix_tree_crafting_table_bottom"
     },
@@ -145,14 +145,14 @@
       "textures": "textures/blocks/wood/dragon_tree/dragon_tree_planks"
     },
     "dragon_tree_door_lower": {
-			"textures": "textures/blocks/wood/dragon_tree/dragon_tree_door_bottom"
-		},
-		"dragon_tree_door_upper": {
-			"textures": "textures/blocks/wood/dragon_tree/dragon_tree_door_top"
-		},
-		"dragon_tree_trapdoor": {
-			"textures": "textures/blocks/wood/dragon_tree/dragon_tree_trapdoor"
-		},
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_door_bottom"
+    },
+    "dragon_tree_door_upper": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_door_top"
+    },
+    "dragon_tree_trapdoor": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_trapdoor"
+    },
     "dragon_tree_crafting_table_bottom": {
       "textures": "textures/blocks/wood/dragon_tree/dragon_tree_crafting_table_bottom"
     },
@@ -187,14 +187,14 @@
       "textures": "textures/blocks/wood/jellyshroom/jellyshroom_planks"
     },
     "jellyshroom_door_lower": {
-			"textures": "textures/blocks/wood/jellyshroom/jellyshroom_door_bottom"
-		},
-		"jellyshroom_door_upper": {
-			"textures": "textures/blocks/wood/jellyshroom/jellyshroom_door_top"
-		},
-		"jellyshroom_trapdoor": {
-			"textures": "textures/blocks/wood/jellyshroom/jellyshroom_trapdoor"
-		},
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_door_bottom"
+    },
+    "jellyshroom_door_upper": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_door_top"
+    },
+    "jellyshroom_trapdoor": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_trapdoor"
+    },
     "jellyshroom_crafting_table_bottom": {
       "textures": "textures/blocks/wood/jellyshroom/jellyshroom_crafting_table_bottom"
     },
@@ -251,14 +251,14 @@
       "textures": "textures/blocks/wood/lacugrove/lacugrove_planks"
     },
     "lacugrove_door_lower": {
-			"textures": "textures/blocks/wood/lacugrove/lacugrove_door_bottom"
-		},
-		"lacugrove_door_upper": {
-			"textures": "textures/blocks/wood/lacugrove/lacugrove_door_top"
-		},
-		"lacugrove_trapdoor": {
-			"textures": "textures/blocks/wood/lacugrove/lacugrove_trapdoor"
-		},
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_door_bottom"
+    },
+    "lacugrove_door_upper": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_door_top"
+    },
+    "lacugrove_trapdoor": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_trapdoor"
+    },
     "lacugrove_crafting_table_bottom": {
       "textures": "textures/blocks/wood/lacugrove/lacugrove_crafting_table_bottom"
     },
@@ -318,14 +318,14 @@
       "textures": "textures/blocks/wood/lucernia/lucernia_planks"
     },
     "lucernia_door_lower": {
-			"textures": "textures/blocks/wood/lucernia/lucernia_door_bottom"
-		},
-		"lucernia_door_upper": {
-			"textures": "textures/blocks/wood/lucernia/lucernia_door_top"
-		},
-		"lucernia_trapdoor": {
-			"textures": "textures/blocks/wood/lucernia/lucernia_trapdoor"
-		},
+      "textures": "textures/blocks/wood/lucernia/lucernia_door_bottom"
+    },
+    "lucernia_door_upper": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_door_top"
+    },
+    "lucernia_trapdoor": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_trapdoor"
+    },
     "lucernia_crafting_table_bottom": {
       "textures": "textures/blocks/wood/lucernia/lucernia_crafting_table_bottom"
     },
@@ -387,14 +387,14 @@
       "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_planks"
     },
     "mossy_glowshroom_door_lower": {
-			"textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_door_bottom"
-		},
-		"mossy_glowshroom_door_upper": {
-			"textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_door_top"
-		},
-		"mossy_glowshroom_trapdoor": {
-			"textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_trapdoor"
-		},
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_door_bottom"
+    },
+    "mossy_glowshroom_door_upper": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_door_top"
+    },
+    "mossy_glowshroom_trapdoor": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_trapdoor"
+    },
     "mossy_glowshroom_crafting_table_bottom": {
       "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_crafting_table_bottom"
     },
@@ -451,14 +451,14 @@
       "textures": "textures/blocks/wood/pythadendron/pythadendron_planks"
     },
     "pythadendron_door_lower": {
-			"textures": "textures/blocks/wood/pythadendron/pythadendron_door_bottom"
-		},
-		"pythadendron_door_upper": {
-			"textures": "textures/blocks/wood/pythadendron/pythadendron_door_top"
-		},
-		"pythadendron_trapdoor": {
-			"textures": "textures/blocks/wood/pythadendron/pythadendron_trapdoor"
-		},
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_door_bottom"
+    },
+    "pythadendron_door_upper": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_door_top"
+    },
+    "pythadendron_trapdoor": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_trapdoor"
+    },
     "pythadendron_crafting_table_bottom": {
       "textures": "textures/blocks/wood/pythadendron/pythadendron_crafting_table_bottom"
     },
@@ -499,14 +499,14 @@
       "textures": "textures/blocks/wood/tenanea/tenanea_planks"
     },
     "tenanea_door_lower": {
-			"textures": "textures/blocks/wood/tenanea/tenanea_door_bottom"
-		},
-		"tenanea_door_upper": {
-			"textures": "textures/blocks/wood/tenanea/tenanea_door_top"
-		},
-		"tenanea_trapdoor": {
-			"textures": "textures/blocks/wood/tenanea/tenanea_trapdoor"
-		},
+      "textures": "textures/blocks/wood/tenanea/tenanea_door_bottom"
+    },
+    "tenanea_door_upper": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_door_top"
+    },
+    "tenanea_trapdoor": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_trapdoor"
+    },
     "tenanea_crafting_table_bottom": {
       "textures": "textures/blocks/wood/tenanea/tenanea_crafting_table_bottom"
     },
@@ -544,14 +544,14 @@
       "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_planks"
     },
     "umbrella_tree_door_lower": {
-			"textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_door_bottom"
-		},
-		"umbrella_tree_door_upper": {
-			"textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_door_top"
-		},
-		"umbrella_tree_trapdoor": {
-			"textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_trapdoor"
-		},
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_door_bottom"
+    },
+    "umbrella_tree_door_upper": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_door_top"
+    },
+    "umbrella_tree_trapdoor": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_trapdoor"
+    },
     "umbrella_tree_crafting_table_bottom": {
       "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_crafting_table_bottom"
     },
@@ -586,14 +586,14 @@
       "textures": "textures/blocks/wood/end_lotus/end_lotus_planks"
     },
     "end_lotus_door_lower": {
-			"textures": "textures/blocks/wood/end_lotus/end_lotus_door_bottom"
-		},
-		"end_lotus_door_upper": {
-			"textures": "textures/blocks/wood/end_lotus/end_lotus_door_top"
-		},
-		"end_lotus_trapdoor": {
-			"textures": "textures/blocks/wood/end_lotus/end_lotus_trapdoor"
-		},
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_door_bottom"
+    },
+    "end_lotus_door_upper": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_door_top"
+    },
+    "end_lotus_trapdoor": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_trapdoor"
+    },
     "end_lotus_crafting_table_bottom": {
       "textures": "textures/blocks/wood/end_lotus/end_lotus_crafting_table_bottom"
     },
