@@ -7,6 +7,7 @@ import './door';
 import './trapdoor';
 import './chairs';
 import './stairPlacement';
+import "./pillar";
 
 // Add more mappings here as needed - Note, the doors need to be set on door.js at line 237.
 const isSlab = new Set([

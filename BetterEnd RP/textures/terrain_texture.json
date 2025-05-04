@@ -3,6 +3,55 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Pillars
+    "azure_jadestone_pillar": {
+
+    },
+    "azure_jadestone_pillar_side": {
+
+    },
+    "flavolite_pillar": {
+
+    },
+    "flavolite_pillar_side": {
+
+    },
+    "sandy_jadestone_pillar": {
+
+    },
+    "sandy_jadestone_pillar_side": {
+
+    },
+    "smaragdant_crystal_pillar": {
+
+    },
+    "smaragdant_crystal_pillar_side": {
+
+    },
+    "sulphuric_rock_pillar": {
+
+    },
+    "sulphuric_rock_pillar_side": {
+
+    },
+    "umbralith_pillar": {
+
+    },
+    "umbralith_pillar_side": {
+
+    },
+    "violecite_pillar": {
+
+    },
+    "violecite_pillar_side": {
+
+    },
+    "virid_jadestone_pillar": {
+
+    },
+    "virid_jadestone_pillar_side": {
+
+    },
     // Wood
     "helix_tree_bar_stool": {
       "textures": "textures/blocks/wood/helix_tree/helix_tree_bar_stool"
