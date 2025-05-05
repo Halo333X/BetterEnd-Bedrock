@@ -169,6 +169,27 @@
               ]
             }
           ]
+        },
+        {
+          "category_name": "construction",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:azure_jadestone_pedestal",
+                "name": "betterend:itemGroup.name.pedestal"
+              },
+              "items": [
+                "betterend:betterend:azure_jadestone_pedestal",
+                "betterend:flavolite_pedestal",
+                "betterend:sandy_jadestone_pedestal",
+                "betterend:smaragdant_crystal_pedestal",
+                "betterend:sulphuric_rock_pedestal",
+                "betterend:umbralith_pedestal",
+                "betterend:violecite_pedestal",
+                "betterend:virid_jadestone_pedestal"
+              ]
+            }
+          ]
         }
       ]
     }

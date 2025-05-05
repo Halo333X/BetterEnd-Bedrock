@@ -23,10 +23,10 @@
       "textures": "textures/blocks/pillars/sandy_jadestone_pillar_side"
     },
     "smaragdant_crystal_pillar": {
-      "textures": "textures/blocks/pillars/smaragdant_crystal_jadestone_pillar_top"
+      "textures": "textures/blocks/pillars/smaragdant_crystal_pillar_top"
     },
     "smaragdant_crystal_pillar_side": {
-      "textures": "textures/blocks/pillars/smaragdant_crystal_jadestone_pillar_side"
+      "textures": "textures/blocks/pillars/smaragdant_crystal_pillar_side"
     },
     "sulphuric_rock_pillar": {
       "textures": "textures/blocks/pillars/sulphuric_rock_pillar_top"
