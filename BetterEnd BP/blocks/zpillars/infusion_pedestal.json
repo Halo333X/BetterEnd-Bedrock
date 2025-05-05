@@ -41,7 +41,7 @@
 			},
 			"tag:pillar_template:pillar": {},
 			"minecraft:geometry": {
-				"identifier": "geometry.pillar",
+				"identifier": "geometry.pillar2",
 				"bone_visibility": {
 					"top": "query.block_state('pillar_template:top_bit') == false",
 					"bottom": "query.block_state('pillar_template:bottom_bit') == false",

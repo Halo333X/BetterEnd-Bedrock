@@ -52,10 +52,10 @@
     "virid_jadestone_pillar_side": {
       "textures": "textures/blocks/pillars/virid_jadestone_pillar_side"
     },
-    "infusion_pedestal_pillar_side": {
+    "infusion_pedestal_side": {
       "textures": "textures/blocks/pillars/infusion_pedestal_pillar"
     },
-    "infusion_pedestal_pillar": {
+    "infusion_pedestal": {
       "textures": "textures/blocks/pillars/infusion_pedestal_top"
     },
     // Wood
