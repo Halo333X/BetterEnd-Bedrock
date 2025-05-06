@@ -16,6 +16,12 @@
           "name": "betterend:lotuslily"
         },
         "weight": 1
+      }, 
+      {
+        "block": {
+          "name": "minecraft:water"
+        },
+        "weight": 10
       }
     ],
     "enforce_survivability_rules": false,
