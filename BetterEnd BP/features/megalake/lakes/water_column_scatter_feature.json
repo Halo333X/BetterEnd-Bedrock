@@ -5,14 +5,8 @@
       "identifier": "betterend:megalake/lakes/water_column_scatter_feature"
     },
     "iterations": "return t.megalakes;",
-    "x": {
-      "extent": [ 0, 16 ],
-      "distribution": "gaussian"
-   },
-    "z": {
-      "extent": [ 0, 16 ],
-      "distribution": "gaussian"
-    },
+    "x": 0,
+    "z": 0,
     "y": {
       "extent": [ "t.megalakes * - 1", 0 ],
       "distribution": "fixed_grid"
