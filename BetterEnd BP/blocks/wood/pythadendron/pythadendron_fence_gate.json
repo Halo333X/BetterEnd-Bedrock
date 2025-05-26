@@ -167,7 +167,7 @@
                 "seconds_to_destroy": 1
             },
             "tag:fence_gate": {},
-            "minecraft:loot": "loot_tables/blocks/pythadendron_fence_gate.json", // Drops the inventory fence block when the block is destroyed.
+            
             "minecraft:material_instances": {
                 "*": {
                     "texture": "planks_pythadendron", // The name of your texture.

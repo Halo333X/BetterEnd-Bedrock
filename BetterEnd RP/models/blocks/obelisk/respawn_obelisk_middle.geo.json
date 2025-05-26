@@ -1,0 +1,44 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.respawn_obelisk_middle",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [-6, 0, -6],
+							"size": [12, 2, 12],
+							"uv": {
+								"north": {"uv": [2, 14], "uv_size": [12, 2], "material_instance": "respawn_obelisk_top_and_side"},
+								"east": {"uv": [2, 14], "uv_size": [12, 2], "material_instance": "respawn_obelisk_top_and_side"},
+								"south": {"uv": [2, 14], "uv_size": [12, 2], "material_instance": "respawn_obelisk_top_and_side"},
+								"west": {"uv": [2, 14], "uv_size": [12, 2], "material_instance": "respawn_obelisk_top_and_side"},
+								"up": {"uv": [14, 14], "uv_size": [-12, -12], "material_instance": "respawn_obelisk_top_and_side"}
+							}
+						},
+						{
+							"origin": [-5, 2, -5],
+							"size": [10, 14, 10],
+							"uv": {
+								"north": {"uv": [3, 0], "uv_size": [10, 14], "material_instance": "aurora_crystal"},
+								"east": {"uv": [3, 0], "uv_size": [10, 14], "material_instance": "aurora_crystal"},
+								"south": {"uv": [3, 0], "uv_size": [10, 14], "material_instance": "aurora_crystal"},
+								"west": {"uv": [3, 0], "uv_size": [10, 14], "material_instance": "aurora_crystal"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

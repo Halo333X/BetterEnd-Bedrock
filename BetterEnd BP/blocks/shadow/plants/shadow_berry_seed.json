@@ -77,7 +77,6 @@
                 "condition": "q.block_state('betterend:growth') == 3",
                 "components": {
                     "minecraft:geometry": "geometry.shadow_berry_04",
-                    "minecraft:loot": "loot_tables/shadow/shadow_berry.json",
                     "minecraft:selection_box": {
                         "origin": [
                             -8,

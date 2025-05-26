@@ -124,7 +124,6 @@
               }
             ]
           },
-          "minecraft:loot": "loot_tables/amberland/raw_amber_root.json",
           "minecraft:selection_box": {
             "origin": [-4.5, 0, -4.5],
             "size": [9, 16, 9]

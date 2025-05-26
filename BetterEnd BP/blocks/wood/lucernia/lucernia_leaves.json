@@ -77,7 +77,6 @@
 							]
 							},
       "minecraft:geometry": "minecraft:geometry.full_block",
-      "minecraft:loot": "loot_tables/blocks/custom_leaves.json",
       "minecraft:destructible_by_explosion": {
         "explosion_resistance": 1
       },

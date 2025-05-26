@@ -25,7 +25,7 @@
     ],
     "components": {
     	"tag:minecraft:is_axe_item_destructible": {},
-    	"minecraft:loot": "loot_tables/blocks/stripped_umbrella_tree_wood.json", // Drops the inventory fence block when the block is destroyed.
+    
       "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0.5

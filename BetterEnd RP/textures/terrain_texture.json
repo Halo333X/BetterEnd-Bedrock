@@ -1487,7 +1487,19 @@
     "air": {
       "textures": "textures/blocks/utils/air"
     },
+    "respawn_obelisk_top_and_side": {
+      "textures": "textures/blocks/_extras/respawn_obelisk_top_and_side"
+    },
+    "respawn_obelisk_bottom_side": {
+      "textures": "textures/blocks/_extras/respawn_obelisk_bottom_side"
+    },
+    "obelisk_aurora_crystal": {
+      "textures": "textures/blocks/_extras/aurora_crystal"
+    },
     // Ores
+    "amber_block": {
+      "textures": "textures/blocks/ore/amber_block"
+    },
     "amber_ore": {
       "textures": "textures/blocks/ore/amber_ore"
     },

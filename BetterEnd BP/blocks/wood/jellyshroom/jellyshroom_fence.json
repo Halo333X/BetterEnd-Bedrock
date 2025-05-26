@@ -252,7 +252,6 @@
 							}
 							]
 							},
-			"minecraft:loot": "loot_tables/blocks/jellyshroom_fence.json", // Drops the inventory fence block when the block is destroyed.
 			"minecraft:flammable": { 
 				"catch_chance_modifier": 5,
 				"destroy_chance_modifier": 20

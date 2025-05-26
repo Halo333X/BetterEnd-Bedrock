@@ -135,7 +135,6 @@
 							}
 							]
 							},
-      	"minecraft:loot": "loot_tables/blocks/dragon_tree_trapdoor.json", // Drops the inventory fence block when the block is destroyed.
         "minecraft:collision_box": {
           "origin": [-8, 0, -8],
           "size": [16, 3, 16]

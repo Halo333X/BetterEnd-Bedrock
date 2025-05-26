@@ -8,9 +8,6 @@
 			"is_experimental": false
 		},
 		"components": {
-			"minecraft:loot": {
-				"table": "loot_tables/silk_fiber.json"
-			},
 			"minecraft:behavior.random_hover": {
 				"priority": 12,
 				"xz_dist": 8,

@@ -33,7 +33,7 @@
           "ambient_occlusion": false
         }
       },
-      "minecraft:loot": "loot_tables/blocks/pythadendron_sapling.json",
+  
       "minecraft:placement_filter": {
         "conditions": [
           {

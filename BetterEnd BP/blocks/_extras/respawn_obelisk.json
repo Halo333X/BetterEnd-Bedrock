@@ -1,0 +1,158 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:respawn_obelisk",
+            "menu_category": {
+                "category": "items"
+            },
+            "states": {
+                "betterend:model": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:model') == 0",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            14,
+                            16,
+                            14
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -7,
+                            0,
+                            -7
+                        ],
+                        "size": [
+                            14,
+                            16,
+                            14
+                        ]
+                    },
+                    "minecraft:geometry": "geometry.respawn_obelisk_bottom",
+                    "minecraft:material_instances": {
+                        "respawn_obelisk_bottom_side": {
+                            "texture": "respawn_obelisk_bottom_side",
+                            "face_dimming": false,
+                            "ambient_occlusion": false,
+                            "render_method": "opaque"
+                        },
+                        "amber_block": {
+                            "texture": "amber_block",
+                            "face_dimming": false,
+                            "ambient_occlusion": false,
+                            "render_method": "opaque"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:model') == 1",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            16,
+                            12
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            16,
+                            12
+                        ]
+                    },
+                    "minecraft:geometry": "geometry.respawn_obelisk_middle",
+                    "minecraft:material_instances": {
+                        "aurora_crystal": {
+                            "texture": "obelisk_aurora_crystal",
+                            "face_dimming": false,
+                            "ambient_occlusion": false,
+                            "render_method": "blend_to_opaque"
+                        },
+                        "respawn_obelisk_top_and_side": {
+                            "texture": "respawn_obelisk_top_and_side",
+                            "face_dimming": false,
+                            "ambient_occlusion": false,
+                            "render_method": "opaque"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:model') == 2",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            16,
+                            12
+                        ]
+                    },
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            16,
+                            12
+                        ]
+                    },
+                    "minecraft:geometry": "geometry.respawn_obelisk_top",
+                    "minecraft:material_instances": {
+                        "aurora_crystal": {
+                            "texture": "obelisk_aurora_crystal",
+                            "face_dimming": false,
+                            "ambient_occlusion": false,
+                            "render_method": "blend_to_opaque"
+                        },
+                        "respawn_obelisk_top_and_side": {
+                            "texture": "respawn_obelisk_top_and_side",
+                            "face_dimming": false,
+                            "ambient_occlusion": false,
+                            "render_method": "opaque"
+                        }
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            }
+        }
+    }
+}

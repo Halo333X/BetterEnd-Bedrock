@@ -84,9 +84,6 @@
 				"breathes_air": false,
 				"breathes_water": true
 			},
-			"minecraft:loot": {
-				"table": "loot_tables/gelatine.json"
-			},
 			"minecraft:behavior.avoid_mob_type": {
 				"priority": 1,
 				"entity_types": [

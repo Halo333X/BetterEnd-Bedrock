@@ -125,9 +125,6 @@
 			}
 		},
 		"components": {
-			"minecraft:loot": {
-				"table": "loot_tables/end_fish.json"
-			},
 			"minecraft:type_family": {
 				"family": [
 					"fish",

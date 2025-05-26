@@ -62,7 +62,6 @@
       {
         "condition": "q.block_state('betterend:growth') == 3",
         "components": {
-          "minecraft:loot": "loot_tables/chorus/chorus_mushroom.json",
           "minecraft:selection_box": {
             "origin": [-6, 0, -6],
             "size": [12, 16, 12]
