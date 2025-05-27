@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import { world, ItemStack } from "@minecraft/server";
 world.beforeEvents.worldInitialize.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:nest', {
         onTick({ block }) {
@@ -82,6 +82,9 @@ class SilkMoths {
             const noFiber = this.block.permutation.withState('betterend:nest', 0);
             world.setDynamicProperty(this.fiberId, 0);
             this.block.setPermutation(noFiber);
+            const randomAmount = Math.floor(Math.random() * 3) + 1;
+            const fiber = new ItemStack('betterend:silk_fiber', randomAmount);
+            this.block.dimension.spawnItem(fiber, this.block.location);
         }
     }
 }

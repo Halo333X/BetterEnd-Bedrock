@@ -1,4 +1,4 @@
-import { world, system, Player, EquipmentSlot } from "@minecraft/server";
+import { world, system, Player, EquipmentSlot, Vector3 } from "@minecraft/server";
 
 // Biomes
 
@@ -12,6 +12,7 @@ import "./Utils/External/main";
 import PlayerUtils from "Utils/PlayerUtils";
 import MobUtils from "Utils/MobUtils";
 import "./Utils/BlockUtils";
+import "./Utils/RespawnObelisk";
 
 // index
 
@@ -56,6 +57,21 @@ world.afterEvents.playerJoin.subscribe(e => {
     const player = world.getEntity(playerId) as Player;
     if (player.dimension.id === 'minecraft:the_end') {
         player.setDynamicProperty('betterend:in_the_end', true);
+    }
+});
+
+world.afterEvents.entityDie.subscribe(e => {
+    const { deadEntity: player } = e;
+    player.setDynamicProperty('betterend:die', true);
+});
+
+world.afterEvents.playerSpawn.subscribe(e => {
+    const die = e.player.getDynamicProperty('betterend:die');
+    const spawnpoint = e.player.getDynamicProperty('betterend:respawn')
+    if (die) {
+        e.player.setDynamicProperty('betterend:die', false);
+        e.player.teleport(spawnpoint as Vector3, { dimension: world.getDimension('the_end') });
+        e.player.setDynamicProperty('betterend:respawn', undefined);
     }
 });
 
