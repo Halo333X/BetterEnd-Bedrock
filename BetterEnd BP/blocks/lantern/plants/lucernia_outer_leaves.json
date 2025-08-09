@@ -57,44 +57,68 @@
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'down'",
         "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
           "minecraft:transformation": { "rotation": [-90, 0, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'up'",
         "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
           "minecraft:transformation": { "rotation": [90, 0, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'north'",
         "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
           "minecraft:transformation": { "rotation": [0, 0, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'west'",
         "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
           "minecraft:transformation": { "rotation": [0, 90, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'south'",
         "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
           "minecraft:transformation": { "rotation": [0, 180, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'east'",
         "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
           "minecraft:transformation": { "rotation": [0, -90, 0] }
         }
       }
     ],
     "components": {
       "minecraft:selection_box": {
-        "origin": [-8, 0, 2],
-        "size": [16, 16, 6]
+        "origin": [-8, 0, -8],
+        "size": [16, 8, 16]
       },
       "minecraft:geometry": "geometry.glowing_pillar_leaves_top",
       "minecraft:placement_filter": {
