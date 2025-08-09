@@ -81,6 +81,7 @@
             "inherit_from_prior_fog": false
         },
         "the_end": {
+            "water_surface_transparency": 0.5,
             "water_fog_color": "#0084FF",
             "water_surface_color": "#0084FF",
             "fog_identifier": "minecraft:fog_the_end",
