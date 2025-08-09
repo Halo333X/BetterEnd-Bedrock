@@ -22,6 +22,7 @@ system.runInterval(() => {
                 playerUtils.joinSky();
                 playerUtils.fallVelocity();
                 playerUtils.ambientStuff();
+                playerUtils.armor();
             }
             else {
                 // Entity Utils

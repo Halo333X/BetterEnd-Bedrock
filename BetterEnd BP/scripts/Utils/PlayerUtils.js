@@ -1,5 +1,6 @@
 import { MinecraftDimensionTypes, Player, system, } from "@minecraft/server";
 import { BiomeTags, CaveBiomesTag, AllTags } from "./BiomeTags";
+import { Armors } from "./ArmorUtils";
 Player.prototype.climb = function () {
     const block = this.dimension.getBlock(this.location);
     if (!block?.hasTag("betterend:can_climb"))
@@ -78,6 +79,17 @@ class PlayerUtils {
     }
     climb() {
         this.player.climb();
+    }
+    armor() {
+        for (const armor of Armors) {
+            const equipment = this.player.getComponent('equippable');
+            const item = equipment.getEquipment(armor.slot);
+            if (item?.typeId === armor.id)
+                this.player.addEffect(armor.effect, armor.duration, {
+                    showParticles: false,
+                    amplifier: armor.amplifier
+                });
+        }
     }
     getBiome() {
         if (this.dimension.id !== MinecraftDimensionTypes.theEnd)
