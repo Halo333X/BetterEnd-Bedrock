@@ -1,6 +1,55 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Armors
+    "thallasium_helmet": {
+      "textures": "textures/items/armor/thallasium_helmet"
+    },
+    "thallasium_chestplate": {
+      "textures": "textures/items/armor/thallasium_chestplate"
+    },
+    "thallasium_leggings": {
+      "textures": "textures/items/armor/thallasium_leggings"
+    },
+    "thallasium_boots": {
+      "textures": "textures/items/armor/thallasium_boots"
+    },
+    "terminite_helmet": {
+      "textures": "textures/items/armor/terminite_helmet"
+    },
+    "terminite_chestplate": {
+      "textures": "textures/items/armor/terminite_chestplate"
+    },
+    "terminite_leggings": {
+      "textures": "textures/items/armor/terminite_leggings"
+    },
+    "terminite_boots": {
+      "textures": "textures/items/armor/terminite_boots"
+    },
+    "aeternium_helmet": {
+      "textures": "textures/items/armor/aeternium_helmet"
+    },
+    "aeternium_chestplate": {
+      "textures": "textures/items/armor/aeternium_chestplate"
+    },
+    "aeternium_leggings": {
+      "textures": "textures/items/armor/aeternium_leggings"
+    },
+    "aeternium_boots": {
+      "textures": "textures/items/armor/aeternium_boots"
+    },
+    "crystalite_helmet": {
+      "textures": "textures/items/armor/crystalite_helmet"
+    },
+    "crystalite_chestplate": {
+      "textures": "textures/items/armor/crystalite_chestplate"
+    },
+    "crystalite_leggings": {
+      "textures": "textures/items/armor/crystalite_leggings"
+    },
+    "crystalite_boots": {
+      "textures": "textures/items/armor/crystalite_boots"
+    },
     // Wood
     "helix_tree_sapling_placer": {
       "textures": "textures/blocks/wood/helix_tree/helix_tree_sapling"
