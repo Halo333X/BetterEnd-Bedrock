@@ -1,6 +1,16 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Ingots
+    "thallasium_ingot": {
+      "textures": "textures/items/ingots/thallasium_ingot"
+    },
+    "terminite_ingot": {
+      "textures": "textures/items/ingots/terminite_ingot"
+    },
+    "aeternium_ingot": {
+      "textures": "textures/items/ingots/aeternium_ingot"
+    },
     // Armors
     "thallasium_helmet": {
       "textures": "textures/items/armor/thallasium_helmet"

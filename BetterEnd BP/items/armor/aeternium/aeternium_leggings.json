@@ -33,14 +33,10 @@
 			},
             "minecraft:wearable": {
                 "slot": "slot.armor.legs",
-                "protection": 3
+                "protection": 7
             },
             "minecraft:durability": {
-				"max_durability": 1225,
-				"damage_chance": {
-					"min": 60,
-					"max": 100
-				}
+				"max_durability": 600
 			}
         }
     }
