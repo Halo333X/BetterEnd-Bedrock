@@ -2,7 +2,7 @@
 	"format_version": "1.20.50",
 	"minecraft:item": {
 		"description": {
-			"identifier": "betterend:copper_shovel",
+			"identifier": "betterend:aeternium_shovel",
 			"menu_category": {
 				"category": "equipment",
 				"group": "itemGroup.name.shovel"
@@ -18,13 +18,13 @@
 				"repair_items": [
 					{
 						"items": [
-							"minecraft:copper_ingot"
+							"minecraft:aeternium_ingot"
 						],
 						"repair_amount": 30
 					},
 					{
 						"items": [
-						  "betterend:copper_shovel"
+						  "betterend:aeternium_shovel"
 						],
 						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
 					}
@@ -32,7 +32,6 @@
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,
-			"minecraft:mining_speed": 1,
 			"minecraft:damage": 3,
 			"minecraft:enchantable": {
 				"value": 6,
@@ -45,143 +44,82 @@
 						"block": {
 							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
 						},
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:grass_path",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:soul_sand",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:soul_soil",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:mud",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:dirt_with_roots",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:muddy_mangrove_roots",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:farmland",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:snow",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:grass",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:gravel",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:sand",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:dirt",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:concretePowder",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:mycelium",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:podzol",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:snow",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					},
 					{
 						"block": "minecraft:clay",
-						"speed": 6,
-						"on_dig": {
-							"event": "minecraft:break"
-						}
+						"speed": 6
 					}
-				],
-				"on_dig": {
-					"event": "minecraft:break",
-					"target": "self"
-				}
+				]
 			},
-			"minecraft:display_name": {},
 			"minecraft:durability": {
 				"max_durability": 175
 			},
-			"minecraft:icon": {
-				"texture": "copper_shovel"
-			},
+			"minecraft:icon": "aeternium_shovel",
 			"minecraft:use_on": {
 				"blocks": [
 					"grass",

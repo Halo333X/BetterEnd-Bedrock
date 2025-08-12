@@ -1,4 +1,4 @@
-import { EquipmentSlot, GameMode } from "@minecraft/server";
+import { EquipmentSlot, GameMode, ItemStack } from "@minecraft/server";
 export function durability(player, item, damage = 1) {
     if (!item?.typeId.startsWith('betterend:') || player.getGameMode() === GameMode.Creative)
         return;
@@ -7,6 +7,12 @@ export function durability(player, item, damage = 1) {
     const unbreaking = enchantable?.getEnchantment('unbreaking')?.level ?? 0;
     if (Math.random() * 100 <= (100 / (unbreaking + 1)))
         durability.damage += damage;
-    const equip = player.equippable;
-    equip.setEquipment(EquipmentSlot.Mainhand, durability.damage < durability.maxDurability ? item : player.playSound('random.break'));
+    const equip = player.getComponent('equippable');
+    if (durability.damage < durability.maxDurability) {
+        equip.setEquipment(EquipmentSlot.Mainhand, item);
+    }
+    else {
+        player.playSound('random.break');
+        equip.setEquipment(EquipmentSlot.Mainhand, new ItemStack('air'));
+    }
 }

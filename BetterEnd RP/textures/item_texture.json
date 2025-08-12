@@ -1,6 +1,22 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Tools
+    "aeternium_axe": {
+      "textures": "textures/items/tools/axe/aeternium_axe"
+    },
+    "aeternium_pickaxe": {
+      "textures": "textures/items/tools/pickaxe/aeternium_pickaxe"
+    },
+    "aeternium_shovel": {
+      "textures": "textures/items/tools/shovel/aeternium_shovel"
+    },
+    "aeternium_hoe": {
+      "textures": "textures/items/tools/hoe/aeternium_hoe"
+    },
+    "aeternium_sword": {
+      "textures": "textures/items/tools/sword/aeternium_sword"
+    },
     // Ingots
     "thallasium_ingot": {
       "textures": "textures/items/ingots/thallasium_ingot"
