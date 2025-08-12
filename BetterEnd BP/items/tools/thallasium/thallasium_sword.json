@@ -1,0 +1,88 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "betterend:thallasium_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+                "tags": [
+                    "minecraft:is_sword"
+                ]
+            },
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:thallasium_ingot"
+						],
+						"repair_amount": 30
+					},
+					{
+						"items": [
+						  "betterend:thallasium_sword"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 5.5,
+			"minecraft:enchantable": {
+				"value": 6,
+				"slot": "sword"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 35
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 1
+					},
+					{
+						"block": "minecraft:pumpkin",
+						"speed": 1
+					},
+					{
+						"block": "minecraft:cocoa",
+						"speed": 1
+					},
+					{
+						"block": "minecraft:lit_pumpkin",
+						"speed": 1
+					},
+					{
+						"block": "minecraft:leaves",
+						"speed": 1
+					},
+					{
+						"block": "minecraft:vine",
+						"speed": 1
+					},
+					{
+						"block": "minecraft:hay_block",
+						"speed": 1
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 320
+			},
+			"minecraft:icon": "thallasium_sword"
+		}
+	}
+}
