@@ -32,7 +32,7 @@
       },
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,
-      "minecraft:damage": 4,
+      "minecraft:damage": 2.5,
       "minecraft:enchantable": {
         "value": 6,
         "slot": "hoe"
@@ -49,7 +49,7 @@
         ]
       },
       "minecraft:durability": {
-        "max_durability": 175
+        "max_durability": 2196
       },
       "minecraft:icon": "aeternium_hoe",
       "minecraft:use_on": {
