@@ -2,6 +2,36 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Tools
+    "terminite_axe": {
+      "textures": "textures/items/tools/axe/terminite_axe"
+    },
+    "terminite_pickaxe": {
+      "textures": "textures/items/tools/pickaxe/terminite_pickaxe"
+    },
+    "terminite_shovel": {
+      "textures": "textures/items/tools/shovel/terminite_shovel"
+    },
+    "terminite_hoe": {
+      "textures": "textures/items/tools/hoe/terminite_hoe"
+    },
+    "terminite_sword": {
+      "textures": "textures/items/tools/sword/terminite_sword"
+    },
+    "thallasium_axe": {
+      "textures": "textures/items/tools/axe/thallasium_axe"
+    },
+    "thallasium_pickaxe": {
+      "textures": "textures/items/tools/pickaxe/thallasium_pickaxe"
+    },
+    "thallasium_shovel": {
+      "textures": "textures/items/tools/shovel/thallasium_shovel"
+    },
+    "thallasium_hoe": {
+      "textures": "textures/items/tools/hoe/thallasium_hoe"
+    },
+    "thallasium_sword": {
+      "textures": "textures/items/tools/sword/thallasium_sword"
+    },
     "aeternium_axe": {
       "textures": "textures/items/tools/axe/aeternium_axe"
     },
