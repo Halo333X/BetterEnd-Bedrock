@@ -1,0 +1,123 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "betterend:copper_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:tags": {
+                "tags": [
+                    "minecraft:is_sword"
+                ]
+            },
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:copper_ingot"
+						],
+						"repair_amount": 30
+					},
+					{
+						"items": [
+						  "betterend:copper_sword"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 6,
+			"minecraft:enchantable": {
+				"value": 6,
+				"slot": "sword"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 35,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:melon_block",
+						"speed": 1,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:pumpkin",
+						"speed": 1,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:cocoa",
+						"speed": 1,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:lit_pumpkin",
+						"speed": 1,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:leaves",
+						"speed": 1,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:vine",
+						"speed": 1,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					},
+					{
+						"block": "minecraft:hay_block",
+						"speed": 1,
+						"on_dig": {
+							"event": "minecraft:break"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "minecraft:break",
+					"target": "self"
+				}
+			},
+			"minecraft:display_name": {},
+			"minecraft:durability": {
+				"max_durability": 175
+			},
+			"minecraft:icon": {
+				"texture": "copper_sword"
+			}
+		}
+	}
+}

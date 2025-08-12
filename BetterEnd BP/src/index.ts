@@ -6,6 +6,7 @@ import "./Biomes/biomeRegister";
 
 // Utils
 
+import { durability } from "Utils/External/durability";
 import "./Utils/External/ExternalUtils";
 import "./Utils/External/main";
 
@@ -13,6 +14,9 @@ import PlayerUtils from "Utils/PlayerUtils";
 import MobUtils from "Utils/MobUtils";
 import "./Utils/BlockUtils";
 import "./Utils/RespawnObelisk";
+
+world.afterEvents.playerBreakBlock.subscribe(({ player, itemStackAfterBreak }) => durability(player, itemStackAfterBreak));
+world.afterEvents.itemUseOn.subscribe(({ source, itemStack }) => durability(source, itemStack));
 
 // index
 
