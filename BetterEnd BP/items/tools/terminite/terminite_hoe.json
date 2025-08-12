@@ -1,0 +1,64 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "betterend:terminite_hoe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.hoe"
+      }
+    },
+    "components": {
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_hoe"
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:terminite_ingot"
+            ],
+            "repair_amount": 30
+          },
+          {
+            "items": [
+              "betterend:terminite_hoe"
+            ],
+            "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": 1,
+      "minecraft:enchantable": {
+        "value": 6,
+        "slot": "hoe"
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "query.any_tag('stone', 'metal')"
+            },
+            "speed": 10
+          }
+        ]
+      },
+      "minecraft:durability": {
+        "max_durability": 1230
+      },
+      "minecraft:icon": "terminite_hoe",
+      "minecraft:use_on": {
+        "blocks": [
+          "grass",
+          "dirt",
+          "grass_path"
+        ]
+      }
+    }
+  }
+}
