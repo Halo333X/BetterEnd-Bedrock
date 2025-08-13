@@ -9,6 +9,10 @@
                         "minecraft:block_face"
                     ]
                 }
+            },
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stoneBrick"
             }
         },
         "permutations": [

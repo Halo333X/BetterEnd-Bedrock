@@ -8,6 +8,10 @@
           "enabled_states": ["minecraft:vertical_half"]
         }
       },
+      "menu_category": {
+        "category": "construction",
+        "group":"minecraft:itemGroup.name.slab"
+      },
       "states": {
         "betterend:double": [false, true],
         "betterend:waterlogged": [false, true]
