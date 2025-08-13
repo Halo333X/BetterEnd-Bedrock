@@ -21,7 +21,19 @@ const isSlab = new Set([
     "betterend:umbrella_tree_slab",
     "betterend:end_lotus_slab",
     "betterend:flavolite_slab",
-    "betterend:flavolite_bricks_slab"
+    "betterend:flavolite_bricks_slab",
+    "betterend:azure_jadestone_slab",
+    "betterend:azure_jadestone_bricks_slab",
+    "betterend:sandy_jadestone_slab",
+    "betterend:sandy_jadestone_bricks_slab",
+    "betterend:virid_jadestone_slab",
+    "betterend:virid_jadestone_bricks_slab",
+    "betterend:sulphuric_rock_slab",
+    "betterend:sulphuric_rock_bricks_slab",
+    "betterend:umbralith_slab",
+    "betterend:umbralith_bricks_slab",
+    "betterend:violecite_slab",
+    "betterend:violecite_bricks_slab",
 ]);
 const fenceSet = new Set([
     "betterend:dragon_tree_fence",
