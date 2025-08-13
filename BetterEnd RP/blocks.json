@@ -1,6 +1,60 @@
 {
   "format_version": "1.21.40",
   // Stones
+  "betterend:violecite_bricks": {
+    "textures": "violecite_bricks"
+  },
+  "betterend:violecite_polished": {
+    "textures": "violecite_polished"
+  },
+  "betterend:violecite_tiles": {
+    "textures": "violecite_tiles"
+  },
+  "betterend:umbralith_bricks": {
+    "textures": "umbralith_bricks"
+  },
+  "betterend:umbralith_polished": {
+    "textures": "umbralith_polished"
+  },
+  "betterend:umbralith_tiles": {
+    "textures": "umbralith_tiles"
+  },
+  "betterend:sulphuric_rock_bricks": {
+    "textures": "sulphuric_rock_bricks"
+  },
+  "betterend:sulphuric_rock_polished": {
+    "textures": "sulphuric_rock_polished"
+  },
+  "betterend:sulphuric_rock_tiles": {
+    "textures": "sulphuric_rock_tiles"
+  },
+  "betterend:virid_jadestone_bricks": {
+    "textures": "virid_jadestone_bricks"
+  },
+  "betterend:virid_jadestone_polished": {
+    "textures": "virid_jadestone_polished"
+  },
+  "betterend:virid_jadestone_tiles": {
+    "textures": "virid_jadestone_tiles"
+  },
+  "betterend:sandy_jadestone_bricks": {
+    "textures": "sandy_jadestone_bricks"
+  },
+  "betterend:sandy_jadestone_polished": {
+    "textures": "sandy_jadestone_polished"
+  },
+  "betterend:sandy_jadestone_tiles": {
+    "textures": "sandy_jadestone_tiles"
+  },
+  "betterend:azure_jadestone_bricks": {
+    "textures": "azure_jadestone_bricks"
+  },
+  "betterend:azure_jadestone_polished": {
+    "textures": "azure_jadestone_polished"
+  },
+  "betterend:azure_jadestone_tiles": {
+    "textures": "azure_jadestone_tiles"
+  },
   "betterend:flavolite_bricks": {
     "textures": "flavolite_bricks"
   },

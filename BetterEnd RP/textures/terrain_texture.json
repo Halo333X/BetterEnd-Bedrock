@@ -4,6 +4,60 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Stones
+    "violecite_bricks": {
+      "textures": "textures/blocks/stones/violecite/violecite_bricks"
+    },
+    "violecite_polished": {
+      "textures": "textures/blocks/stones/violecite/violecite_polished"
+    },
+    "violecite_tiles": {
+      "textures": "textures/blocks/stones/violecite/violecite_tiles"
+    },
+    "umbralith_bricks": {
+      "textures": "textures/blocks/stones/umbralith/umbralith_bricks"
+    },
+    "umbralith_polished": {
+      "textures": "textures/blocks/stones/umbralith/umbralith_polished"
+    },
+    "umbralith_tiles": {
+      "textures": "textures/blocks/stones/umbralith/umbralith_tiles"
+    },
+    "sulphuric_rock_bricks": {
+      "textures": "textures/blocks/stones/sulphuric_rock/sulphuric_rock_bricks"
+    },
+    "sulphuric_rock_polished": {
+      "textures": "textures/blocks/stones/sulphuric_rock/sulphuric_rock_polished"
+    },
+    "sulphuric_rock_tiles": {
+      "textures": "textures/blocks/stones/sulphuric_rock/sulphuric_rock_tiles"
+    },
+    "virid_jadestone_bricks": {
+      "textures": "textures/blocks/stones/virid_jadestone/virid_jadestone_bricks"
+    },
+    "virid_jadestone_polished": {
+      "textures": "textures/blocks/stones/virid_jadestone/virid_jadestone_polished"
+    },
+    "virid_jadestone_tiles": {
+      "textures": "textures/blocks/stones/virid_jadestone/virid_jadestone_tiles"
+    },
+    "sandy_jadestone_bricks": {
+      "textures": "textures/blocks/stones/sandy_jadestone/sandy_jadestone_bricks"
+    },
+    "sandy_jadestone_polished": {
+      "textures": "textures/blocks/stones/sandy_jadestone/sandy_jadestone_polished"
+    },
+    "sandy_jadestone_tiles": {
+      "textures": "textures/blocks/stones/sandy_jadestone/sandy_jadestone_tiles"
+    },
+    "azure_jadestone_bricks": {
+      "textures": "textures/blocks/stones/azure_jadestone/azure_jadestone_bricks"
+    },
+    "azure_jadestone_polished": {
+      "textures": "textures/blocks/stones/azure_jadestone/azure_jadestone_polished"
+    },
+    "azure_jadestone_tiles": {
+      "textures": "textures/blocks/stones/azure_jadestone/azure_jadestone_tiles"
+    },
     "flavolite_bricks": {
       "textures": "textures/blocks/stones/flavolite/flavolite_bricks"
     },
