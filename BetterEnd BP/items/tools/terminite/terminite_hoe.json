@@ -11,6 +11,7 @@
     "components": {
       "minecraft:tags": {
         "tags": [
+					"betterend:tool",
           "minecraft:is_hoe"
         ]
       },
