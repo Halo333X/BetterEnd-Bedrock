@@ -3,6 +3,16 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Stones
+    "flavolite_bricks": {
+      "textures": "textures/blocks/stones/flavolite/flavolite_bricks"
+    },
+    "flavolite_polished": {
+      "textures": "textures/blocks/stones/flavolite/flavolite_polished"
+    },
+    "flavolite_tiles": {
+      "textures": "textures/blocks/stones/flavolite/flavolite_tiles"
+    },
     // Pillars
     "azure_jadestone_pillar": {
       "textures": "textures/blocks/pillars/azure_jadestone_pillar_top"

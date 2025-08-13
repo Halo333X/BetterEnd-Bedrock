@@ -1,5 +1,15 @@
 {
   "format_version": "1.21.40",
+  // Stones
+  "betterend:flavolite_bricks": {
+    "textures": "flavolite_bricks"
+  },
+  "betterend:flavolite_polished": {
+    "textures": "flavolite_polished"
+  },
+  "betterend:flavolite_tiles": {
+    "textures": "flavolite_tiles"
+  },
   // Wood
   "betterend:helix_tree_stairs": {
     "sound": "wood"
@@ -464,7 +474,6 @@
     "sound": "stone",
     "textures": "end_stone"
   },
-  // Ice Starfield
   //Ice Starfield
 	"betterend:ancient_emerald_ice": {
 		"sound": "glass",

@@ -1,6 +1,7 @@
 import { EquipmentSlot, GameMode, ItemStack } from "@minecraft/server";
 export function durability(player, item, damage = 1) {
-    if (!item?.typeId.startsWith('betterend:') || player.getGameMode() === GameMode.Creative)
+    const tool = item?.getTags().includes('betterend:tool');
+    if (!tool || player.getGameMode() === GameMode.Creative)
         return;
     const durability = item.getComponent('durability');
     const enchantable = item.getComponent('enchantable');

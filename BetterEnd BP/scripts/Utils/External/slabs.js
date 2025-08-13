@@ -99,7 +99,7 @@ export const slabComponent = {
                 // Determine if we should create a double slab or place a new slab
                 const isBottomUp = verticalHalf === "bottom" && face === "Up";
                 const isTopDown = verticalHalf === "top" && face === "Down";
-                if ((isBottomUp || isTopDown) && selectedItem.typeId.replace("_item", "") === block.typeId) {
+                if ((isBottomUp || isTopDown) && selectedItem.typeId.replace("", "") === block.typeId) {
                     // Create a double slab
                     if (!block.permutation.getState("betterend:double")) {
                         const waterlogged = block.permutation.getState("betterend:waterlogged");
@@ -134,8 +134,8 @@ export const slabComponent = {
             }
             else {
                 // Handle non-slab block placement with state
-                const blockTypeId = selectedItem.typeId.endsWith("_item")
-                    ? selectedItem.typeId.replace("_item", "") // Remove o sufixo "_item"
+                const blockTypeId = selectedItem.typeId.endsWith("")
+                    ? selectedItem.typeId.replace("", "") // Remove o sufixo "_item"
                     : selectedItem.typeId;
                 // Gera o comando corretamente usando o identificador do bloco
                 const commandBlock = stateName
@@ -198,8 +198,8 @@ export function placeSlab(player, selectedItem, adjacentBlockPos, face, equipmen
             }
         }
     }
-    const blockTypeId = selectedItem.typeId.endsWith("_item")
-        ? selectedItem.typeId.replace("_item", "") // Remove o sufixo "_item"
+    const blockTypeId = selectedItem.typeId.endsWith("")
+        ? selectedItem.typeId.replace("", "") // Remove o sufixo "_item"
         : selectedItem.typeId;
     const command = `setblock ${adjacentBlockPos.x} ${adjacentBlockPos.y} ${adjacentBlockPos.z} ${blockTypeId} ["minecraft:vertical_half"="${verticalHalf}"]`;
     system.runTimeout(() => {
@@ -221,7 +221,7 @@ export function placeSlab(player, selectedItem, adjacentBlockPos, face, equipmen
     }, 1);
 }
 function getBlockStatesAndDirection(player, selectedItem, face) {
-    const blockType = selectedItem.typeId.replace("_item", ""); // Remover sufixo '_item' se for um item
+    const blockType = selectedItem.typeId.replace("", ""); // Remover sufixo '_item' se for um item
     let blockPermutation;
     try {
         blockPermutation = BlockPermutation.resolve(blockType);

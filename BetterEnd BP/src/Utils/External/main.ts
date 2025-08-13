@@ -12,25 +12,17 @@ import "./pillar";
 // Add more mappings here as needed - Note, the doors need to be set on door.js at line 237.
 const isSlab = new Set([
   "betterend:dragon_tree_slab",
-  "betterend:dragon_tree_slab_item",
   "betterend:helix_tree_slab",
-  "betterend:helix_tree_slab_item",
   "betterend:jellyshroom_slab",
-  "betterend:jellyshroom_slab_item",
   "betterend:lacugrove_slab",
-  "betterend:lacugrove_slab_item",
   "betterend:lucernia_slab",
-  "betterend:lucernia_slab_item",
   "betterend:mossy_glowshroom_slab",
-  "betterend:mossy_glowshroom_slab_item",
   "betterend:pythadendron_slab",
-  "betterend:pythadendron_slab_item",
   "betterend:tenanea_slab",
-  "betterend:tenanea_slab_item",
   "betterend:umbrella_tree_slab",
-  "betterend:umbrella_tree_slab_item",
   "betterend:end_lotus_slab",
-  "betterend:end_lotus_slab_item",
+  "betterend:flavolite_slab",
+  "betterend:flavolite_bricks_slab"
 ]);
 const fenceSet = new Set([
   "betterend:dragon_tree_fence",
@@ -271,7 +263,7 @@ world.beforeEvents.playerBreakBlock.subscribe((eventData) => {
   }
 
   if (isSlab.has(block.typeId)) {
-    lastBrokenBlockType = block.typeId + "_item";
+    lastBrokenBlockType = block.typeId;
     lastBrokenBlockIsDouble =
       block.permutation.getState("betterend:double") === true;
   system.runTimeout(() => {
