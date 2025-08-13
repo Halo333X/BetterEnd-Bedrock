@@ -1,0 +1,85 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:sulphuric_rock_pillar",
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west' || q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            90
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'down' || q.block_state('minecraft:block_face') == 'up'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' || q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "tag:stone": {},
+            "tag:minecraft:stone_tier_destructible": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 2
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 6
+            },
+            "minecraft:flammable": false,
+            "minecraft:geometry": "geometry.betterend_pillar",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "sulphuric_rock_pillar",
+                    "render_method": "opaque",
+                    "ambient_occlusion": true,
+                    "face_dimming": true
+                },
+                "pillar_side": {
+                    "texture": "sulphuric_rock_pillar_side",
+                    "render_method": "opaque",
+                    "ambient_occlusion": true,
+                    "face_dimming": true
+                },
+                "pillar_top": {
+                    "texture": "sulphuric_rock_pillar",
+                    "render_method": "opaque",
+                    "ambient_occlusion": true,
+                    "face_dimming": true
+                }
+            }
+        }
+    }
+}
