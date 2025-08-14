@@ -1,5 +1,12 @@
 {
   "format_version": "1.21.40",
+  // Portal
+  "betterend:flavolite_runed_portal_on": {
+    "textures": "flavolite_runed_portal_on"
+  },
+  "betterend:flavolite_runed_portal_off": {
+    "textures": "flavolite_runed_portal_off"
+  },
   // Stones
   "betterend:violecite_bricks": {
     "textures": "violecite_bricks"

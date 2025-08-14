@@ -4,5 +4,17 @@
         "flipbook_texture": "textures/blocks/crystal/plants/crystal_moss_cover",
         "ticks_per_frame": 20,
         "blend_frames": true
+    },
+    {
+        "atlas_tile": "flavolite_runed_portal_off",
+        "flipbook_texture": "textures/blocks/utils/portal/flavolite_runed_portal_off",
+        "ticks_per_frame": 60,
+        "blend_frames": true
+    },
+    {
+        "atlas_tile": "flavolite_runed_portal_on",
+        "flipbook_texture": "textures/blocks/utils/portal/flavolite_runed_portal_on",
+        "ticks_per_frame": 60,
+        "blend_frames": true
     }
 ]

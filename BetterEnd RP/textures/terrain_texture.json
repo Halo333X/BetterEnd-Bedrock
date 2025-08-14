@@ -3,6 +3,13 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Portal
+    "flavolite_runed_portal_on": {
+      "textures": "textures/blocks/utils/portal/flavolite_runed_portal_on"
+    },
+    "flavolite_runed_portal_off": {
+      "textures": "textures/blocks/utils/portal/flavolite_runed_portal_off"
+    },
     // Stones
     "violecite_bricks": {
       "textures": "textures/blocks/stones/violecite/violecite_bricks"
