@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Portal
+    "betterend_portal": {
+      "textures": "textures/blocks/utils/portal/end_portal"
+    },
     "flavolite_runed_portal_on": {
       "textures": "textures/blocks/utils/portal/flavolite_runed_portal_on"
     },

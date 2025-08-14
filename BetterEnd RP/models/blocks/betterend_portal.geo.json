@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.betterend_portal",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 8, 0],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -1],
+							"size": [16, 16, 2],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "portal"},
+								"east": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "air"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "portal"},
+								"west": {"uv": [0, 0], "uv_size": [2, 16], "material_instance": "air"},
+								"up": {"uv": [16, 2], "uv_size": [-16, -2], "material_instance": "air"},
+								"down": {"uv": [16, 2], "uv_size": [-16, -2], "material_instance": "air"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

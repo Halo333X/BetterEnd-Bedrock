@@ -16,5 +16,11 @@
         "flipbook_texture": "textures/blocks/utils/portal/flavolite_runed_portal_on",
         "ticks_per_frame": 60,
         "blend_frames": true
+    },
+    {
+        "atlas_tile": "betterend_portal",
+        "flipbook_texture": "textures/blocks/utils/portal/end_portal",
+        "ticks_per_frame": 3,
+        "blend_frames": false
     }
 ]

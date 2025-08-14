@@ -1,0 +1,49 @@
+{
+    "format_version": "1.21.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:portal"
+        },
+        "components": {
+            "minecraft:geometry": "geometry.betterend_portal",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "betterend_portal",
+                    "render_method": "blend",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "air": {
+                    "texture": "air",
+                    "render_method": "blend"
+                },
+                "portal": {
+                    "texture": "betterend_portal",
+                    "render_method": "blend",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -1,
+                    0,
+                    -8
+                ],
+                "size": [
+                    2,
+                    16,
+                    16
+                ]
+            },
+            "minecraft:collision_box": false,
+            "minecraft:movable": {
+                "movement_type": "immovable"
+            },
+            "minecraft:light_emission": 15,
+            "minecraft:destructible_by_mining": false,
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:flammable": false
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.50",
+    "format_version": "1.21.100",
     "minecraft:block": {
         "description": {
             "identifier": "betterend:flavolite_runed_portal_off",
@@ -8,6 +8,9 @@
             }
         },
         "components": {
+            "minecraft:movable": {
+                "movement_type": "immovable"
+            },
             "minecraft:destructible_by_mining": false,
             "minecraft:destructible_by_explosion": false,
             "minecraft:flammable": false

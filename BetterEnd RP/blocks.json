@@ -1,6 +1,9 @@
 {
   "format_version": "1.21.40",
   // Portal
+  "betterend:portal": {
+    "sound": "glass"
+  },
   "betterend:flavolite_runed_portal_on": {
     "textures": "flavolite_runed_portal_on"
   },
