@@ -5,8 +5,6 @@
 		"identifier": "betterend:gen/terrain/terrain_feature"
 		},
 		"features": [
-		"betterend:sulphur_springs/caves/caves_idx", 
-		"betterend:sulphur_springs/caves/water_terrain_column", 
 		"betterend:amber_land/amber_land",//1
 	    "betterend:blossoming_spire/blossoming_spire",//2
       	"betterend:chorus_forest/chorus_forest",//3
