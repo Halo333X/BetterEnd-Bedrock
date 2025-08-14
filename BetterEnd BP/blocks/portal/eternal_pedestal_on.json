@@ -1,0 +1,69 @@
+{
+	"format_version": "1.21.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterend:eternal_pedestal_on",
+			"states": {
+				"pillar_template:top_bit": [
+					false,
+					true
+				],
+				"pillar_template:bottom_bit": [
+					false,
+					true
+				]
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": false,
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:flammable": false,
+			"minecraft:movable": {
+				"movement_type": "immovable"
+			},
+			"tag:betterend:pedestal": {},
+			"minecraft:collision_box": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					16,
+					14
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					16,
+					14
+				]
+			},
+			"tag:pillar_template:pillar": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.pillar",
+				"bone_visibility": {
+					"top": "query.block_state('pillar_template:top_bit') == false",
+					"bottom": "query.block_state('pillar_template:bottom_bit') == false",
+					"middle_top": "query.block_state('pillar_template:top_bit')",
+					"middle_bottom": "query.block_state('pillar_template:bottom_bit')"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "flavolite_pillar_side"
+				},
+				"pillar_top": {
+					"texture": "flavolite_runed_portal_on"
+				}
+			}
+		}
+	}
+}

@@ -187,7 +187,8 @@
                 "betterend:umbralith_pedestal",
                 "betterend:violecite_pedestal",
                 "betterend:virid_jadestone_pedestal",
-                "betterend:infusion_pedestal"
+                "betterend:infusion_pedestal",
+                "betterend:eternal_pedestal_off"
               ]
             }
           ]
