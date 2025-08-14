@@ -25,7 +25,7 @@
                     "block_filter": [
                         "betterend:rubinea",
                         "betterend:cave_moss",
-                        "betterend:fake_end_moss",
+                        "betterend:end_moss",
                         "minecraft:end_stone"
                     ],
                     "allowed_faces": [
@@ -53,7 +53,7 @@
                     "block_filter": [
                         "betterend:rubinea",
                         "betterend:cave_moss",
-                        "betterend:fake_end_moss",
+                        "betterend:end_moss",
                         "minecraft:end_stone"
                     ],
                     "allowed_faces": [

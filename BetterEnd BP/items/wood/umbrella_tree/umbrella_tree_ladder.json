@@ -10,8 +10,7 @@
         "components": {
             "minecraft:icon": "umbrella_tree_ladder",
             "minecraft:block_placer": {
-                "block": "betterend:umbrella_tree_ladder",
-                "replace_block_item": true
+                "block": "betterend:umbrella_tree_ladder"
             }
         }
     }

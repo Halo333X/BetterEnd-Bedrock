@@ -10,8 +10,7 @@
         "components": {
             "minecraft:icon": "jellyshroom_ladder",
             "minecraft:block_placer": {
-                "block": "betterend:jellyshroom_ladder",
-                "replace_block_item": true
+                "block": "betterend:jellyshroom_ladder"
             }
         }
     }

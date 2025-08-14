@@ -10,8 +10,7 @@
         "components": {
             "minecraft:icon": "mossy_glowshroom_ladder",
             "minecraft:block_placer": {
-                "block": "betterend:mossy_glowshroom_ladder",
-                "replace_block_item": true
+                "block": "betterend:mossy_glowshroom_ladder"
             }
         }
     }

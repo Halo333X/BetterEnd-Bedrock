@@ -10,8 +10,7 @@
         "components": {
             "minecraft:icon": "pythadendron_ladder",
             "minecraft:block_placer": {
-                "block": "betterend:pythadendron_ladder",
-                "replace_block_item": true
+                "block": "betterend:pythadendron_ladder"
             }
         }
     }

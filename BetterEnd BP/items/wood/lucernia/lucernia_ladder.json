@@ -10,8 +10,7 @@
         "components": {
             "minecraft:icon": "lucernia_ladder",
             "minecraft:block_placer": {
-                "block": "betterend:lucernia_ladder",
-                "replace_block_item": true
+                "block": "betterend:lucernia_ladder"
             }
         }
     }

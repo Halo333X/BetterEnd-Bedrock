@@ -9,6 +9,7 @@ import "./Biomes/biomeRegister";
 import { durability } from "Utils/External/durability";
 import "./Utils/External/ExternalUtils";
 import "./Utils/External/main";
+import "./Tools/tools";
 
 import PlayerUtils from "Utils/PlayerUtils";
 import MobUtils from "Utils/MobUtils";

@@ -10,8 +10,7 @@
         "components": {
             "minecraft:icon": "dragon_tree_ladder",
             "minecraft:block_placer": {
-                "block": "betterend:dragon_tree_ladder",
-                "replace_block_item": true
+                "block": "betterend:dragon_tree_ladder"
             }
         }
     }

@@ -10,8 +10,7 @@
         "components": {
             "minecraft:icon": "end_lotus_ladder",
             "minecraft:block_placer": {
-                "block": "betterend:end_lotus_ladder",
-                "replace_block_item": true
+                "block": "betterend:end_lotus_ladder"
             }
         }
     }

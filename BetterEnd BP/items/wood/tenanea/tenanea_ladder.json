@@ -10,8 +10,7 @@
         "components": {
             "minecraft:icon": "tenanea_ladder",
             "minecraft:block_placer": {
-                "block": "betterend:tenanea_ladder",
-                "replace_block_item": true
+                "block": "betterend:tenanea_ladder"
             }
         }
     }

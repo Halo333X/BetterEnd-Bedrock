@@ -2,7 +2,11 @@
     "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
-            "identifier": "betterend:sandy_jadestone_tiles"
+            "identifier": "betterend:sandy_jadestone_tiles",
+            "menu_category": {
+                "category": "construction",
+                "group": "minecraft:itemGroup.name.stoneBrick"
+            }
         },
         "components": {
             "tag:stone": {},

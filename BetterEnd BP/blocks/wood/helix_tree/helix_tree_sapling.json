@@ -33,7 +33,6 @@
           "ambient_occlusion": false
         }
       },
-      "minecraft:loot": "loot_tables/blocks/helix_tree_sapling.json",
       "minecraft:placement_filter": {
         "conditions": [
           {

@@ -33,7 +33,6 @@
           "ambient_occlusion": false
         }
       },
-      "minecraft:loot": "loot_tables/blocks/lacugrove_sapling.json",
       "minecraft:placement_filter": {
         "conditions": [
           {

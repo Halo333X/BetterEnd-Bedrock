@@ -57,13 +57,13 @@
                             "texture": "respawn_obelisk_bottom_side",
                             "face_dimming": false,
                             "ambient_occlusion": false,
-                            "render_method": "opaque"
+                            "render_method": "blend_to_opaque"
                         },
                         "amber_block": {
                             "texture": "amber_block",
                             "face_dimming": false,
                             "ambient_occlusion": false,
-                            "render_method": "opaque"
+                            "render_method": "blend_to_opaque"
                         }
                     }
                 }
@@ -123,7 +123,7 @@
                             "texture": "respawn_obelisk_top_and_side",
                             "face_dimming": false,
                             "ambient_occlusion": false,
-                            "render_method": "opaque"
+                            "render_method": "blend_to_opaque"
                         }
                     }
                 }
@@ -174,7 +174,7 @@
                             "texture": "respawn_obelisk_top_and_side",
                             "face_dimming": false,
                             "ambient_occlusion": false,
-                            "render_method": "opaque"
+                            "render_method": "blend_to_opaque"
                         }
                     }
                 }

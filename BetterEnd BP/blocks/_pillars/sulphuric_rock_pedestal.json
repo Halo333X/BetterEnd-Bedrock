@@ -15,6 +15,7 @@
 			}
 		},
 		"components": {
+			"tag:betterend:pedestal": {},
 			"minecraft:collision_box": {
 				"origin": [
 					-7,

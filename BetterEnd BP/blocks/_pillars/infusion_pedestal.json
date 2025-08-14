@@ -26,6 +26,7 @@
 			{
 				"condition": "q.block_state('betterend:craft') == true",
 				"components": {
+					"minecraft:light_emission": 15,
 					"minecraft:crafting_table": {
 						"crafting_tags": [
 							"infusion_pedestal"
@@ -36,6 +37,15 @@
 			}
 		],
 		"components": {
+			"minecraft:custom_components": [
+				"betterend:infusion_pedestal"
+			],
+			"minecraft:tick": {
+				"interval_range": [
+					40, 40
+				],
+				"looping": true
+			},
 			"minecraft:collision_box": {
 				"origin": [
 					-7,
