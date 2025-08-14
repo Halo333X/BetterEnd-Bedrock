@@ -4,7 +4,7 @@
   "recipe_book2@crafting.crafting_root_panel": {
     "layer": 2,
     "offset": [
-      175,
+      -175,
       7
     ],
     "controls": [
@@ -374,6 +374,9 @@
     "controls": [
       //this the ui image
       {
+        "recipe_book2@recipe_book2": {}
+      },
+      {
         "common_panel@common.common_panel": {
           "offset": [
             0,
@@ -446,25 +449,7 @@
           "layer": 13
         }
       },
-      {
-        "game_tip@game_tip.game_tip_panel": {
-          "layer": 100,
-          "$offset|default": [
-            0,
-            110
-          ],
-          "variables": [
-            {
-              "requires": "$game_pad",
-              "$offset": [
-                0,
-                "38%"
-              ]
-            }
-          ],
-          "offset": "$offset"
-        }
-      },
+      
       {
         "selected_item_details_factory@common.selected_item_details_factory": {}
       },
@@ -480,13 +465,12 @@
     "$top_half_variant": "custom_crafting_panel_top_half",
     "controls": [
       {
-        "cpi@custom_player_inventory": {}
+        "cpi@custom_player_inventory": {
+          "offset": [ 100, 0 ]
+        }
       },
       {
         "icontrol@item_control": {}
-      },
-      {
-        "recipe_book2@recipe_book2": {}
       }
     ],
     "bindings": [
@@ -495,7 +479,7 @@
       },
       {
         "binding_type": "view",
-        "source_property_name": "(#crafting_label_text = 'Make Rituals')", //your custom crafting table default name (in the behaviors)
+        "source_property_name": "(#crafting_label_text = 'Infusion')", //your custom crafting table default name (in the behaviors)
         "target_property_name": "#visible"
       }
     ]

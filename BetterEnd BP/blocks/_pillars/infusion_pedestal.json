@@ -11,9 +11,30 @@
 				"pillar_template:bottom_bit": [
 					false,
 					true
+				],
+				"betterend:craft": [
+					false,
+					true
 				]
 			}
 		},
+		"permutations": [
+			{
+				"condition": "q.block_state('betterend:craft') == false",
+				"components": {}
+			},
+			{
+				"condition": "q.block_state('betterend:craft') == true",
+				"components": {
+					"minecraft:crafting_table": {
+						"crafting_tags": [
+							"infusion_pedestal"
+						],
+						"table_name": "Infusion"
+					}
+				}
+			}
+		],
 		"components": {
 			"minecraft:collision_box": {
 				"origin": [

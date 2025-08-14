@@ -1,7 +1,6 @@
 {
   "ui_defs": [
     "ui/normal_craft.json",
-    "ui/betterend_anvil.json",
     "ui/infusion_pedestal.json",
     "ui/account_banned_screen.json",
     "ui/achievement_screen.json",
