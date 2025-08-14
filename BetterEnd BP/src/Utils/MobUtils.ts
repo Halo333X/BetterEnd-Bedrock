@@ -33,7 +33,7 @@ export default class MobUtils {
   portal() {
     if (this?.typeId === "betterend:portal") {
       const eternal_crystals = this.dimension.getEntities({
-        location: this.location, maxDistance: 8, type: "betterend:eternal_crystal_entity"
+        location: this.location, maxDistance: 7, type: "betterend:eternal_crystal_entity"
       });
       const haveCrystals = eternal_crystals.length === 6;
       const put = this.entity.hasTag('betterend:put');

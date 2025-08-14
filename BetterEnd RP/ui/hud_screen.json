@@ -1,0 +1,432 @@
+{
+  "loading_animation_alpha_out": {
+    "anim_type": "alpha",
+    "easing": "in_quart",
+    "duration": 0.5,
+    "from": 1,
+    "to": 0,
+    "destroy_at_end": "chat_grid_item"
+  },
+
+  "loading_animation_wait": {
+    "anim_type": "wait",
+    "duration": "$loading_animation_wait_duration",
+    "next": "@hud.loading_animation_alpha_out"
+  },
+
+  "loading_animation_alpha_in": {
+    "anim_type": "alpha",
+    "easing": "out_cubic",
+    "duration": 0.5,
+    "from": 0,
+    "to": 1,
+    "next": "@hud.loading_animation_wait"
+  },
+
+  "anim_loading_bar": {
+    "anim_type": "size",
+    "easing": "in_out_circ",
+    "duration": "$loading_bar_duration",
+    "from": [0, 16],
+    "to": [200, 16]
+  },
+
+  "anim_loading_bar_again": {
+    "anim_type": "size",
+    "easing": "linear",
+    "duration": "$loading_bar_duration",
+    "from": [0, 16],
+    "to": [200, 16]
+  },
+
+  "pick_axe_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 91,
+    "frame_step": 10,
+    "fps": 30,
+    "reversible": false,
+    "easing": "linear"
+  },
+
+  "portal_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 16,
+    "frame_step": 19,
+    "fps": 10,
+    "reversible": true,
+    "easing": "linear"
+  },
+
+  "spinner_animation": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 10,
+    "frame_step": 7,
+    "fps": 10
+  },
+
+  "anim_realms_stories_icon": {
+    "anim_type": "flip_book",
+    "initial_uv": [ 0, 0 ],
+    "frame_count": 13,
+    "fps": 8,
+    "looping": false,
+    "easing": "linear",
+    "wait_until_rendered_to_play": true
+  },
+
+  "animation_generator": {
+    "type": "panel",
+    "size": ["100%", "100%"],
+    "layer": 100,
+    "controls": [
+      {
+        "factory_for_anim": {
+          "type": "collection_panel",
+          "size": ["100%", "100%"],
+
+          "factory": {
+            "name": "loading_animation_generator",
+            "control_name": "hud.loading_animation"
+          },
+
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_property_name": "(#text - '<' - '>')",
+              "target_property_name": "#text_n"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not (#text_n - $flag_for_loading_anim = #text_n) * 1)",
+              "target_property_name": "#collection_length"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "loading_animation": {
+    "$loading_animation_wait_duration": 10, //seconds
+    "$loading_bar_duration": "$loading_animation_wait_duration",
+
+    "type": "panel",
+    "size": ["100%", "100%"],
+    "layer": 100,
+    "controls": [
+      {
+        "background": {
+          "type": "custom",
+          "renderer": "gradient_renderer",
+          "size": ["100%", "100%"],
+          "anims": [
+            "@hud.loading_animation_alpha_in"
+          ],
+          "propagate_alpha": true,
+          "color1": [0, 0, 0],
+          "color2": [0.11, 0.01, 0.2],
+          "controls": [
+            {
+              "logo": {
+                "type": "image",
+                "texture": "textures/ui/title",
+                "size": [600, 110],
+                "offset": [0, "-25%"]
+              }
+            },
+            {
+              "loading_bar_background": {
+                "type": "image",
+                "texture": "textures/ui/loading_bar_background",
+                "size": [200, 16],
+                "offset": [0, "20%"],
+                "controls": [
+                  {
+                    "loading_bar": {
+                      "type": "image",
+                      "texture": "textures/ui/loading_bar_filler",
+                      "size": [200, 16],
+                      "anchor_from": "left_middle",
+                      "anchor_to": "left_middle",
+                      "anims": [
+                        "@hud.anim_loading_bar"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "loading_bar_background_grass": {
+                "type": "panel",
+                "offset": [0, "15%"],
+                "size": [200, 16],
+                "controls": [
+                  {
+                    "loading_bar": {
+                      "type": "panel",
+                      "anchor_from": "left_middle",
+                      "anchor_to": "left_middle",
+                      "anims": [
+                        "@hud.anim_loading_bar"
+                      ],
+                      "clips_children": true,
+                      "controls": [
+                        {
+                          "loading_bar_again": {
+                            "type": "image",
+                            "texture": "textures/ui/grass_bar",
+                            "size": [200, 16],
+                            "anchor_from": "left_middle",
+                            "anchor_to": "left_middle"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "loading_bar_background_grass_again": {
+                "type": "panel",
+                "offset": [0, "25%"],
+                "size": [200, 16],
+                "controls": [
+                  {
+                    "loading_bar": {
+                      "type": "panel",
+                      "anchor_from": "left_middle",
+                      "anchor_to": "left_middle",
+                      "anims": [
+                        "@hud.anim_loading_bar"
+                      ],
+                      "clips_children": true,
+                      "controls": [
+                        {
+                          "loading_bar_again": {
+                            "type": "image",
+                            "texture": "textures/ui/another_grass",
+                            "size": [200, 16],
+                            "anchor_from": "left_middle",
+                            "anchor_to": "left_middle"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "tip_maybe": {
+                "type": "label",
+                "text": "Loading Overworld",
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "offset": [0, -15]
+              }
+            },
+            {
+              "maybe_title": {
+                "type": "label",
+                "text": "",
+                "font_type": "MinecraftTen",
+                "font_scale_factor": 1.5,
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "offset": [10, 10]
+              }
+            },
+            {
+              "lots_of_loading_anim": {
+                "type": "stack_panel",
+                "orientation": "horizontal",
+                "size": ["100%c", "100%cm"],
+                "anchor_from": "bottom_right",
+                "anchor_to": "bottom_right",
+                "offset": [-10, -10],
+                "controls": [
+                  {
+                    "loading_icon_pickaxe": { //my favorite
+                      "type": "image",
+                      "layer": 1,
+                      "texture": "textures/ui/mine_chop_dig_animation",
+                      "size": [ 30, 30 ],
+                      "uv_size": [ 10, 10 ],
+                      "uv": "@hud.pick_axe_animation",
+                      "color": [ 1, 1, 1, 1 ]
+                    }
+                  },
+                  {
+                    "spacer": {
+                      "type": "panel",
+                      "size": [5, 0]
+                    }
+                  },
+                  {
+                    "loading_icon_porlat": {
+                      "type": "image",
+                      "layer": 1,
+                      "texture": "textures/ui/realms_plus_hover",
+                      "uv": "@hud.portal_animation",
+                      "size": [ 30, 30 ],
+                      "uv_size": [ 19, 19 ]
+                    }
+                  },
+                  {
+                    "spacer": {
+                      "type": "panel",
+                      "size": [5, 0]
+                    }
+                  },
+                  {
+                    "realms_stories_icon_animated": {
+                      "type": "image",
+                      "texture": "textures/ui/realmsStoriesIconAnimated",
+                      "size": [ 30, 30 ],
+                      "uv_size": [ 22, 22 ],
+                      "uv": "@hud.anim_realms_stories_icon",
+                      "disable_anim_fast_forward": true
+                    }
+                  },
+                  {
+                    "spacer": {
+                      "type": "panel",
+                      "size": [5, 0]
+                    }
+                  },
+                  {
+                    "loading_progress_spinner": {
+                      "type": "image",
+                      "layer": 2,
+                      "texture": "textures/ui/loading_spin",
+                      "offset": [ 0, 6 ],
+                      "uv_size": [ 7, 7 ],
+                      "size": [ 20, 20 ],
+                      "uv": "@hud.spinner_animation"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "test": {
+                "type": "image",
+                "texture": "textures/gui/empty_slot_rei", //why not
+                "size": [40, 40],
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "offset": [-10, 10]
+              }
+            },
+            {
+              "chest": {
+                "type": "image",
+                "texture": "textures/ui/realms_particles",
+                "size": [100, 100],
+                "alpha": 0.3,
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "offset": ["-30%", "-28%"]
+              }
+            },
+            {
+              "chest": {
+                "type": "image",
+                "texture": "textures/ui/realms_particles",
+                "size": [50, 50],
+                "alpha": 0.1,
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "offset": ["30%", "-18%"]
+              }
+            },
+            {
+              "loading_stack": {
+                "type": "stack_panel",
+                "orientation": "horizontal",
+                "anchor_from": "bottom_left",
+                "anchor_to": "bottom_left",
+                "offset": [10, -10],
+                "size": ["100%c", "100%cm"],
+                "controls": [
+                  {
+                    "icon": {
+                      "type": "image",
+                      "texture": "textures/gui/eternal_portal",
+                      "size": [30, 30]
+                    }
+                  },
+                  {
+                    "spacer": {
+                      "type": "panel",
+                      "size": [5, 0]
+                    }
+                  },
+                  {
+                    "wrapper_panel": {
+                      "type": "panel",
+                      "size": ["100%c", "100%c"],
+                      "controls": [
+                        {
+                          "loading_text": {
+                            "type": "label",
+                            "text": "Loading...",
+                            "font_type": "MinecraftTen",
+                            "offset": [0, 5],
+                            "font_scale_factor": 1.4
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "chat_grid_item/chat_background": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_property_name": "(#text - '<' - '>')",
+        "target_property_name": "#text_n"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#text_n - $flag_for_loading_anim = #text_n)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "loading_animation_factory": {
+              "type": "panel",
+              "factory": {
+                "name": "chat_item_factory",
+                "control_ids": {
+                  "chat_item": "animation_generator@hud.animation_generator"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

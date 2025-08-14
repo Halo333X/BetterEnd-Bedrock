@@ -423,10 +423,7 @@ world.beforeEvents.worldInitialize.subscribe(initEvent => {
             const loc = location;
             const entities = dimension.getEntities({ location, maxDistance: 4, excludeTypes: [ "minecraft:item", "betterend:stairs_collision" ] });
             if (entities.length <= 0) return;
-            const collision = dimension.spawnEntity('betterend:stairs_collision', { x: loc.x + 0.5, y: loc.y + 0.35, z: loc.z + 0.5 });
-            system.runTimeout(() => {
-                collision.remove();
-            }, 10);
+            dimension.spawnEntity('betterend:stairs_collision', { x: loc.x + 0.5, y: loc.y + 0.5, z: loc.z + 0.5 });
         }
     });
 });

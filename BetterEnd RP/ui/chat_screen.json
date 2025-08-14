@@ -1,0 +1,16 @@
+{
+  "messages_text/text": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_property_name": "(#text - '<' - '>')",
+        "target_property_name": "#text_n"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#text_n - $flag_for_loading_anim = #text_n)",
+        "target_property_name": "#visible"
+      }
+    ]
+  }
+}
