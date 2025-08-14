@@ -1,4 +1,4 @@
-import { Dimension, Entity, system, Vector3 } from "@minecraft/server";
+import { Dimension, Entity, system, Vector3, world } from "@minecraft/server";
 
 export default class MobUtils {
   private entity: Entity;
@@ -26,6 +26,29 @@ export default class MobUtils {
       if (!this?.entity.hasTag("betterend:skin")) {
         this?.entity.addTag("betterend:skin");
         this?.entity.triggerEvent(slimeSkins[moss]);
+      }
+    }
+  }
+
+  portal() {
+    if (this?.typeId === "betterend:portal") {
+      const eternal_crystals = this.dimension.getEntities({
+        location: this.location, maxDistance: 8, type: "betterend:eternal_crystal_entity"
+      });
+      const haveCrystals = eternal_crystals.length === 6;
+      const put = this.entity.hasTag('betterend:put');
+      const { x, y, z } = this.location;
+      if (haveCrystals && !put) {
+        this.entity.addTag('betterend:put');
+        this.dimension.playSound('beacon.activate', this.location);
+        world.structureManager.place('portal/portal_on', this.dimension, { x, y: y - 1, z: z - 3 });
+      }
+      else {
+        if (!haveCrystals && put) {
+          this.entity.removeTag('betterend:put');
+          this.dimension.playSound('beacon.deactivate', this.location);
+          world.structureManager.place('portal/portal_off', this.dimension, { x, y: y - 1, z: z - 3 });
+        }
       }
     }
   }

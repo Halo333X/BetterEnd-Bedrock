@@ -1,10 +1,19 @@
 {
-    "format_version": "1.21.100",
+    "format_version": "1.21.80",
     "minecraft:block": {
         "description": {
             "identifier": "betterend:portal"
         },
         "components": {
+            "minecraft:custom_components": [
+                "betterend:portal"
+            ],
+            "minecraft:tick": {
+                "interval_range": [
+                    10, 10
+                ],
+                "looping": true
+            },
             "minecraft:geometry": "geometry.betterend_portal",
             "minecraft:material_instances": {
                 "*": {

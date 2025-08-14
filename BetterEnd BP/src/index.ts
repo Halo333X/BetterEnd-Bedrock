@@ -40,6 +40,7 @@ system.runInterval(() => {
                 // Entity Utils
                 const mobUtils = new MobUtils(entity);
                 mobUtils.slimeSkin();
+                mobUtils.portal();
             }
         }
     }
