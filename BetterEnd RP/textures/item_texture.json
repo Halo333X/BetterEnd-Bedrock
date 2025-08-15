@@ -48,6 +48,9 @@
       "textures": "textures/items/tools/sword/aeternium_sword"
     },
     // Ingots
+    "eternal_crystal": {
+      "textures": "textures/items/ingots/eternal_crystal"
+    },
     "thallasium_ingot": {
       "textures": "textures/items/ingots/thallasium_ingot"
     },

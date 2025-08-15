@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.100",
+	"format_version": "1.21.80",
 	"minecraft:block": {
 		"description": {
 			"identifier": "betterend:eternal_pedestal_on",
@@ -15,6 +15,10 @@
 			}
 		},
 		"components": {
+			"minecraft:custom_components": [
+				"betterend:eternal_pedestal"
+			],
+			"minecraft:light_emission": 10,
 			"minecraft:destructible_by_mining": false,
 			"minecraft:destructible_by_explosion": false,
 			"minecraft:flammable": false,
