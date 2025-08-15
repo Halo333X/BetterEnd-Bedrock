@@ -1,4 +1,4 @@
-import { MinecraftDimensionTypes, Player, system, } from "@minecraft/server";
+import { EquipmentSlot, MinecraftDimensionTypes, Player, system, } from "@minecraft/server";
 import { BiomeTags, CaveBiomesTag, AllTags } from "./BiomeTags";
 import { Armors } from "./ArmorUtils";
 Player.prototype.climb = function () {
@@ -23,7 +23,9 @@ class PlayerUtils {
             maxDistance: 8,
         })?.block;
         if (block) {
-            this.player.onScreenDisplay.setActionBar(`Id: ${block.typeId}\nTags: ${block.getTags()}\nStates: ${JSON.stringify(block.permutation.getAllStates())}`);
+            const equipment = this.player.getComponent('equippable');
+            const item = equipment.getEquipment(EquipmentSlot.Mainhand);
+            this.player.onScreenDisplay.setActionBar(`Id: ${block.typeId}\nTags: ${block.getTags()}\nStates: ${JSON.stringify(block.permutation.getAllStates())} ${item ? '\nItem: ' + item.typeId : ''}`);
         }
     }
     sky() {

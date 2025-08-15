@@ -1,5 +1,6 @@
 import {
   Dimension,
+  EquipmentSlot,
   MinecraftDimensionTypes,
   Player,
   system,
@@ -36,8 +37,10 @@ class PlayerUtils {
       maxDistance: 8,
     })?.block;
     if (block) {
+      const equipment = this.player.getComponent('equippable');
+      const item = equipment.getEquipment(EquipmentSlot.Mainhand);
       this.player.onScreenDisplay.setActionBar(
-        `Id: ${block.typeId}\nTags: ${block.getTags()}\nStates: ${JSON.stringify(block.permutation.getAllStates())}`
+        `Id: ${block.typeId}\nTags: ${block.getTags()}\nStates: ${JSON.stringify(block.permutation.getAllStates())} ${item ? '\nItem: ' + item.typeId : ''}`
       );
     }
   }
