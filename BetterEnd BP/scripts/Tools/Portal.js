@@ -28,7 +28,7 @@ world.beforeEvents.worldInitialize.subscribe(e => {
                             maxDistance: 3
                         })[0]?.location;
                         const { x, y, z } = portalLocation;
-                        // player.sendMessage('<betterend_loading>');
+                        player.sendMessage('<betterend_loading>');
                         player.teleport({ x, y: 200, z: z - 2 }, { dimension: overworld });
                         const lastGameMode = player.getGameMode();
                         player.setGameMode(GameMode.Spectator);

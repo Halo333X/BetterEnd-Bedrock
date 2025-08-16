@@ -1,0 +1,30 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:crystalite_leggings"
+        },
+        "tags": [
+            "infusion_pedestal"
+        ],
+        "pattern": [
+            " a ",
+            "shs",
+            " s "
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:amber_gem"
+            },
+            "s": {
+                "item": "betterend:crystal_shards"
+            },
+            "h": {
+                "item": "betterend:terminite_leggings"
+            }
+        },
+        "result": {
+            "item": "betterend:crystalite_leggings"
+        }
+    }
+}

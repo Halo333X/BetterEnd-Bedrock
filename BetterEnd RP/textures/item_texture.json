@@ -48,6 +48,12 @@
       "textures": "textures/items/tools/sword/aeternium_sword"
     },
     // Ingots
+    "ender_shard": {
+      "textures": "textures/items/ingots/ender_shard"
+    },
+    "crystal_shards": {
+      "textures": "textures/items/ingots/crystal_shards"
+    },
     "eternal_crystal": {
       "textures": "textures/items/ingots/eternal_crystal"
     },
@@ -274,6 +280,9 @@
     // Sulphur
     "tube_worm": {
       "textures": "textures/items/sulphur/tube_worm"
+    },
+    "hydralux_petal": {
+      "textures": "textures/items/sulphur/hydralux_petal"
     },
     // Shadow
     "needlegrass": {

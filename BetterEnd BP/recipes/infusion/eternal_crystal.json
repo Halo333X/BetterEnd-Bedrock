@@ -1,0 +1,30 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:eternal_crystal"
+        },
+        "tags": [
+            "infusion_pedestal"
+        ],
+        "pattern": [
+            "ese",
+            "scs",
+            "ese"
+        ],
+        "key": {
+            "e": {
+                "item": "betterend:ender_shard"
+            },
+            "s": {
+                "item": "betterend:crystal_shards"
+            },
+            "c": {
+                "item": "minecraft:end_crystal"
+            }
+        },
+        "result": {
+            "item": "betterend:eternal_crystal"
+        }
+    }
+}

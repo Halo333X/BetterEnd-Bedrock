@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:enchanted_petal"
+        },
+        "tags": [
+            "infusion_pedestal"
+        ],
+        "pattern": [
+            " s ",
+            "sps",
+            " s "
+        ],
+        "key": {
+            "s": {
+                "item": "betterend:crystal_shards"
+            },
+            "p": {
+                "item": "betterend:hydralux_petal"
+            }
+        },
+        "result": {
+            "item": "betterend:enchanted_petal"
+        }
+    }
+}

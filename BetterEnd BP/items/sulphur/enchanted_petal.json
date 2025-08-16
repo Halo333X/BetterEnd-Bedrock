@@ -1,0 +1,15 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+      "description": {
+        "identifier": "betterend:enchanted_petal",
+        "menu_category": {
+          "category": "nature"
+        }
+      },
+      "components": {
+        "minecraft:glint": true,
+        "minecraft:icon": "hydralux_petal"
+      }
+    }
+  }
