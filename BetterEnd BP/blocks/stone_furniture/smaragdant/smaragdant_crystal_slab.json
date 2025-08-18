@@ -1,0 +1,110 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:smaragdant_crystal_slab",
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      },
+      "menu_category": {
+        "category": "construction",
+        "group":"minecraft:itemGroup.name.slab"
+      },
+      "states": {
+        "betterend:double": [false, true],
+        "betterend:waterlogged": [false, true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('betterend:double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:liquid_detection": {
+						"detection_rules": [
+						{
+							"can_contain_liquid": true,
+							"liquid_type": "water",
+							"on_liquid_touches": "no_reaction"
+							}
+							]
+							},
+          "minecraft:light_dampening": 0
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('betterend:double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8, 8, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:selection_box": {
+            "origin": [-8, 8, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:liquid_detection": {
+						"detection_rules": [
+						{
+							"can_contain_liquid": true,
+							"liquid_type": "water",
+							"on_liquid_touches": "no_reaction"
+							}
+							]
+							},
+          "minecraft:light_dampening": 0
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:double')",
+        "components": {
+        	"minecraft:liquid_detection": {
+						"detection_rules": [
+						{
+							"can_contain_liquid": false
+							}
+							]
+							},
+          "minecraft:geometry": "geometry.slab_dual",
+          "minecraft:light_dampening": 15
+        }
+      }
+    ],
+    "components": {
+    	"tag:minecraft:is_axe_item_destructible": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.3
+      },
+      "minecraft:flammable": { 
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+      "minecraft:geometry": {
+        "identifier": "geometry.slab",
+        "bone_visibility": {
+          "bottom_slab": "q.block_state('minecraft:vertical_half') == 'bottom'",
+          "top_slab": "q.block_state('minecraft:vertical_half') == 'top'"
+        }
+      },
+      "minecraft:custom_components": ["betterend:slab_interact"],
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "smaragdant_crystal",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

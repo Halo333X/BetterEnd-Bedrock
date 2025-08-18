@@ -11,6 +11,15 @@
     "textures": "flavolite_runed_portal_off"
   },
   // Stones
+  "betterend:smaragdant_crystal_bricks": {
+    "textures": "smaragdant_crystal_bricks"
+  },
+  "betterend:smaragdant_crystal_polished": {
+    "textures": "smaragdant_crystal_polished"
+  },
+  "betterend:smaragdant_crystal_tiles": {
+    "textures": "smaragdant_crystal_tiles"
+  },
   "betterend:violecite_bricks": {
     "textures": "violecite_bricks"
   },

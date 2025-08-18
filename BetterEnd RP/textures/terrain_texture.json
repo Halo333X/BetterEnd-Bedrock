@@ -14,6 +14,15 @@
       "textures": "textures/blocks/utils/portal/flavolite_runed_portal_off"
     },
     // Stones
+    "smaragdant_crystal_bricks": {
+      "textures": "textures/blocks/stones/smaragdant/smaragdant_crystal_bricks"
+    },
+    "smaragdant_crystal_polished": {
+      "textures": "textures/blocks/stones/smaragdant/smaragdant_crystal_polished"
+    },
+    "smaragdant_crystal_tiles": {
+      "textures": "textures/blocks/stones/smaragdant/smaragdant_crystal_tiles"
+    },
     "violecite_bricks": {
       "textures": "textures/blocks/stones/violecite/violecite_bricks"
     },
