@@ -25,7 +25,7 @@
         "fog_start": 0.92,
         "fog_end": 1.0,
         "fog_color": "#000000",
-        "render_distance_type": "render"
+        "render_distance_type": "fixed"
       },
       "water": {
         "fog_start": 0.0,
