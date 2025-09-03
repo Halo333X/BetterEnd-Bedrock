@@ -31,5 +31,17 @@
       "uuid": "8ee24485-3137-4578-9673-2794c4f4fde7",
       "version": [1, 0, 0]
     }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "with_fogs",
+      "name": "Biome Fogs (Default)",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "without_fogs",
+      "name": "No Fogs (Normal Sky)",
+      "memory_tier": 1
+    }
   ]
 }
