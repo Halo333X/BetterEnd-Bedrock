@@ -16,9 +16,27 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves1",
-              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": false,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "up": {
+              "texture": "lucernia_leaves1",
+              "ambient_occlusion": false,
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "down": {
+              "texture": "lucernia_leaves1",
+              "ambient_occlusion": false,
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
             }
           }
         }
@@ -29,9 +47,27 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves2",
-              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": false,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "up": {
+              "texture": "lucernia_leaves2",
+              "ambient_occlusion": false,
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "down": {
+              "texture": "lucernia_leaves2",
+              "ambient_occlusion": false,
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
             }
           }
         }
@@ -42,9 +78,27 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves3",
-              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": false,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "up": {
+              "texture": "lucernia_leaves3",
+              "ambient_occlusion": false,
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "down": {
+              "texture": "lucernia_leaves3",
+              "ambient_occlusion": false,
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
             }
           }
         }
@@ -55,9 +109,27 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves4",
-              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
-              "face_dimming": false
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": false,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "up": {
+              "texture": "lucernia_leaves4",
+              "ambient_occlusion": false,
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "down": {
+              "texture": "lucernia_leaves4",
+              "ambient_occlusion": false,
+              "face_dimming": false, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
             }
           }
         }
