@@ -1,5 +1,5 @@
 {
-    "format_version": "1.20.81",
+    "format_version": "1.21.70",
     "minecraft:block": {
         "description": {
             "identifier": "betterend:cave_bush_leaves",
@@ -20,53 +20,125 @@
             {
                 "condition": "q.block_state('betterend:random') == 0",
                 "components": {
-                    "minecraft:material_instances": {
-                        "*": {
-                            "texture": "cave_bush_leaves1",
-                            "render_method": "alpha_test_single_sided",
-                            "ambient_occlusion": true,
-                            "face_dimming": true
-                        }
-                    }
+                  "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_bush_leaves1",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": false,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "up": {
+              "texture": "cave_bush_leaves1",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "down": {
+              "texture": "cave_bush_leaves1",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            }
+          }
                 }
             },
             {
                 "condition": "q.block_state('betterend:random') == 1",
                 "components": {
-                    "minecraft:material_instances": {
-                        "*": {
-                            "texture": "cave_bush_leaves2",
-                            "render_method": "alpha_test_single_sided",
-                            "ambient_occlusion": true,
-                            "face_dimming": true
-                        }
-                    }
+                  "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_bush_leaves2",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": false,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "up": {
+              "texture": "cave_bush_leaves2",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "down": {
+              "texture": "cave_bush_leaves2",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            }
+          }
                 }
             },
             {
                 "condition": "q.block_state('betterend:random') == 2",
                 "components": {
-                    "minecraft:material_instances": {
-                        "*": {
-                            "texture": "cave_bush_leaves3",
-                            "render_method": "alpha_test_single_sided",
-                            "ambient_occlusion": true,
-                            "face_dimming": true
-                        }
-                    }
+                  "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_bush_leaves3",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": false,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "up": {
+              "texture": "cave_bush_leaves3",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "down": {
+              "texture": "cave_bush_leaves3",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            }
+          }
                 }
             },
             {
                 "condition": "q.block_state('betterend:random') == 3",
                 "components": {
-                    "minecraft:material_instances": {
-                        "*": {
-                            "texture": "cave_bush_leaves4",
-                            "render_method": "alpha_test_single_sided",
-                            "ambient_occlusion": true,
-                            "face_dimming": true
-                        }
-                    }
+                  "minecraft:material_instances": {
+            "*": {
+              "texture": "cave_bush_leaves4",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": false,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "up": {
+              "texture": "cave_bush_leaves4",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            },
+            "down": {
+              "texture": "cave_bush_leaves4",
+              "ambient_occlusion": true,
+              "face_dimming": true, 
+              "ambient_occlusion": 0.8,
+              "isotropic": true,
+              "render_method": "alpha_test_single_sided_to_opaque"
+            }
+          }
                 }
             }
         ],
@@ -78,6 +150,7 @@
             "tag:leaf": {},
             "tag:leaves": {},
             "tag:plant": {},
+            "minecraft:light_dampening": 15,
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5
