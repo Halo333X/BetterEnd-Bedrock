@@ -822,8 +822,7 @@
     }
   },
   "betterend:blue_vine_lantern": {
-    "sound": "grass",
-    "textures": "blue_vine_lantern"
+    "sound": "nether_wart"
   },
   "betterend:blue_vine_seed": {
     "sound": "grass"
@@ -953,8 +952,7 @@
     "sound": "grass"
   },
   "betterend:glowing_pillar_luminophor": {
-    "sound": "grass",
-    "textures": "glowing_pillar_luminophor"
+    "sound": "nether_wart"
   },
   "betterend:glowing_pillar_seed": {
     "sound": "grass"
