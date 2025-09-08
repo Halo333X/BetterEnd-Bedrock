@@ -690,8 +690,7 @@
     "sound": "grass"
   },
   "betterend:umbrella_tree_cluster": {
-    "sound": "roots",
-    "textures": "umbrella_tree_cluster"
+    "sound": "nether_wart"
   },
   "betterend:jungle_vine": {
     "sound": "grass"
