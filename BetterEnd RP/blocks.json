@@ -835,8 +835,7 @@
     "sound": "grass"
   },
   "betterend:mossy_glowshroom_hymenophore": {
-    "sound": "grass",
-    "textures": "mossy_glowshroom_hymenophore"
+    "sound": "nether_wart"
   },
   "betterend:mossy_glowshroom_cap": {
     "sound": "wood"
