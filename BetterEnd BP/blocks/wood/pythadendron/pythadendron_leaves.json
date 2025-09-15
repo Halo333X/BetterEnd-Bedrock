@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.70",
   "minecraft:block": {
     "description": {
       "identifier": "betterend:pythadendron_leaves",
@@ -35,11 +35,31 @@
 			},
       "minecraft:custom_components": ["betterend:on_player_destroy", "betterend:random_tick", "betterend:leaf_place"],
       "minecraft:map_color": "#DDDDDD",
-      "minecraft:light_dampening": 0,
+      "minecraft:light_dampening": 15,
       "minecraft:material_instances": {
         "*": {
           "texture": "pythadendron_leaves",
-          "render_method": "alpha_test_single_sided"
+          "ambient_occlusion": true,
+          "face_dimming": true, 
+          "ambient_occlusion": 0.8,
+          "isotropic": false,
+          "render_method": "alpha_test_single_sided_to_opaque"
+        },
+        "up": {
+          "texture": "pythadendron_leaves",
+          "ambient_occlusion": true,
+          "face_dimming": true, 
+          "ambient_occlusion": 0.8,
+          "isotropic": true,
+          "render_method": "alpha_test_single_sided_to_opaque"
+        },
+        "down": {
+          "texture": "pythadendron_leaves",
+          "ambient_occlusion": true,
+          "face_dimming": true, 
+          "ambient_occlusion": 0.8,
+          "isotropic": true,
+          "render_method": "alpha_test_single_sided_to_opaque"
         }
       }
     }

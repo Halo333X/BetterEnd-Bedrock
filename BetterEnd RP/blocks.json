@@ -690,8 +690,7 @@
     "sound": "grass"
   },
   "betterend:umbrella_tree_cluster": {
-    "sound": "roots",
-    "textures": "umbrella_tree_cluster"
+    "sound": "nether_wart"
   },
   "betterend:jungle_vine": {
     "sound": "grass"
@@ -822,8 +821,7 @@
     }
   },
   "betterend:blue_vine_lantern": {
-    "sound": "grass",
-    "textures": "blue_vine_lantern"
+    "sound": "nether_wart"
   },
   "betterend:blue_vine_seed": {
     "sound": "grass"
@@ -835,8 +833,7 @@
     "sound": "grass"
   },
   "betterend:mossy_glowshroom_hymenophore": {
-    "sound": "grass",
-    "textures": "mossy_glowshroom_hymenophore"
+    "sound": "nether_wart"
   },
   "betterend:mossy_glowshroom_cap": {
     "sound": "wood"
@@ -954,8 +951,7 @@
     "sound": "grass"
   },
   "betterend:glowing_pillar_luminophor": {
-    "sound": "grass",
-    "textures": "glowing_pillar_luminophor"
+    "sound": "nether_wart"
   },
   "betterend:glowing_pillar_seed": {
     "sound": "grass"
@@ -1020,7 +1016,7 @@
     "sound": "grass"
   },
   "betterend:cave_moss": {
-    "sound": "grass"
+    "sound": "gravel"
   },
   "betterend:cave_bush_leaves": {
     "sound": "grass"

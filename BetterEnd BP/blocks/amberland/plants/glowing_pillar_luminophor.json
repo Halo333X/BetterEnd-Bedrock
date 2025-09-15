@@ -8,12 +8,15 @@
             }
         },
         "components": {
-            "minecraft:material_instances": {
-                "*": {
-                    "ambient_occlusion": false,
-                    "face_dimming": false
-                }
-            },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "glowing_pillar_luminophor",
+          "render_method": "opaque",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
             "minecraft:destructible_by_explosion": true,
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5

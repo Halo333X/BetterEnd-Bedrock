@@ -13,8 +13,11 @@
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0.5
       },
+      "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:material_instances": {
         "*": {
+          "texture": "blue_vine_lantern",
+          "render_method": "opaque",
           "ambient_occlusion": false,
           "face_dimming": false
         }
@@ -22,3 +25,4 @@
     }
   }
 }
+

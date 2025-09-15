@@ -9,8 +9,11 @@
     },
     "components": {
       "minecraft:custom_components": [ "betterend:mossy_glowshroom_fur_generator" ],
+      "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:material_instances": {
         "*": {
+          "texture": "mossy_glowshroom_hymenophore",
+          "render_method": "opaque",
           "ambient_occlusion": false,
           "face_dimming": false
         }

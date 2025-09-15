@@ -1,59 +1,55 @@
 {
-    "format_version": "1.20.81",
-    "minecraft:block": {
-        "description": {
-            "identifier": "betterend:mossy_glowshroom_cap",
-            "menu_category": {
-                "category": "nature",
-                "group": "itemGroup.name.leaves"
-            },
-            "states": {
-                "betterend:cap": [
-                    false,
-                    true
-                ]
-            }
-        },
-        "permutations": [
-            {
-                "condition": "q.block_state('betterend:cap') == false",
-                "components": {
-                    "minecraft:geometry": "minecraft:geometry.full_block",
-                    "minecraft:material_instances": {
-                        "*": {
-                            "texture": "mossy_glowshroom_cap",
-                            "render_method": "opaque",
-                            "ambient_occlusion": true,
-                            "face_dimming": true
-                        }
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('betterend:cap') == true",
-                "components": {
-                    "minecraft:geometry": "geometry.mossy_glowshroom_cap",
-                    "minecraft:material_instances": {
-                        "*": {
-                            "texture": "mossy_glowshroom_cap_transition",
-                            "render_method": "opaque",
-                            "ambient_occlusion": true,
-                            "face_dimming": true
-                        }
-                    }
-                }
-            }
-        ],
+  "format_version": "1.21.70",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:mossy_glowshroom_cap",
+      "states": {
+        "betterend:cap": [
+          false,
+          true
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:cap') == false",
         "components": {
-            "minecraft:custom_components": [ "betterend:mossy_glowshroom_cap" ],
-            "tag:leaf": {},
-            "tag:leaves": {},
-            "tag:plant": {},
-            "minecraft:loot": "loot_tables/empty.json",
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.5
-            },
-            "minecraft:flammable": true
+          "minecraft:geometry": "minecraft:geometry.full_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "mossy_glowshroom_cap",
+              "render_method": "opaque",
+              "isotropic": true
+            }
+          }
         }
+      },
+      {
+        "condition": "q.block_state('betterend:cap') == true",
+        "components": {
+          "minecraft:geometry": "geometry.mossy_glowshroom_cap",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "mossy_glowshroom_cap_transition",
+              "render_method": "opaque",
+              "isotropic": false
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": [
+        "betterend:mossy_glowshroom_cap"
+      ],
+      "tag:leaf": {},
+      "tag:leaves": {},
+      "tag:plant": {},
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:flammable": true
     }
+  }
 }
