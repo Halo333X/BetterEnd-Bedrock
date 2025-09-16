@@ -1,0 +1,42 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+      "description": {
+        "identifier": "betterend:sangnum",
+        "menu_category": {
+          "category": "nature"
+        },
+        "states": {
+          "betterend:biomes": [
+            "none",
+            "dragon_graveyards"
+          ]
+        }
+      },
+      "permutations": [
+        {
+          "condition": "q.block_state('betterend:biomes') == 'none'",
+          "components": {
+            "tag:none": {}
+          }
+        },
+        {
+          "condition": "q.block_state('betterend:biomes') == 'dragon_graveyards'",
+          "components": {
+            "tag:dragon_graveyards": {}
+          }
+        }
+      ],
+      "components": {
+        "tag:grass": {},
+        "minecraft:destructible_by_explosion": {
+          "explosion_resistance": 0.5
+        },
+        "minecraft:destructible_by_mining": {
+          "seconds_to_destroy": 1
+        },
+        "minecraft:flammable": false,
+        "minecraft:map_color": "#00dcdf"
+      }
+    }
+  }
