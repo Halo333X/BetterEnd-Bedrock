@@ -547,6 +547,15 @@
     "sound": "stone",
     "textures": "end_stone"
   },
+  // Dragon Graveyards
+  "betterend:sangnum": {
+    "sound": "grass",
+    "textures": {
+      "side": "sangnum_side",
+      "up": "sangnum_top",
+      "down": "end_stone"
+    }
+  },
   //Ice Starfield
 	"betterend:ancient_emerald_ice": {
 		"sound": "glass",

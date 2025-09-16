@@ -695,6 +695,16 @@
     "end_lotus_crafting_table_top": {
       "textures": "textures/blocks/wood/end_lotus/end_lotus_crafting_table_top"
     },
+    // Dragon Graveyards
+    "small_amaranita_mushroom": {
+      "textures": "textures/blocks/dragon/small_amaranita_mushroom"
+    },
+    "sangnum_side": {
+      "textures": "textures/blocks/dragon/sangnum_side"
+    },
+    "sangnum_top": {
+      "textures": "textures/blocks/dragon/sangnum_top"
+    },
     // Ice Starfield
     "ancient_emerald_ice": {
       "textures": "textures/blocks/star/ancient_emerald_ice"
