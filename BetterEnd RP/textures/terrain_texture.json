@@ -696,6 +696,24 @@
       "textures": "textures/blocks/wood/end_lotus/end_lotus_crafting_table_top"
     },
     // Dragon Graveyards
+    "amaranita_stem": {
+      "textures": "textures/blocks/dragon/amaranita_stem_middle"
+    },
+    "amaranita_stem_roots": {
+      "textures": "textures/blocks/dragon/amaranita_stem_roots"
+    },
+    "large_amaranita_cap": {
+      "textures": "textures/blocks/dragon/large_amaranita_cap_side"
+    },
+    "large_amaranita_cap_top": {
+      "textures": "textures/blocks/dragon/large_amaranita_cap_top"
+    },
+    "large_amaranita_cap_bottom": {
+      "textures": "textures/blocks/dragon/large_amaranita_cap_bottom"
+    },
+    "amaranita_stem_top": {
+      "textures": "textures/blocks/dragon/amaranita_stem_top"
+    },
     "small_amaranita_mushroom": {
       "textures": "textures/blocks/dragon/small_amaranita_mushroom"
     },

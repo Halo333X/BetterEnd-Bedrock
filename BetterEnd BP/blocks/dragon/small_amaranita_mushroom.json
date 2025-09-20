@@ -1,0 +1,376 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:small_amaranita_mushroom",
+      "states": {
+        "betterend:growth": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 0",
+        "components": {
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:sangnum"
+                ]
+              }
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4.5,
+              0,
+              -4
+            ],
+            "size": [
+              9,
+              10,
+              8
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "small_amaranita_mushroom",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 1",
+        "components": {
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:sangnum"
+                ]
+              }
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4.5,
+              0,
+              -4
+            ],
+            "size": [
+              9,
+              10,
+              8
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "small_amaranita_mushroom",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 2",
+        "components": {
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:sangnum"
+                ]
+              }
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4.5,
+              0,
+              -4
+            ],
+            "size": [
+              9,
+              10,
+              8
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "small_amaranita_mushroom",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 3",
+        "components": {
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:sangnum"
+                ]
+              }
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4.5,
+              0,
+              -4
+            ],
+            "size": [
+              9,
+              10,
+              8
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "small_amaranita_mushroom",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 4",
+        "components": {
+          "minecraft:collision_box": true,
+          "minecraft:geometry": "geometry.large_amaranita_roots",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "amaranita_stem_roots",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              8,
+              16,
+              8
+            ]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:sangnum"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 5",
+        "components": {
+          "minecraft:collision_box": true,
+          "minecraft:geometry": "geometry.large_amaranita_stem",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "amaranita_stem",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              8,
+              16,
+              8
+            ]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:sangnum",
+                  "betterend:small_amaranita_mushroom"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 6",
+        "components": {
+          "minecraft:collision_box": true,
+          "minecraft:geometry": "geometry.large_amaranita_cap",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "large_amaranita_cap",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "large_amaranita_cap": {
+              "texture": "large_amaranita_cap",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "large_amaranita_cap_bottom": {
+              "texture": "large_amaranita_cap_bottom",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "large_amaranita_cap_top": {
+              "texture": "large_amaranita_cap_top",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "amaranita_stem_top": {
+              "texture": "amaranita_stem_top",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              16,
+              14
+            ]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:small_amaranita_mushroom"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": [
+        "betterend:small_amaranita_mushroom"
+      ],
+      "minecraft:geometry": "geometry.small_amaranita_mushroom",
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false
+    }
+  }
+}

@@ -548,6 +548,9 @@
     "textures": "end_stone"
   },
   // Dragon Graveyards
+  "betterend:small_amaranita_mushroom": {
+    "sound": "grass"
+  },
   "betterend:sangnum": {
     "sound": "grass",
     "textures": {
