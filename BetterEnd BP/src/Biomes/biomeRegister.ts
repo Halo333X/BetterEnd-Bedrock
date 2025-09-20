@@ -10,6 +10,7 @@ import "./Umbrella";
 import "./Glowing";
 import "./Umbra";
 import "./Lantern";
+import "./Dragon";
 
 
 import "./Caves";

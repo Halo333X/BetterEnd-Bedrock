@@ -367,6 +367,12 @@
       "minecraft:custom_components": [
         "betterend:small_amaranita_mushroom"
       ],
+      "minecraft:tick": {
+        "interval_range": [
+          20, 20
+        ],
+        "looping": true
+      },
       "minecraft:geometry": "geometry.small_amaranita_mushroom",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,
