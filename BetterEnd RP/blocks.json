@@ -559,6 +559,14 @@
       "down": "end_stone"
     }
   },
+  "betterend:mossy_obsidian": {
+    "sound": "stone",
+    "textures": {
+      "up": "sangnum_top",
+      "side": "mossy_obsidian_side",
+      "down": "obsidian"
+    }
+  },
   //Ice Starfield
 	"betterend:ancient_emerald_ice": {
 		"sound": "glass",

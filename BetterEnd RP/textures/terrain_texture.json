@@ -717,6 +717,9 @@
     "small_amaranita_mushroom": {
       "textures": "textures/blocks/dragon/small_amaranita_mushroom"
     },
+    "mossy_obsidian_side": {
+      "textures": "textures/blocks/dragon/mossy_obsidian_side"
+    },
     "sangnum_side": {
       "textures": "textures/blocks/dragon/sangnum_side"
     },

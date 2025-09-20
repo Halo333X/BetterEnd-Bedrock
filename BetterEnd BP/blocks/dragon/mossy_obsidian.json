@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:mossy_obsidian",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "tag:obsidian": {},
+            "tag:minecraft:diamond_tier_destructible": {},
+            "tag:minecraft:netherite_tier_destructible": {},
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 60
+            },
+            "minecraft:flammable": false
+        }
+    }
+}
