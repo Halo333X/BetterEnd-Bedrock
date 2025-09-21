@@ -558,7 +558,10 @@
     "sound": "grass"
   },
   "betterend:sangnum": {
-    "sound": "grass",
+    "sound": "gravel",
+	"isotropic": {
+      "up": true
+    },
     "textures": {
       "side": "sangnum_side",
       "up": "sangnum_top",
@@ -623,7 +626,7 @@
     "sound": "grass"
   },
   "betterend:rutiscus": {
-    "sound": "grass",
+    "sound": "gravel",
     "isotropic": {
       "up": true
     },
