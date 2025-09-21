@@ -548,6 +548,12 @@
     "textures": "end_stone"
   },
   // Dragon Graveyards
+  "betterend:globulagus": {
+    "sound": "grass"
+  },
+  "betterend:clawfern": {
+    "sound": "grass"
+  },
   "betterend:small_amaranita_mushroom": {
     "sound": "grass"
   },

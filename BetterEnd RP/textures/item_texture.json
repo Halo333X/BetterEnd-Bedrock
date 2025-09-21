@@ -200,6 +200,19 @@
     "end_lotus_ladder": {
       "textures": "textures/blocks/wood/end_lotus/end_lotus_ladder"
     },
+    // Dragon
+    "amaranita_fur": {
+      "textures": "textures/blocks/dragon/amaranita_fur"
+    },
+    "globulagus": {
+      "textures": "textures/blocks/dragon/globulagus"
+    },
+    "clawfern": {
+      "textures": "textures/blocks/dragon/clawfern"
+    },
+    "small_amaranita_mushroom": {
+      "textures": "textures/items/dragon/small_amaranita_mushroom"
+    },
     // Lantern
     "lucernia_outer_leaves": {
       "textures": "textures/blocks/lantern/plants/lucernia_outer_leaves_1"
