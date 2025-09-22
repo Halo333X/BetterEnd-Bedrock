@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:amaranita_fur",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.flower"
+            }
+        },
+        "components": {
+            "minecraft:icon": "amaranita_fur",
+            "minecraft:block_placer": {
+                "block": "betterend:amaranita_fur"
+            }
+        }
+    }
+}
