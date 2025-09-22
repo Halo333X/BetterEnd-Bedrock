@@ -100,8 +100,7 @@
     "sound": "wood"
   },
   "betterend:helix_tree_leaves": {
-    "brightness_gamma": 1.0,
-    "sound": "grass"
+    "sound": "nether_wart"
   },
   "betterend:helix_tree_log": {
     "sound": "wood"
@@ -552,11 +551,10 @@
     "sound": "grass"
   },
   "betterend:amaranita_lantern": {
-    "sound": "wood",
-    "textures": "amaranita_lantern"
+    "sound": "nether_wart"
   },
   "betterend:amaranita_hyphae": {
-    "sound": "wood",
+    "sound": "nether_wart",
     "textures": {
       "side": "amaranita_hyphae_side",
       "up": "amaranita_hyphae_top",
@@ -564,11 +562,11 @@
     }
   },
   "betterend:amaranita_hymenophore": {
-    "sound": "wood",
+    "sound": "nether_wart",
     "textures": "amaranita_hymenophore"
   },
   "betterend:amaranita_cap": {
-    "sound": "wood",
+    "sound": "nether_wart",
     "textures": "amaranita_cap"
   },
   "betterend:globulagus": {
