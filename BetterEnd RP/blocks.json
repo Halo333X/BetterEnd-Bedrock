@@ -548,6 +548,26 @@
     "textures": "end_stone"
   },
   // Dragon Graveyards
+  "betterend:amaranita_lantern": {
+    "sound": "wood",
+    "textures": "amaranita_lantern"
+  },
+  "betterend:amaranita_hyphae": {
+    "sound": "wood",
+    "textures": {
+      "side": "amaranita_hyphae_side",
+      "up": "amaranita_hyphae_top",
+      "down": "amaranita_hyphae_top"
+    }
+  },
+  "betterend:amaranita_hymenophore": {
+    "sound": "wood",
+    "textures": "amaranita_hymenophore"
+  },
+  "betterend:amaranita_cap": {
+    "sound": "wood",
+    "textures": "amaranita_cap"
+  },
   "betterend:globulagus": {
     "sound": "grass"
   },
