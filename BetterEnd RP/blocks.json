@@ -548,6 +548,9 @@
     "textures": "end_stone"
   },
   // Dragon Graveyards
+  "betterend:amaranita_fur": {
+    "sound": "grass"
+  },
   "betterend:amaranita_lantern": {
     "sound": "wood",
     "textures": "amaranita_lantern"
