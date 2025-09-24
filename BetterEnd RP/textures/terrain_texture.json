@@ -764,6 +764,9 @@
       "textures": "textures/blocks/star/emerald_ice"
     },
     // Lantern
+    "pond_anemone": {
+      "textures": "textures/blocks/lantern/plants/pond_anemone"
+    },
     "lucernia_outer_leaves_1": {
       "textures": "textures/blocks/lantern/plants/lucernia_outer_leaves_1"
     },

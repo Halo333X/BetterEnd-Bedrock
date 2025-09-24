@@ -1,0 +1,105 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:pond_anemone",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "betterend:rotation": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:rotation') == 0",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:rotation') == 1",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:rotation') == 2",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:rotation') == 3",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
+            "minecraft:custom_components": [ "betterend:charnia" ],
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:destructible_by_mining": true,
+            "minecraft:collision_box": false,
+            "minecraft:geometry": "geometry.pond_anemone",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "pond_anemone",
+                    "render_method": "alpha_test_single_sided",
+                    "ambient_occlusion": true,
+                    "face_dimming": true
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -7
+                ],
+                "size": [
+                    12,
+                    16,
+                    12
+                ]
+            }
+        }
+    }
+}

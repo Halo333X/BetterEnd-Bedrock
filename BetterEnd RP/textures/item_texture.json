@@ -214,6 +214,9 @@
       "textures": "textures/items/dragon/small_amaranita_mushroom"
     },
     // Lantern
+    "pond_anemone": {
+      "textures": "textures/items/lantern/pond_anemone"
+    },
     "lucernia_outer_leaves": {
       "textures": "textures/blocks/lantern/plants/lucernia_outer_leaves_1"
     },
