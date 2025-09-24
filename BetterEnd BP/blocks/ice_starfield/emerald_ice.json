@@ -23,7 +23,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "emerald_ice",
-					"render_method": "blend",
+					"render_method": "blend_to_opaque",
 					"ambient_occlusion": true,
 					"face_dimming": true
 				}
