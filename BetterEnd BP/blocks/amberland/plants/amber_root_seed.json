@@ -35,7 +35,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "amber_root_1",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -52,7 +52,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "amber_root_2",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -69,7 +69,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "amber_root_3",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
