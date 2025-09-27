@@ -101,7 +101,7 @@
       "minecraft:custom_components": ["betterend:slab_interact"],
       "minecraft:material_instances": {
         "*": {
-          "texture": "smaragdant_crystal",
+          "texture": "budding_smaragdant_crystal_top",
           "render_method": "opaque"
         }
       }
