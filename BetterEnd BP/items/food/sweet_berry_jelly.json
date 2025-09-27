@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:sweet_berry_jelly",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.miscFood"
+            }
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "movement_modifier": 0.5,
+                "use_duration": 1.6
+            },
+            "minecraft:icon": "sweet_berry_jelly",
+            "minecraft:food": {
+                "can_always_eat": true,
+                "nutrition": 8,
+                "saturation_modifier": 11
+            }
+        }
+    }
+}
