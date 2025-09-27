@@ -1,0 +1,14 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:crystalline_sulphur",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "crystalline_sulphur"
+        }
+    }
+}
