@@ -1,0 +1,15 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:enchanted_membrane",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:glint": true,
+            "minecraft:icon": "phantom_membrane"
+        }
+    }
+}
