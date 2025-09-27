@@ -19,7 +19,7 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:thallasium_ingot"
+              "betterend:thallasium_ingot"
             ],
             "repair_amount": 30
           },

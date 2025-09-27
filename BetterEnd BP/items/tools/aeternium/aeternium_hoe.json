@@ -19,7 +19,7 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:aeternium_ingot"
+              "betterend:aeternium_ingot"
             ],
             "repair_amount": 30
           },

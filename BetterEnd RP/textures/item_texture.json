@@ -47,7 +47,56 @@
     "aeternium_sword": {
       "textures": "textures/items/tools/sword/aeternium_sword"
     },
+    // Food
+    "gelatine": {
+      "textures": "textures/items/food/gelatine"
+    },
+    "sweet_berry_jelly": {
+      "textures": "textures/items/food/sweet_berry_jelly"
+    },
+    "shadow_berry_jelly": {
+      "textures": "textures/items/food/shadow_berry_jelly"
+    },
+    "shadow_berry_cooked": {
+      "textures": "textures/items/food/shadow_berry_cooked"
+    },
+    "shadow_berry": {
+      "textures": "textures/items/food/shadow_berry"
+    },
+    "end_fish_cooked": {
+      "textures": "textures/items/food/end_fish_cooked"
+    },
+    "end_fish": {
+      "textures": "textures/items/food/end_fish"
+    },
+    "chorus_mushroom_raw": {
+      "textures": "textures/items/food/chorus_mushroom_raw"
+    },
+    "chorus_mushroom_cooked": {
+      "textures": "textures/items/food/chorus_mushroom_cooked"
+    },
+    "cave_pumpkin_pie": {
+      "textures": "textures/items/food/cave_pumpkin_pie"
+    },
+    "blossom_berry_jelly": {
+      "textures": "textures/items/food/blossom_berry_jelly"
+    },
+    "bolux_mushroom_cooked": {
+      "textures": "textures/items/food/bolux_mushroom_cooked"
+    },
     // Ingots
+    "crystalline_sulphur": {
+      "textures": "textures/items/ingots/crystalline_sulphur"
+    },
+    "thallasium_raw": {
+      "textures": "textures/items/ingots/thallasium_raw"
+    },
+    "raw_amber": {
+      "textures": "textures/items/ingots/raw_amber"
+    },
+    "ender_dust": {
+      "textures": "textures/items/ingots/ender_dust"
+    },
     "ender_shard": {
       "textures": "textures/items/ingots/ender_shard"
     },
@@ -313,17 +362,8 @@
     "twisted_vine": {
       "textures": "textures/items/shadow/twisted_vine"
     },
-    "shadow_berry_jelly": {
-      "textures": "textures/items/shadow/shadow_berry_jelly"
-    },
-    "shadow_berry_cooked": {
-      "textures": "textures/items/shadow/shadow_berry_cooked"
-    },
     "shadow_berry_seed": {
       "textures": "textures/items/shadow/shadow_berry_seeds"
-    },
-    "shadow_berry": {
-      "textures": "textures/items/shadow/shadow_berry"
     },
     // Megalakes
     "end_lotus_seed": {
@@ -399,6 +439,9 @@
       "textures": "textures/blocks/chorus/plants/chorus_grass_01"
     },
     // Blossoming
+    "silk_moth_matrix": {
+      "textures": "textures/items/blossoming/silk_moth_matrix"
+    },
     "silk_fiber": {
       "textures": "textures/items/blossoming/silk_fiber"
     },
