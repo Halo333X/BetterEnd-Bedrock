@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5,
+                "min": 1
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "minecraft:ender_pearl",
+          "weight": 9
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "betterend:shadow_berry_cooked",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "betterend:blossom_berry_jelly",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "set_count"
+            }
+          ],
+          "name": "minecraft:ender_chest"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 1.0
+      }
+    }
+  ]
+}

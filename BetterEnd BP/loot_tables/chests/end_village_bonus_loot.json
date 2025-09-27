@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 1
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "betterend:aeternium_ingot",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "set_count"
+            }
+          ],
+          "name": "betterend:eternal_crystal"
+        },
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              },
+              "function": "set_count"
+            }
+          ],
+          "name": "minecraft:shulker_shell"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "set_count"
+            }
+          ],
+          "name": "minecraft:elytra"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3.0,
+        "min": 1.0
+      }
+    }
+  ]
+}
