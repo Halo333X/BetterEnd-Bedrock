@@ -1,0 +1,14 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:raw_amber",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "raw_amber"
+        }
+    }
+}
