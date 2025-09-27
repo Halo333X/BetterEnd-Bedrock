@@ -5,6 +5,22 @@
       "entries": [
         {
           "type": "item",
+          "name": "iron_ingot"
+        },
+        {
+          "type": "item",
+          "name": "emerald"
+        },
+        {
+          "type": "item",
+          "name": "diamond"
+        },
+        {
+          "type": "item",
+          "name": "gold_ingot"
+        },
+        {
+          "type": "item",
           "name": "betterend:thallasium_ingot"
         },
         {
