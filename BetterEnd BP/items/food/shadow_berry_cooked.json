@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:shadow_berry_cooked",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.cookedFood"
+            }
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "movement_modifier": 0.5,
+                "use_duration": 1.6
+            },
+            "minecraft:icon": "shadow_berry_cooked",
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 4,
+                "saturation_modifier": 4
+            }
+        }
+    }
+}
