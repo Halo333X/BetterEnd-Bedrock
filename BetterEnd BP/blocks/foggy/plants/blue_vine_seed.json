@@ -56,7 +56,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blue_vine_0",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -81,7 +81,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blue_vine_1",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -106,7 +106,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blue_vine_2",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -131,7 +131,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blue_vine_3",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -145,13 +145,13 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blue_vine",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             },
             "blue_vine_roots": {
               "texture": "blue_vine_roots",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -176,7 +176,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blue_vine",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -202,13 +202,13 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blue_vine",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             },
             "blue_vine_roots": {
               "texture": "blue_vine_roots",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
