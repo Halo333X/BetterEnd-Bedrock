@@ -59,7 +59,6 @@
     "components": {
       "minecraft:custom_components": ["betterend:lucernia_index"],
       "minecraft:flammable": false,
-      "minecraft:light_emission": 15,
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0.5
@@ -72,7 +71,7 @@
       "minecraft:material_instances": {
         "*": {
           "texture": "aurant_polypore",
-          "render_method": "opaque",
+          "render_method": "alpha_test_single_sided",
           "ambient_occlusion": false,
           "face_dimming": false
         }
