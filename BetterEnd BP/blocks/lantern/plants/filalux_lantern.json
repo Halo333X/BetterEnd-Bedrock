@@ -12,7 +12,16 @@
             "minecraft:light_emission": 15,
             "minecraft:destructible_by_explosion": true,
             "minecraft:destructible_by_mining": true,
-            "minecraft:flammable": false
+            "minecraft:flammable": false,
+            "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "filalux_lantern",
+          "render_method": "opaque",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      }
         }
     }
 }
