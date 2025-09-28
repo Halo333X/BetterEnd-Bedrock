@@ -56,7 +56,7 @@
         "minecraft:material_instances": {
           "*": {
             "texture": "blue_vine_fur",
-            "render_method": "alpha_test",
+            "render_method": "alpha_test_single_sided",
             "ambient_occlusion": false,
             "face_dimming": false
           }
