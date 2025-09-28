@@ -192,6 +192,54 @@
               ]
             }
           ]
+        },
+        {
+          "category_name": "items",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:aqua_affinity",
+                "name": "betterend:itemGroup.name.enchantedBooks"
+              },
+              "items": [
+                "betterend:aqua_affinity",
+                "betterend:bane_of_arthropods",
+                "betterend:blast_protection",
+                "betterend:channeling",
+                "betterend:depth_strider",
+                "betterend:efficiency",
+                "betterend:feather_falling",
+                "betterend:fire_aspect",
+                "betterend:fire_protection",
+                "betterend:flame",
+                "betterend:fortune",
+                "betterend:frost_walker",
+                "betterend:impaling",
+                "betterend:infinity",
+                "betterend:knockback",
+                "betterend:looting",
+                "betterend:loyalty",
+                "betterend:luck_of_the_sea",
+                "betterend:lure",
+                "betterend:mending",
+                "betterend:multishot",
+                "betterend:piercing",
+                "betterend:power",
+                "betterend:projectile_protection",
+                "betterend:protection",
+                "betterend:punch",
+                "betterend:quick_charge",
+                "betterend:respiration",
+                "betterend:riptide",
+                "betterend:sharpness",
+                "betterend:silk_touch",
+                "betterend:smite",
+                "betterend:soul_speed",
+                "betterend:thorns",
+                "betterend:unbreaking"
+              ]
+            }
+          ]
         }
       ]
     }
