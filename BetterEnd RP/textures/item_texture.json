@@ -116,6 +116,9 @@
       "textures": "textures/items/ingots/aeternium_ingot"
     },
     // Armors
+    "elytra_crystalite": {
+      "textures": "textures/items/armor/elytra_crystalite"
+    },
     "thallasium_helmet": {
       "textures": "textures/items/armor/thallasium_helmet"
     },

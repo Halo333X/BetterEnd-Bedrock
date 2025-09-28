@@ -1,0 +1,41 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:crystalite_elytra",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": "elytra_crystalite",
+            "minecraft:cooldown": {
+                "category": "diamond:cooldown",
+                "duration": 0.1
+            },
+            "minecraft:use_animation": "camera",
+            "minecraft:enchantable": {
+                "slot": "elytra",
+                "value": 1
+            },
+            "minecraft:durability": {
+                "max_durability": 432
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest",
+                "dispensable": true
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "betterend:enchanted_membrane"
+                        ],
+                        "repair_amount": 432
+                    }
+                ]
+            }
+        }
+    }
+}

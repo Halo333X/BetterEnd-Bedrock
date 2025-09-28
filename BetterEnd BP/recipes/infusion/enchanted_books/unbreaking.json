@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:aqua_affinity"
+            "identifier": "betterend:unbreaking"
         },
         "tags": [
             "infusion_pedestal"
@@ -27,7 +27,7 @@
             }
         },
         "result": {
-            "item": "betterend:aqua_affinity"
+            "item": "betterend:unbreaking"
         }
     }
 }
