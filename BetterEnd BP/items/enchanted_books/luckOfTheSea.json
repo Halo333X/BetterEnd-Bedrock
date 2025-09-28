@@ -1,0 +1,17 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:luck_of_the_sea"
+        },
+        "components": {
+            "minecraft:tags": {
+                "tags": [
+                    "betterend:enchanted_book"
+                ]
+            },
+            "minecraft:icon": "book_enchanted",
+            "minecraft:glint": true
+        }
+    }
+}
