@@ -11,6 +11,7 @@
       {
         "condition": "q.block_state('betterend:top') == true",
         "components": {
+          "minecraft:light_emission": 15,
           "minecraft:material_instances": {
             "*": {
               "texture": "filalux_top",
@@ -79,7 +80,6 @@
       },
       "minecraft:flammable": true,
       "minecraft:loot": "loot_tables/empty.json",
-      "minecraft:light_emission": 10,
       "minecraft:geometry": "geometry.random_model2"
     }
   }
