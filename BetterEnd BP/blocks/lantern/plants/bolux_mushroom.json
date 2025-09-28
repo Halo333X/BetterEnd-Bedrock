@@ -35,7 +35,6 @@
             "minecraft:custom_components": [
                 "betterend:lucernia_index"
             ],
-            "minecraft:light_emission": 10,
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:material_instances": {
                 "*": {
