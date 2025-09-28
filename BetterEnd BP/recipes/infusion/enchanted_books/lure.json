@@ -1,0 +1,36 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:lure"
+        },
+        "tags": [
+            "infusion_pedestal"
+        ],
+        "pattern": [
+            "lel",
+            "cbc",
+            "lfl"
+        ],
+        "key": {
+            "l": {
+                "item": "minecraft:lapis_lazuli"
+            },
+            "e": {
+                "item": "betterend:enchanted_petal"
+            },
+            "b": {
+                "item": "minecraft:book"
+            },
+            "c": {
+                "item": "minecraft:gold_nugget"
+            },
+            "f": {
+                "item": "minecraft:fishing_rod"
+            }
+        },
+        "result": {
+            "item": "betterend:lure"
+        }
+    }
+}

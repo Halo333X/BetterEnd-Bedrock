@@ -1,0 +1,36 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:flame"
+        },
+        "tags": [
+            "infusion_pedestal"
+        ],
+        "pattern": [
+            "lel",
+            "cbc",
+            "lal"
+        ],
+        "key": {
+            "l": {
+                "item": "minecraft:lapis_lazuli"
+            },
+            "e": {
+                "item": "betterend:enchanted_petal"
+            },
+            "b": {
+                "item": "minecraft:book"
+            },
+            "c": {
+                "item": "minecraft:blaze_powder"
+            },
+            "a": {
+                "item": "minecraft:arrow"
+            }
+        },
+        "result": {
+            "item": "betterend:flame"
+        }
+    }
+}

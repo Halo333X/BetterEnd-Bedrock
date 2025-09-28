@@ -1,0 +1,33 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:sharpness"
+        },
+        "tags": [
+            "infusion_pedestal"
+        ],
+        "pattern": [
+            "lel",
+            " b ",
+            "lcl"
+        ],
+        "key": {
+            "l": {
+                "item": "minecraft:lapis_lazuli"
+            },
+            "e": {
+                "item": "betterend:enchanted_petal"
+            },
+            "b": {
+                "item": "minecraft:book"
+            },
+            "c": {
+                "item": "minecraft:netherite_scrap"
+            }
+        },
+        "result": {
+            "item": "betterend:sharpness"
+        }
+    }
+}

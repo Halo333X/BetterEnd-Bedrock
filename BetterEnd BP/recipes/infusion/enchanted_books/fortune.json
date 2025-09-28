@@ -1,0 +1,36 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:fortune"
+        },
+        "tags": [
+            "infusion_pedestal"
+        ],
+        "pattern": [
+            "lel",
+            "cbc",
+            "lql"
+        ],
+        "key": {
+            "l": {
+                "item": "minecraft:lapis_lazuli"
+            },
+            "e": {
+                "item": "betterend:enchanted_petal"
+            },
+            "b": {
+                "item": "minecraft:book"
+            },
+            "c": {
+                "item": "minecraft:emerald"
+            },
+            "q": {
+                "item": "minecraft:rabbit_foot"
+            }
+        },
+        "result": {
+            "item": "betterend:fortune"
+        }
+    }
+}

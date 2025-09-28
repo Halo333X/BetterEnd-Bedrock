@@ -1,0 +1,36 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:infinity"
+        },
+        "tags": [
+            "infusion_pedestal"
+        ],
+        "pattern": [
+            "lel",
+            "cbc",
+            "ltl"
+        ],
+        "key": {
+            "l": {
+                "item": "minecraft:lapis_lazuli"
+            },
+            "e": {
+                "item": "betterend:enchanted_petal"
+            },
+            "b": {
+                "item": "minecraft:book"
+            },
+            "c": {
+                "item": "minecraft:arrow"
+            },
+            "t": {
+                "item": "betterend:eternal_crystal"
+            }
+        },
+        "result": {
+            "item": "betterend:infinity"
+        }
+    }
+}
