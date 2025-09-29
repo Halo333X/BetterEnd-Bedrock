@@ -1,0 +1,29 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:gunpowder2"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "bs",
+            "c"
+        ],
+        "key": {
+            "b": {
+                "item": "minecraft:bone_meal"
+            },
+            "s": {
+                "item": "betterend:crystalline_sulphur"
+            },
+            "c": {
+                "item": "minecraft:charcoal"
+            }
+        },
+        "result": {
+            "item": "minecraft:gunpowder"
+        }
+    }
+}
