@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "betterend:thallasium_ingot"
+        },
+        "tags": [
+            "furnace",
+            "blast_furnace"
+        ],
+        "input": "betterend:thallasium_raw",
+        "output": "betterend:thallasium_ingot"
+    }
+}
