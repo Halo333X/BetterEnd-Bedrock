@@ -28,6 +28,11 @@ class PlayerUtils {
             this.player.onScreenDisplay.setActionBar(`Id: ${block.typeId}\nTags: ${block.getTags()}\nStates: ${JSON.stringify(block.permutation.getAllStates())} ${item ? '\nItem: ' + item.typeId + '\nItem Tags: ' + item.getTags() : ''}`);
         }
     }
+    wailaArmor() {
+        const chest = this.player.getComponent('equippable');
+        const item = chest.getEquipment(EquipmentSlot.Chest);
+        console.warn(item.typeId);
+    }
     sky() {
         const nebula = "animation.nebula.moving";
         this.player.playAnimation(nebula);

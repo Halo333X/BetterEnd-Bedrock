@@ -29,12 +29,13 @@ system.runInterval(() => {
             if (entity instanceof Player) {
                 // Player Utils
                 const playerUtils = new PlayerUtils(entity);
-                playerUtils.waila();
                 playerUtils.climb();
                 playerUtils.joinSky();
                 playerUtils.fallVelocity();
                 playerUtils.ambientStuff();
                 playerUtils.armor();
+                playerUtils.waila();
+                // playerUtils.wailaArmor();
             }
             else {
                 // Entity Utils

@@ -45,6 +45,12 @@ class PlayerUtils {
     }
   }
 
+  wailaArmor() {
+    const chest = this.player.getComponent('equippable');
+    const item = chest.getEquipment(EquipmentSlot.Chest);
+    console.warn(item.typeId)
+  }
+
   sky() {
     const nebula = "animation.nebula.moving";
     this.player.playAnimation(nebula);
