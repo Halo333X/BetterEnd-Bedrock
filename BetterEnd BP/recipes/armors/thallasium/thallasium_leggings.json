@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:thallasium_leggings"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa",
+            "a a",
+            "a a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:thallasium_ingot"
+            }
+        },
+        "result": {
+            "item": "betterend:thallasium_leggings"
+        }
+    }
+}

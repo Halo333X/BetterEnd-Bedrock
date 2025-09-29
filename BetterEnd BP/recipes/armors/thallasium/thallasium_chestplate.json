@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:thallasium_chestplate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a a",
+            "aaa",
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:thallasium_ingot"
+            }
+        },
+        "result": {
+            "item": "betterend:thallasium_chestplate"
+        }
+    }
+}
