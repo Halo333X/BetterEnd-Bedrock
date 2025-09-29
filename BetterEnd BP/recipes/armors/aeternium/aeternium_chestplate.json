@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:aeternium_chestplate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa",
+            "ama",
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:aeternium_ingot"
+            },
+            "m": {
+                "item": "betterend:terminite_chestplate"
+            }
+        },
+        "result": {
+            "item": "betterend:aeternium_chestplate"
+        }
+    }
+}
