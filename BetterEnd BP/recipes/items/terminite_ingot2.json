@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:terminite_ingot2"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "ddd",
+            "ded",
+            "ddd"
+        ],
+        "key": {
+            "e": {
+                "item": "minecraft:iron_ingot"
+            },
+            "d": {
+                "item": "betterend:ender_dust"
+            }
+        },
+        "result": {
+            "item": "betterend:terminite_ingot"
+        }
+    }
+}
