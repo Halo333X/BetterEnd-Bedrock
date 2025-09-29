@@ -1,12 +1,10 @@
 {
-  "format_version": "1.21.40",
+  "format_version": "1.21.0",
   "minecraft:single_block_feature": {
     "description": {
       "identifier": "betterend:crystal_mountains/end_stone_single_block_feature"
     },
-    "places_block": {
-     "name": "minecraft:end_stone"
-    }, 
+    "places_block": "minecraft:end_stone", 
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false
   }

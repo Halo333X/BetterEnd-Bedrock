@@ -4,18 +4,16 @@
     "description": {
       "identifier": "betterend:lantern_woods/tree/filalux_scatter_feature"
     },
-    "iterations": "return t.SizePlant;",
-    "scatter_chance": 100.0,
+    "iterations": 48,
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ -8, 8 ],
       "distribution": "gaussian"
     },
     "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ -8, 8 ],
       "distribution": "gaussian"
     },
     "y": 0,
-    "project_input_to_floor": false,
     "places_feature": "betterend:lantern_woods/tree/filalux_snap_to_ceiling"
   }
 }

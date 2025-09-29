@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:shadow_forest/foliage/shadow_foliage_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:shadow_forest/foliage/murkweed_scatter_feature", 1],
+      ["betterend:shadow_forest/foliage/needlegrass_scatter_feature", 1], 
+      ["betterend:shadow_forest/foliage/shadow_berry_seed_scatter_feature", 1]
+    ]
+  }
+}

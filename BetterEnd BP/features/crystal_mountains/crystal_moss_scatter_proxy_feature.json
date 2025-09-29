@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:crystal_mountains/crystal_moss_scatter_proxy_feature"
     },
-    "iterations": "return t.crystal_moss_patch_area > 0;",
+    "iterations": "t.crystal_moss_patch_area>0.45",
     "x": 0,
     "z": 0,
     "y": -1,

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:crystal_mountains/aurora_crystal/aurora_crystal_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_1_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_2_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_3_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_4_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_5_structure_template_feature", 1], 
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_6_structure_template_feature", 1], 
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_7_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_8_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_9_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_10_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_1i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_2i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_3i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_4i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_5i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_6i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_7i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_8i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_9i_structure_template_feature", 1],
+      ["betterend:crystal_mountains/aurora_crystal/aurora_crystal_10i_structure_template_feature", 1]
+    ]
+  }
+}

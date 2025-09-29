@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/lakes/lake_p2_feature"
+    },
+    "places_feature": "betterend:foggy_mushroomland/lakes/lake_with_air_feature",
+    "distribution": {
+      "iterations": "v.radiusXZ = t.size;v.radiusX = v.radiusXZ;v.radiusY = 5;v.radiusZ = v.radiusXZ;v.previous_x = v.worldx;v.previous_y = v.worldy;v.previous_z = v.worldz;v.i = math.ceil((2 * v.radiusX + 1) * (2 * v.radiusY + 1) * (2 * v.radiusZ + 1));return v.i;",
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": ["-v.radiusX", "v.radiusX"]
+      },
+      "y": {
+        "distribution": "fixed_grid",
+        "extent": ["-v.radiusY", "v.radiusY"]
+      },
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": ["-v.radiusZ", "v.radiusZ"]
+      }
+    }
+  }
+}

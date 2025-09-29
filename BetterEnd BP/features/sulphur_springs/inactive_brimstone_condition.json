@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:sulphur_springs/inactive_brimstone_condition"
+    },
+    "iterations": "t.biome == 'Sulphur_Springs'&&t.inactive_brimstone>0.2",
+    "x": 0,
+    "z": 0,
+    "y": "t.surface > math.random(42, 44) ? { return t.surface; } : { return 400; };",
+    "places_feature": "betterend:sulphur_springs/inactive_brimstone_column"
+  }
+}

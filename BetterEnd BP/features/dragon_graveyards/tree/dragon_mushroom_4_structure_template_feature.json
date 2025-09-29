@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/tree/dragon_mushroom_4_structure_template_feature"
+    },
+    "structure_name": "mystructure:dragon_graveyards/dragon_mushroom4",
+    "facing_direction": "random",
+    "adjustment_radius": 8,
+    "constraints": {
+      "grounded": {}
+    }
+  }
+}

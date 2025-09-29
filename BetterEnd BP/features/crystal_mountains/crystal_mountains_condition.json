@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:crystal_mountains/crystal_mountains_condition"
+    },
+    "iterations": "t.biome == 'Crystal_Mountains'",
+    "x": 0,
+    "z": 0,
+    "y": 56,
+    "places_feature": "betterend:crystal_mountains/end_stone_single_block_feature"
+  }
+}

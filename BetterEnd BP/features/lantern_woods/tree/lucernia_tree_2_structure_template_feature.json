@@ -5,10 +5,10 @@
       "identifier": "betterend:lantern_woods/tree/lucernia_tree_2_structure_template_feature"
     },
     "structure_name": "mystructure:lantern_woods/lantern_tree2",
-    "facing_direction": "random",
-    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "adjustment_radius": 16,
     "constraints": {
-        "grounded": {}
+      "grounded": {}
     }
   }
 }

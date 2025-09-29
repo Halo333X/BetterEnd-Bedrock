@@ -4,11 +4,11 @@
     "description": {
       "identifier": "betterend:shadow_forest/tree/shadow_tree_scatter_feature"
     },
-    "iterations": "t.BetterEndBiome == 13 ? 2 : 0",
+    "iterations": "t.biome == 'Shadow_Forest' ? 2 : 0",
     "coordinate_eval_order":"zxy",
     "x": -16,
     "z": -16,
-    "y": "t.surface > 50 ? { return t.surface - v.originy; } : { return 400; };",
+    "y": "t.surface > 50 ? { return t.surface; } : { return 400; };",
     "places_feature": "betterend:shadow_forest/tree/shadow_tree_weighted_random_feature"
   }
 }

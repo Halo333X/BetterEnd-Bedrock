@@ -1,0 +1,56 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:crystal_mountains/foliage/crystal_grass_single_block_feature"
+    },
+    "places_block": [
+      {
+        "block": {
+          "name": "betterend:crystal_grass",
+          "states": {
+            "betterend:random": 0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:crystal_grass",
+          "states": {
+            "betterend:random": 1
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:crystal_grass",
+          "states": {
+            "betterend:random": 2
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:crystal_grass",
+          "states": {
+            "betterend:random": 3
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false, 
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "bottom": [
+        "betterend:crystal_moss"
+      ]
+    }
+  }
+}

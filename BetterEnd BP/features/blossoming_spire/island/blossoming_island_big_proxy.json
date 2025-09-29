@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:blossoming_spire/island/blossoming_island_big_proxy"
+    },
+    "iterations": 1,
+    "x": -16,
+    "y": 0,
+    "z": -16,
+    "places_feature": "betterend:blossoming_spire/island/blossom_island_big_weighted_random_feature"
+  }
+}

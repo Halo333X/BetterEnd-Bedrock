@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:crystal_mountains/crystal_patch_scatter_feature"
     },
-    "iterations": "t.BetterEndBiome == 3",
+    "iterations": "t.biome == 'Crystal_Mountains'",
     "x": 0,
     "z": 0,
     "y": "q.above_top_solid(v.worldx, v.worldz)",

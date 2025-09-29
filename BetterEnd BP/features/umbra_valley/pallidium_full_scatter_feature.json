@@ -4,10 +4,10 @@
     "description": {
       "identifier": "betterend:umbra_valley/pallidium_full_scatter_feature"
     },
-    "iterations": "return t.pallidium_area > 0.3;", 
+    "iterations": "t.pallidium_area>0.3", 
     "x": 0,
     "z": 0,
-    "y": "t.surface - 1",
+    "y": "t.surface-1",
     "places_feature": "betterend:umbra_valley/pallidium_full_single_block_feature"
   }
 }

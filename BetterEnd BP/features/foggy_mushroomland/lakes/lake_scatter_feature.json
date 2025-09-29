@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/lakes/lake_scatter_feature"
+    },
+    "places_feature": "betterend:foggy_mushroomland/lakes/lake_with_endstone_dust_feature",
+    "distribution": {
+      "iterations": "t.size=math.random_integer(5, 8);return1;",
+      "scatter_chance": 15,
+      "x": "-t.size",
+      "y": 70,
+      "z": "-t.size"
+    }
+  }
+}
+//t.surface > 58 ? { return t.surface-t.size; } : { return 400; };

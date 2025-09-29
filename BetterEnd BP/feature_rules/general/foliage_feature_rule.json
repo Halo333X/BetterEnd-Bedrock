@@ -6,18 +6,18 @@
       "places_feature": "betterend:gen/terrain/foliage_feature"
     },
     "conditions": {
-      "placement_pass": "surface_pass",
+      "placement_pass": "after_sky_pass",
       "minecraft:biome_filter": {
-          "test": "has_biome_tag",
-          "operator": "==",
-          "value": "the_end"
-        }
+        "test": "has_biome_tag",
+        "operator": "==",
+        "value": "the_end"
+      }
     },
     "distribution": {
-      "iterations": "t.BiomeSize = 512; t.BiomeTransition = q.noise(v.originx / 256, v.originz / 256) * 0.01 + q.noise(v.originx / 128, v.originz / 128) * 0.05 + q.noise(v.originx / 64, v.originz / 64) * 0.025 * q.noise(v.originx / 32, v.originz / 32) * 0.01025 + q.noise(v.originx / 13, v.originz / 13) * 0.01045;  t.x = v.originx / t.BiomeSize + t.BiomeTransition; t.z = v.originz / t.BiomeSize + t.BiomeTransition; t.d1 = 999.0; t.d2 = 999.0; t.c1 = 0.0; t.i = 0.0; loop(9, { t.px = math.floor(t.x) + math.mod(t.i,3) - 1; t.pz = math.floor(t.z) + math.floor(t.i/3) - 1; t.rx = t.px * 127.1 + t.pz * 311.7; t.rz = t.pz * 269.5 + t.px * 183.3; t.rx = (2.0 * math.abs(t.rx / 3.14 - 2.0 * math.floor(t.rx / (2.0 * 3.14)) - 1.0) - 1.0) * 41415.92653; t.rz = (2.0 * math.abs(t.rz / 3.14 - 2.0 * math.floor(t.rz / (2.0 * 3.14)) - 1.0) - 1.0) * 41415.92653; t.rx = (t.rx - math.floor(t.rx)); t.rz = (t.rz - math.floor(t.rz)); t.d = math.pow(t.px + t.rx - t.x, 2) + math.pow(t.pz + t.rz - t.z, 2); (t.d < t.d1) ? { t.d2 = t.d1; t.d1 = t.d; t.c1 = t.rx; } : { (t.d < t.d2) ? { t.d2 = t.d;}; }; t.i = t.i + 1; }); t.BetterEndBiome = math.floor(t.c1 * 18); t.SizePlant = 8; t.ExtentPlant = t.SizePlant * 2;t.crystal_moss_patch_area = q.noise(v.originx / 30, v.originz / 30) + q.noise(v.originx / 4, v.originz / 4) * 0.25; return 1 ? (math.abs(v.originx) > 400 || math.abs(v.originz) > 400) : 0;",
+      "iterations": "(math.abs(v.originx)>600||math.abs(v.originz)>600)?1:0",
       "x": 0,
       "z": 0,
-      "y": "t.surface = q.heightmap(v.worldx, v.worldz); return 0;"
+      "y": "t.transitionnoise = q.noise(v.worldx/256,v.worldz/256)*0.25 + q.noise(v.worldx/128,v.worldz/128)*0.05 + q.noise(v.worldx/64,v.worldz/64)*0.025 * q.noise(v.worldx/32,v.worldz/32)*0.01025 + q.noise(v.worldx/16,v.worldz/16)*0.01065;t.x = v.worldx/512;t.z = v.worldz/512;t.d1 = 999.0;t.d2 = 999.0;t.c1 = 0.0;t.i = 0.0;loop(9, {t.px = math.floor(t.x) + math.mod(t.i,3) - 1;t.pz = math.floor(t.z) + math.floor(t.i/3) - 1;t.hash_x = math.sin(t.px*12.9898 + t.pz*78.233) * 43758.5453;t.hash_z = math.sin(t.px*39.3467 + t.pz*11.135) * 96321.6543;t.rx = t.hash_x - math.floor(t.hash_x);t.rz = t.hash_z - math.floor(t.hash_z);t.d = math.pow(t.px + t.rx + t.transitionnoise - t.x, 2) + math.pow(t.pz + t.rz + t.transitionnoise - t.z, 2); (t.d < t.d1) ? { t.d2 = t.d1; t.d1 = t.d; t.c1 = t.rx; } : {(t.d < t.d2) ? { t.d2 = t.d; };};t.i = t.i + 1;});t.biome='Amber_Land';t.index=math.floor(t.c1*16);(t.index==0)  ? { t.biome='Amber_Land'; };(t.index==1)  ? { t.biome='Blossoming_Spire'; };(t.index==2)  ? { t.biome='Chorus_Forest'; };(t.index==3)  ? { t.biome='Crystal_Mountains'; };(t.index==4)  ? { t.biome='Dragon_Graveyards'; };(t.index==5)  ? { t.biome='Dry_Shrubland'; };(t.index==6)  ? { t.biome='Foggy_Mushroomland'; };(t.index==7)  ? { t.biome='Glowing_Grasslands'; };(t.index==8)  ? { t.biome='Megalake_Grove'; };(t.index==9) ? { t.biome='Shadow_Forest'; };(t.index==10) ? { t.biome='Lantern_Woods'; };(t.index==11) ? { t.biome='Sulphur_Springs'; };(t.index==12) ? { t.biome='Umbra_Valley'; };(t.index==13) ? { t.biome='Umbrella_Jungle'; };(t.index==14) ? { t.biome='empty_end'; };(t.index==15) ? { t.biome='Painted_Mountains';};(t.index==15) ? {t.dist = math.sqrt(t.d1);((t.dist >= 0.0) && (t.dist < 0.5)) ? {t.biome = 'Neon_oasis';};((t.dist >= 0.5) && (t.dist < 1.0)) ? {t.biome = 'Dust_Wastenlands';};};t.surface=q.heightmap(v.worldx,v.worldz);return0;"
     }
   }
 }

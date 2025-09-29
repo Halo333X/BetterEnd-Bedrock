@@ -4,17 +4,17 @@
     "description": {
       "identifier": "betterend:amber_land/tree/bulb_moss_scatter_feature"
     },
-    "iterations": "return 8 * t.SizePlant;",
+    "iterations": 96,
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "gaussian"
-    },
-    "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ -8, 8 ],
       "distribution": "gaussian"
     },
     "y": {
-      "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],
+      "extent": [ -4, 4 ],
+      "distribution": "gaussian"
+    },
+    "z": {
+      "extent": [ -8, 8 ],
       "distribution": "gaussian"
     },
     "places_feature": "betterend:amber_land/tree/bulb_moss_single_block_feature"

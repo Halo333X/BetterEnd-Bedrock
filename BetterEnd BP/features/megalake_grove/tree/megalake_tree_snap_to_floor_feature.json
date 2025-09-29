@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "betterend:megalake_grove/tree/megalake_tree_snap_to_floor_feature"
+    },
+    "feature_to_snap": "betterend:megalake_grove/tree/megalake_tree_weighted_random_feature",
+    "vertical_search_range": 12,
+    "surface": "floor",
+    "allowed_surface_blocks": [
+      {
+        "name": "betterend:end_moss",
+        "states": {
+          "betterend:biomes": "megalakes_grove"
+        }
+      }
+    ]
+  }
+}

@@ -1,18 +1,17 @@
 {
   "format_version": "1.21.0",
-    "minecraft:growing_plant_feature": {
-      "description": {
-        "identifier": "betterend:amber_land/foliage/glowing_pillar_leaves_down_single_block_feature"
-      },
-      "height_distribution":  [
-        [{"range_min": 2, "range_max": 2}, 1]
-      ],
-      "growth_direction": "UP",
-      "body_blocks" : [
-        [{"name": "betterend:glowing_pillar_leaves", "states": {"minecraft:facing_direction": "down"}}, 1]
-      ],
-      "head_blocks" : [
-        [{"name": "minecraft:air"}, 1]
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/foliage/glowing_pillar_leaves_down_single_block_feature"
+    },
+    "height_distribution":  [
+      [{"range_min": 2, "range_max": 2}, 1]
+    ],
+    "growth_direction": "UP",
+    "body_blocks" : [
+      [{"name": "betterend:glowing_pillar_leaves", "states": {"minecraft:facing_direction": "down"}}, 1]],
+    "head_blocks" : [
+      [{"name": "minecraft:air"}, 1]
     ]
   }
 }

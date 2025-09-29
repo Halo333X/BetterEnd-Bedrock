@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:umbra_valley/umbra_valley_condition"
+    },
+    "iterations": "return t.biome == 'Umbra_Valley' ? t.FillHeight : 0;",
+    "x": 0,
+    "z": 0,
+    "y": {
+      "extent": [ -64, "t.surface" ],
+      "distribution": "fixed_grid"
+    },
+    "places_feature": "betterend:umbra_valley/umbralith_single_block_feature"
+  }
+}

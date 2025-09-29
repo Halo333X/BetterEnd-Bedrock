@@ -12,7 +12,9 @@
     },
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false,
-    "may_replace": ["minecraft:air"],
+    "may_replace": [
+      "minecraft:air"
+    ],
     "may_attach_to": {
       "top": [
         "betterend:dragon_tree_leaves"

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:glowing_grasslands/foliage/glowing_small_foliage_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:glowing_grasslands/foliage/creeping_moss_scatter_feature", 1], 
+      ["betterend:glowing_grasslands/foliage/umbrella_moss_scatter_feature", 1],
+      ["betterend:glowing_grasslands/foliage/twisted_umbrella_moss_scatter_feature", 1]
+    ]
+  }
+}

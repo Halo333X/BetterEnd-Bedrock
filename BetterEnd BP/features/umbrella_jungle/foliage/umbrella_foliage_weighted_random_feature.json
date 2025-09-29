@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:umbrella_jungle/foliage/umbrella_foliage_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:umbrella_jungle/foliage/jungle_grass_scatter_feature", 1],
+      ["betterend:umbrella_jungle/foliage/small_jellyshroom_scatter_feature", 1], 
+      ["betterend:umbrella_jungle/foliage/twisted_umbrella_moss_scatter_feature", 1]
+    ]
+  }
+}

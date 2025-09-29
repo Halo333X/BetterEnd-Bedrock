@@ -4,11 +4,11 @@
     "description": {
       "identifier": "betterend:lantern_woods/tree/lucernia_tree_scatter_feature"
     },
-    "iterations": "t.BetterEndBiome == 9 ? 5 : 0",
-    "coordinate_eval_order": "zxy",
+    "iterations": "t.biome=='Lantern_Woods'",
+    "coordinate_eval_order":"zxy",
     "x": -16,
     "z": -16,
-    "y": "t.surface > 50 ? { return t.surface - v.originy; } : { return 400; };",
+    "y": "t.surface > 50 ? { return t.surface; } : { return 400; };",
     "places_feature": "betterend:lantern_woods/tree/lucernia_tree_weighted_random_feature"
   }
 }

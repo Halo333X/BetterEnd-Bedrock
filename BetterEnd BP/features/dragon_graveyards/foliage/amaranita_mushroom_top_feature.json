@@ -1,0 +1,36 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/foliage/amaranita_mushroom_top_feature"
+    },
+    "height_distribution": [
+      [{ "range_min": 2, "range_max": 3 }, 1],
+      [{ "range_min": 3, "range_max": 4 }, 1]
+    ],
+    "growth_direction": "UP",
+    "body_blocks": [
+      [
+        {
+          "name": "betterend:small_amaranita_mushroom",
+          "states": {
+            "betterend:growth": 5
+          }
+        },
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        {
+          "name": "betterend:small_amaranita_mushroom",
+          "states": {
+            "betterend:growth": 6
+          }
+        },
+        1
+      ]
+    ],
+    "allow_water": false
+  }
+}

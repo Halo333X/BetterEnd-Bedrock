@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:gen/caves/terrain/air_single_block_feature"
+    },
+    "places_block": "minecraft:air",
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false, 
+    "may_replace": [
+      "minecraft:end_stone", 
+      "betterend:amber_ore",
+      "betterend:thallasium_ore",
+      "betterend:ender_ore", 
+      "betterend:flavolite", 
+      "betterend:violecite",
+      {
+        "name": "betterend:umbralith",
+        "states": {
+          "betterend:biomes": "umbra_valley"
+        }
+      }
+    ]
+  }
+}

@@ -1,15 +1,15 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "betterend:lantern_woods/tree/lucernia_tree_weighted_random_feature"
-        },
-        "features": [
-            ["betterend:lantern_woods/tree/lucernia_tree_1_structure_template_feature",  1],
-            ["betterend:lantern_woods/tree/lucernia_tree_2_structure_template_feature", 1],
-            ["betterend:lantern_woods/tree/lucernia_tree_3_structure_template_feature", 1],
-            ["betterend:lantern_woods/tree/lucernia_tree_4_structure_template_feature", 1], 
-            ["betterend:lantern_woods/tree/lucernia_tree_6_structure_template_feature", 1]
-        ]
-    }
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:lantern_woods/tree/lucernia_tree_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:lantern_woods/tree/lucernia_tree_1_structure_template_feature",  1],
+      ["betterend:lantern_woods/tree/lucernia_tree_2_structure_template_feature", 1],
+      ["betterend:lantern_woods/tree/lucernia_tree_3_structure_template_feature", 1],
+      ["betterend:lantern_woods/tree/lucernia_tree_4_structure_template_feature", 1], 
+      ["betterend:lantern_woods/tree/lucernia_tree_6_structure_template_feature", 1]
+    ]
+  }
 }

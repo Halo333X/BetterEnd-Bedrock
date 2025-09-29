@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:glowing_grasslands/foliage/glowing_foliage_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:glowing_grasslands/foliage/blooming_cooksonia_scatter_feature", 1],
+      ["betterend:glowing_grasslands/foliage/fracturn_scatter_feature", 1], 
+      ["betterend:glowing_grasslands/foliage/salteago_scatter_feature", 1],
+      ["betterend:glowing_grasslands/foliage/vaiolush_fern_scatter_feature", 1]
+    ]
+  }
+}

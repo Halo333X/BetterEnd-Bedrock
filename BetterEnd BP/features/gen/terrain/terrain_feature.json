@@ -1,34 +1,38 @@
 {
   "format_version": "1.21.0",
-    "minecraft:aggregate_feature": {
-	  "description": {
-		"identifier": "betterend:gen/terrain/terrain_feature"
-		},
-		"features": [
-		"betterend:amber_land/amber_land",//1
-	    "betterend:blossoming_spire/blossoming_spire",//2
-      	"betterend:chorus_forest/chorus_forest",//3
-     	"betterend:dragon_graveyards/dragon_graveyards",//4
-		"betterend:dry_shrubland/dry_shrubland",//5
-	    "betterend:dust_wastenlands/dust_wastenlands",//6
-		"betterend:foggy_mushroomland/foggy_mushroomland",//7
-		"betterend:glowing_grasslands/glowing_grasslands",//8
-		"betterend:lantern_woods/lantern_woods",//9
-		"betterend:megalake/megalake",//10
-		"betterend:neon_oasis/neon_oasis",//11
-		"betterend:shadow_forest/shadow_forest",//12
-		"betterend:umbrella_jungle/umbrella_jungle",//13
-		"betterend:gen/terrain/mountain_column",
-		"betterend:gen/caves/gen/cave_terrain_column", 
-		"betterend:painted_mountains/strata_condition", 
-		"betterend:sulphur_springs/sulphur_springs", 
-		"betterend:umbra_valley/umbra_valley", 
-		"betterend:megalake/lakes/megalake_water",
-		"betterend:megalake/lakes/air_replace", 
-		"betterend:crystal_mountains/crystal_patch_scatter_feature", 
-		"betterend:neon_oasis/end_moss_scatter_proxy_feature",
-		"betterend:umbra_valley/pallidium_area_feature", 
-		"betterend:sulphur_springs/geyser/inactive_brimstone_proxy"
-		]
-	}
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:gen/terrain/terrain_feature"
+    },
+    "features": [
+      //biomes
+      "betterend:amber_land/amber_land_fixed",
+      "betterend:blossoming_spire/blossoming_spire_condition",
+      "betterend:chorus_forest/chorus_forest_condition",
+      "betterend:crystal_mountains/crystal_mountain_column",
+      "betterend:dragon_graveyards/dragon_graveyards_condition",
+      "betterend:dry_shrubland/dry_shrubland_condition",
+      "betterend:dust_wastenlands/dust_wastenlands_condition",
+      "betterend:foggy_mushroomland/foggy_mushroomland_condition",
+      "betterend:glowing_grasslands/glowing_grasslands_condition",
+      "betterend:lantern_woods/lantern_woods_condition",
+      "betterend:megalake_grove/megalake_grove_condition",
+      "betterend:neon_oasis/neon_oasis_condition",
+      "betterend:painted_mountains/painted_mountain_column", 
+      "betterend:shadow_forest/shadow_forest_condition",
+      "betterend:sulphur_springs/sulphur_springs_condition",
+      "betterend:umbra_valley/umbra_valley_condition",
+      "betterend:umbrella_jungle/umbrella_jungle_condition",
+      //caves
+      "betterend:gen/caves/terrain/cave_terrain_column",
+      //patch
+      "betterend:crystal_mountains/crystal_patch_scatter_feature",
+      "betterend:umbra_valley/pallidium_feature",
+      "betterend:neon_oasis/patch/end_moss_condition",
+      "betterend:sulphur_springs/inactive_brimstone_condition",
+      "betterend:sulphur_springs/brimstone_condition",
+      "betterend:sulphur_springs/water_condition",
+      "betterend:megalake/megalake_gen"
+    ]
+  }
 }

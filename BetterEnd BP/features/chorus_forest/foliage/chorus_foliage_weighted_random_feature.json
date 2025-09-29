@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:chorus_forest/foliage/chorus_foliage_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:chorus_forest/foliage/chorus_grass_scatter_feature", 8],
+      ["betterend:chorus_forest/foliage/chorus_mushroom_seed_catter_feature", 1]
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/tree/dragon_pillar_scatter_feature"
+    },
+    "iterations": "t.biome=='Dragon_Graveyards'?q.noise(v.originx/16,v.originz/16)<-0:0",
+    "coordinate_eval_order":"zxy",
+    "x": "math.random(-8,8)",
+    "z": "math.random(-8,8)",
+    "y": "t.surface > 50 ? { return t.surface-2; } : { return 400; };",
+    "places_feature": "betterend:dragon_graveyards/tree/dragon_pillar_weighted_random_feature"
+  }
+}

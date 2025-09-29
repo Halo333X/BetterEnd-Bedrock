@@ -14,11 +14,13 @@
         "betterend:biomes": "chorus_forest"
       }
     }, 
-    "vegetation_chance": 0.07,
+    "vegetation_chance": 0.1,
 	"surface": "floor",
-	"extra_edge_column_chance": 1, 
 	"depth": 1,
-	"vertical_range": 4,
-	"horizontal_radius": { "range_min": 4, "range_max": 6 }
- }
+	"vertical_range": 5,
+	"horizontal_radius": {
+	  "range_min": 4, 
+	  "range_max": 6 
+	}
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:neon_oasis/patch/end_moss_single_block_feature"
+    },
+    "places_block": {
+      "name": "betterend:end_moss",
+      "states": {
+        "betterend:biomes": "neon_oasis"
+      }
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      {
+        "name": "betterend:endstone_dust",
+        "states": {
+          "betterend:biomes": "neon_oasis"
+        }
+      }
+    ]
+  }
+}

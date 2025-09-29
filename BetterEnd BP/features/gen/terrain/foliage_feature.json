@@ -1,63 +1,74 @@
 {
-	"format_version": "1.21.0",
-	"minecraft:aggregate_feature": {
-		"description": {
-			"identifier": "betterend:gen/terrain/foliage_feature"
-		},
-		"features": [
-		    "betterend:amber_land/ore/amber_ore_scatter", 
-			"betterend:amber_land/tree/amber_tree_scatter_feature", 
-			"betterend:amber_land/foliage/amber_foliage_scatter_feature",
-			"betterend:amber_land/foliage/amber_growing_plant_scatter_feature",
-			"betterend:amber_land/tree/bulb_moss_distance_scatter_feature", 
-			"betterend:blossoming_spire/tree/blossoming_tree_scatter_feature", 
-			"betterend:blossoming_spire/blossoming_foliage_scatter_feature",
-			"betterend:blossoming_spire/bush/tenanea_bush_scatter_feature", 
-			"betterend:blossoming_spire/tree/tenanea_flowers_gen_scatter_feature", 
-			"betterend:blossoming_spire/tree/twisted_moss_distance_scatter_feature", 
-			"betterend:blossoming_spire/tree/silk_moth_nest_scatter_feature", 
-			"betterend:chorus_forest/tree/chorus_tree_scatter_feature", 
-			"betterend:chorus_forest/chorus_foliage_scatter_feature",
-			"betterend:chorus_forest/bush/pythadendron_bush_scatter_feature", 
-			"betterend:chorus_forest/tree/tail_moss_distance_scatter_feature", 
-			"betterend:chorus_forest/tree/purple_polypore_distance_scatter_feature", 
-			"betterend:crystal_mountains/end_moss_scatter_feature",
-			"betterend:crystal_mountains/crystal_foliage_scatter_feature", 
-			"betterend:crystal_mountains/aurora_crystal_scatter_feature", 
-			"betterend:dry_shrubland/foliage/dry_foliage_scatter_feature",
-			"betterend:foggy_mushroomland/foggy_foliage_scatter_feature", 
-			"betterend:foggy_mushroomland/blue_vine_gen_scatter_feature", 
-			"betterend:foggy_mushroomland/tree/foggy_tree_scatter_feature", 
-			"betterend:foggy_mushroomland/tree/cyan_moss_distance_scatter_feature", 
-			"betterend:foggy_mushroomland/tree/dense_vine_gen_scatter_feature", 
-			"betterend:glowing_grasslands/lumecorn_scatter_feature", 
-			"betterend:glowing_grasslands/glowing_foliage_scatter_feature", 
-			"betterend:glowing_grasslands/glowing_foliage_minor_scatter_feature", 
-			"betterend:lantern_woods/tree/lucernia_tree_scatter_feature", 
-			"betterend:lantern_woods/foliage/lantern_foliage_scatter_feature", 
-			"betterend:lantern_woods/bush/lucernia_bush_scatter_feature",
-			"betterend:lantern_woods/tree/ruscus_distance_scatter_feature",
-			"betterend:lantern_woods/tree/aurant_polypore_distance_scatter_feature", 
-			"betterend:lantern_woods/tree/filalux_gen_scatter_feature", 
-			"betterend:megalake/tree/megalake_tree_scatter_feature", 
-			"betterend:neon_oasis/cactus/neon_cactus_scatter_feature", 
-			"betterend:shadow_forest/tree/shadow_tree_scatter_feature", 
-			"betterend:shadow_forest/tree/twisted_vine_gen_scatter_feature", 
-			"betterend:shadow_forest/shadow_plant_gen_scatter_feature", 
-			"betterend:shadow_forest/bush/dragon_bush_scatter_feature", 
-			"betterend:shadow_forest/shadow_foliage_scatter_feature", 
-			"betterend:sulphur_springs/geyser/sulphur_spring1_proxy", 
-			"betterend:sulphur_springs/geyser/sulphur_spring2_proxy", 
-			"betterend:sulphur_springs/geyser/sulphur_spring3_proxy", 
-			"betterend:umbrella_jungle/tree/umbrella_tree_scatter_feature", 
-			"betterend:umbrella_jungle/tree/jellyshroom_tree_scatter_feature", 
-			"betterend:umbrella_jungle/tree/jungle_vine_gen_scatter_feature", 
-			"betterend:umbrella_jungle/umbrella_foliage_scatter_feature", 
-			"betterend:umbrella_jungle/tree/jungle_fern_distance_scatter_feature", 
-			"betterend:umbrella_jungle/tree/small_jellyshroom_wall_distance_scatter_feature", 
-			"betterend:umbra_valley/spiral/umbra_spiral_scatter_feature", 
-			"betterend:umbra_valley/spiral/umbra_spiral_pallidium_scatter_feature", 
-			"betterend:umbra_valley/umbra_foliage_scatter_feature"
-		]
-	}
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:gen/terrain/foliage_feature"
+    },
+    "features": [
+      //lakes
+      //"betterend:foggy_mushroomland/lakes/lake_scatter_feature",
+      
+      
+      //Amber Land
+      "betterend:amber_land/tree/amber_tree_scatter_feature",
+      "betterend:amber_land/tree/bulb_moss_control_feature",
+      "betterend:amber_land/ore/amber_ore_scatter",
+  
+      
+      //Blossoming Spire
+      "betterend:blossoming_spire/tree/blossoming_tree_scatter_feature",
+      "betterend:blossoming_spire/tree/twisted_moss_control_scatter_feature",
+      
+      
+      //Chorus Forest
+      "betterend:chorus_forest/tree/chorus_tree_scatter_feature",
+      "betterend:chorus_forest/bush/pythadendron_bush_control_feature",
+      
+      
+      //Crystal Mountains
+      "betterend:crystal_mountains/aurora_crystal/aurora_crystal_scatter_feature",
+      
+      
+      //Dragon Graveyards
+      "betterend:dragon_graveyards/tree/dragon_mushroom_scatter_feature",
+      "betterend:dragon_graveyards/tree/dragon_pillar_scatter_feature",
+      
+      //Foggy Mushroomland
+      "betterend:foggy_mushroomland/tree/foggy_tree_scatter_feature",
+      "betterend:foggy_mushroomland/tree/dense_vine_control_scatter_feature",
+      
+      
+      //Lantern Woods
+      "betterend:lantern_woods/tree/lucernia_tree_scatter_feature",
+      "betterend:lantern_woods/tree/filalux_control_scatter_feature",
+      "betterend:lantern_woods/tree/aurant_polypore_control_scatter_feature",
+      "betterend:lantern_woods/tree/ruscus_control_scatter_feature",
+      
+      
+      //Megalake Grove
+      "betterend:megalake_grove/tree/megalake_tree_scatter_feature",
+      
+      
+      // Shadow Forest
+      "betterend:shadow_forest/tree/shadow_tree_scatter_feature",
+      "betterend:shadow_forest/tree/twisted_vine_control_scatter_feature",
+      "betterend:chorus_forest/tree/purple_polypore_control_scatter_feature",
+      "betterend:chorus_forest/tree/tail_moss_control_scatter_feature",
+      "betterend:shadow_forest/bush/dragon_bush_control_feature",
+      
+      
+      //Umbra Valley
+      "betterend:umbra_valley/spiral/umbra_spiral_scatter_feature",
+      "betterend:umbra_valley/spiral/umbra_spiral_pallidium_scatter_feature",
+
+
+      //Umbrella Jungle
+      "betterend:umbrella_jungle/tree/jellyshroom_tree_scatter_feature",
+      "betterend:umbrella_jungle/tree/umbrella_tree_scatter_feature",
+      "betterend:umbrella_jungle/tree/jungle_vine_control_scatter_feature",
+      "betterend:foggy_mushroomland/tree/cyan_moss_control_scatter_feature",
+      "betterend:umbrella_jungle/tree/jungle_fern_control_scatter_feature",
+      "betterend:umbrella_jungle/tree/small_jellyshroom_wall_control_scatter_feature"
+    ]
+  }
 }

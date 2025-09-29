@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:gen/caves/terrain/cave_terrain_block"
+    },
+    "iterations": "((q.noise(v.originx/24,v.originy/24)+q.noise(v.originz/24,v.originy/24)+q.noise(v.originz/64,v.originx/64))+q.noise(v.originx/32,v.originz/32)*0.25)*0.7*(1.0-math.pow(((v.originy/22)-0.5)*2,6))",
+    "x": 0,
+    "z": 0,
+    "y": 30,
+    "places_feature": "betterend:gen/caves/terrain/air_single_block_feature"
+  }
+}

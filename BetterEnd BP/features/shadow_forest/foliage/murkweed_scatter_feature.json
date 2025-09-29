@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:shadow_forest/foliage/murkweed_scatter_feature"
+    },
+    "iterations": 12,
+    "coordinate_eval_order": "zyx",
+    "x": {
+      "extent": [ -4, 4 ],
+      "distribution": "gaussian"
+    },
+    "y": "q.heightmap(v.worldx,v.worldz)-v.originy",
+    "z": {
+      "extent": [ -4, 4 ],
+      "distribution": "gaussian"
+    },
+    "places_feature": "betterend:shadow_forest/foliage/murkweed_single_block_feature"
+  }
+}

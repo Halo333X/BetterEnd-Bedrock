@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:megalake_grove/tree/megalake_tree_scatter_feature"
+    },
+    "iterations": "t.biome == 'Megalake_Grove'",
+    "coordinate_eval_order": "zxy",
+    "x": -16,
+    "z": -16,
+    "y": "t.surface > 50 ? { return t.surface - math.random_integer(1,2); } : { return 400; };",
+    "places_feature": "betterend:megalake_grove/tree/megalake_tree_snap_to_floor_feature"
+  }
+}

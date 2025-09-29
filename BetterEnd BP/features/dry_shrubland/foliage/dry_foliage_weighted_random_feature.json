@@ -1,14 +1,14 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "betterend:dry_shrubland/foliage/dry_foliage_weighted_random_feature"
-        },
-        "features": [
-            ["betterend:dry_shrubland/foliage/lamellarium_scatter_feature", 1],
-            ["betterend:dry_shrubland/foliage/orango_scatter_feature", 1], 
-            ["betterend:dry_shrubland/foliage/aeridium_scatter_feature", 1],
-            ["betterend:dry_shrubland/foliage/lutebus_scatter_feature", 1]
-        ]
-    }
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:dry_shrubland/foliage/dry_foliage_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:dry_shrubland/foliage/lamellarium_scatter_feature", 1],
+      ["betterend:dry_shrubland/foliage/orango_scatter_feature", 1], 
+      ["betterend:dry_shrubland/foliage/aeridium_scatter_feature", 1],
+      ["betterend:dry_shrubland/foliage/lutebus_scatter_feature", 1]
+    ]
+  }
 }

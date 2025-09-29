@@ -4,11 +4,11 @@
     "description": {
       "identifier": "betterend:umbrella_jungle/tree/umbrella_tree_scatter_feature"
     },
-    "iterations": "t.BetterEndBiome == 16 ? 3 : 0",
+    "iterations": "t.biome == 'Umbrella_Jungle'",
     "coordinate_eval_order": "zxy",
     "x": -16,
     "z": -16,
-    "y": "t.surface > 50 ? { return t.surface - v.originy; } : { return 400; };",
+    "y": "t.surface > 50 ? { return t.surface; } : { return 400; };",
     "places_feature": "betterend:umbrella_jungle/tree/umbrella_tree_weighted_random_feature"
   }
 }

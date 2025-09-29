@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:sequence_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/chorus_replacer_p2"
+    },
+    "features": [ 
+      "betterend:amber_land/air_single_block_feature",
+      "betterend:amber_land/chorus_replacer_p3"
+    ]
+  }
+}

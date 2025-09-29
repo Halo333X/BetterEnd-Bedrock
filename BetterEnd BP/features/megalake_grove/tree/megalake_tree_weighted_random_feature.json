@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:megalake_grove/tree/megalake_tree_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:megalake_grove/tree/megalake_tree_1_structure_template_feature", 1],
+      ["betterend:megalake_grove/tree/megalake_tree_2_structure_template_feature", 1],
+      ["betterend:megalake_grove/tree/megalake_tree_3_structure_template_feature", 1],
+      ["betterend:megalake_grove/tree/megalake_tree_4_structure_template_feature", 1],
+      ["betterend:megalake_grove/tree/megalake_tree_5_structure_template_feature", 1]
+    ]
+  }
+}

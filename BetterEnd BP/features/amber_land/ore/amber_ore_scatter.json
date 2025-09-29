@@ -4,19 +4,19 @@
     "description": {
       "identifier": "betterend:amber_land/ore/amber_ore_scatter"
     },
-    "iterations": "t.BetterEndBiome == 0 ? 2 : 0",
+    "iterations": "t.biome == 'Amber_Land' ? 2 : 0",
     "x": {
-        "distribution": "uniform",
-        "extent": [ 0, "t.ExtentPlant" ]
-      },
-    "z": {
-        "distribution": "uniform",
-        "extent": [ 0, "t.ExtentPlant" ]
-      },
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
     "y": {
-        "distribution": "uniform",
-        "extent": [ 10, 65 ]
-      },
+      "distribution": "uniform",
+      "extent": [ 10, 65 ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
     "places_feature": "betterend:amber_land/ore/amber_ore_feature"
   }
 }

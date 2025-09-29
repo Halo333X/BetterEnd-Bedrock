@@ -1,16 +1,16 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "betterend:chorus_forest/tree/chorus_tree_weighted_random_feature"
-        },
-        "features": [
-            ["betterend:chorus_forest/tree/chorus_tree_1_structure_template_feature", 1],
-            ["betterend:chorus_forest/tree/chorus_tree_2_structure_template_feature", 1],
-            ["betterend:chorus_forest/tree/chorus_tree_3_structure_template_feature", 1],
-            ["betterend:chorus_forest/tree/chorus_tree_4_structure_template_feature", 1],
-            ["betterend:chorus_forest/tree/chorus_tree_5_structure_template_feature", 1], 
-            ["betterend:chorus_forest/tree/chorus_tree_6_structure_template_feature", 1]
-        ]
-    }
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:chorus_forest/tree/chorus_tree_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:chorus_forest/tree/chorus_tree_1_structure_template_feature", 3],
+      ["betterend:chorus_forest/tree/chorus_tree_2_structure_template_feature", 3],
+      ["betterend:chorus_forest/tree/chorus_tree_3_structure_template_feature", 2],
+      ["betterend:chorus_forest/tree/chorus_tree_4_structure_template_feature", 2],
+      ["betterend:chorus_forest/tree/chorus_tree_5_structure_template_feature", 1], 
+      ["betterend:chorus_forest/tree/chorus_tree_6_structure_template_feature", 1]
+    ]
+  }
 }

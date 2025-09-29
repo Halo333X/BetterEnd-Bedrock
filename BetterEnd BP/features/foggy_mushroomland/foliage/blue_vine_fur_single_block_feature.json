@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/foliage/blue_vine_fur_single_block_feature"
+    },
+    "places_block": {
+      "name": "betterend:blue_vine_fur"
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "auto_rotate":true,
+      "sides": [
+        "betterend:blue_vine_lantern"
+      ],
+      "min_sides_must_attach": 1
+    }
+  }
+}

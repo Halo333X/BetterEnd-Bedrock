@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:umbrella_jungle/foliage/twisted_tall_umbrella_moss_feature"
+    },
+    "early_out": "first_failure",
+    "features": [
+      "betterend:umbrella_jungle/foliage/twisted_tall_umbrella_moss_lower_single_block_feature",
+      "betterend:umbrella_jungle/foliage/twisted_tall_umbrella_moss_upper_scatter_feature"
+    ]
+  }
+}

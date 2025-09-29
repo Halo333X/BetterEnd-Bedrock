@@ -4,10 +4,9 @@
     "description": {
       "identifier": "betterend:umbra_valley/spiral/umbra_spiral_scatter_feature"
     },
-    "iterations": "return (t.BetterEndBiome == 15) && (t.pallidium_area < -0.1) ? 0.5 : 0;", 
-    "scatter_chance": 50.0,
-    "x": -16,
-    "z": -16,
+    "iterations": "t.biome == 'Umbra_Valley' && (t.pallidium_area < -0.0)?q.noise(v.originx/6,v.originz/6)>0:0",
+    "x": "(math.random(0,2) == 0 ? -16 : 16)",
+    "z": "(math.random(0,2) == 0 ? -16 : 16)",
     "y": "t.surface > 48 ? { return t.surface - 1; } : { return 400; };",
     "places_feature": "betterend:umbra_valley/spiral/umbra_spiral_weighted_random_feature"
   }

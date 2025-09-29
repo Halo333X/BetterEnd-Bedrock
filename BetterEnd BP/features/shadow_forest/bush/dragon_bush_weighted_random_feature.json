@@ -1,13 +1,13 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "betterend:shadow_forest/bush/dragon_bush_weighted_random_feature"
-        },
-        "features": [
-            ["betterend:shadow_forest/bush/dragon_bush_1_structure_template_feature", 1],
-            ["betterend:shadow_forest/bush/dragon_bush_2_structure_template_feature", 1], 
-            ["betterend:shadow_forest/bush/dragon_bush_3_structure_template_feature", 1]
-        ]
-    }
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:shadow_forest/bush/dragon_bush_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:shadow_forest/bush/dragon_bush_1_structure_template_feature", 1],
+      ["betterend:shadow_forest/bush/dragon_bush_2_structure_template_feature", 1], 
+      ["betterend:shadow_forest/bush/dragon_bush_3_structure_template_feature", 1]
+    ]
+  }
 }

@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:umbra_valley/pallidium_thin_scatter_feature"
     },
-    "iterations": "return t.pallidium_area > 0.1 && t.pallidium_area < 0.2;", 
+    "iterations": "t.pallidium_area>0.1&&t.pallidium_area<0.2", 
     "x": 0,
     "z": 0,
     "y": "t.surface - 1",

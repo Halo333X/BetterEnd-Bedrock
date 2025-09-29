@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/foliage/small_amaranita_mushroom_scatter_feature"
+    },
+    "places_feature": "betterend:dragon_graveyards/foliage/small_amaranita_mushroom_single_block_feature",
+    "iterations": 96,
+    "coordinate_eval_order": "zyx",
+    "x": {
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
+    },
+    "y": "q.heightmap(v.worldx,v.worldz)-v.originy",
+    "z": {
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
+    }
+  }
+}

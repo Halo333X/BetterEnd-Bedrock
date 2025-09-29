@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/foliage/blue_vine_middle_feature"
+    },
+    "height_distribution": [
+      [{ "range_min": 2, "range_max": 3 }, 1],
+      [{ "range_min": 3, "range_max": 4 }, 2],
+      [{ "range_min": 4, "range_max": 5 }, 2]
+    ],
+    "growth_direction": "UP",
+    "age": {"range_min": 2, "range_max": 5},
+    "body_blocks": [
+      [
+        {
+          "name": "betterend:blue_vine_seed",
+          "states": {
+            "betterend:growth": 5
+          }
+        },
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        {
+          "name": "betterend:blue_vine_seed",
+          "states": {
+            "betterend:growth": 6
+          }
+        },
+        1
+      ]
+    ],
+    "allow_water": false
+  }
+}

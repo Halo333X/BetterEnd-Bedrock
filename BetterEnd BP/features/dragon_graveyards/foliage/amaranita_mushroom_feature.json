@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/foliage/amaranita_mushroom_feature"
+    },
+    "features": [
+      "betterend:dragon_graveyards/foliage/amaranita_mushroom_roots_single_block_feature",
+      "betterend:dragon_graveyards/foliage/amaranita_mushroom_fixup_scatter_feature"
+    ],
+    "early_out": "first_failure"
+  }
+}

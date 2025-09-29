@@ -33,18 +33,20 @@
         "weight": 1
       }
     ],
-    "enforce_survivability_rules": true,
+    "enforce_survivability_rules": false,
     "enforce_placement_rules": false,
     "may_attach_to": {
       "sides": [ 
-          "betterend:umbrella_tree_wood",
-          "betterend:umbrella_tree_log",
-          "betterend:jellyshroom_wood", 
-          "betterend:jellyshroom_log"
-          ],
+        "betterend:umbrella_tree_wood",
+        "betterend:umbrella_tree_log",
+        "betterend:jellyshroom_wood", 
+        "betterend:jellyshroom_log"
+      ],
       "min_sides_must_attach": 1, 
       "auto_rotate": true
     }, 
-    "may_replace": [ "minecraft:air" ]
+    "may_replace": [
+      "minecraft:air"
+    ]
   }
 }

@@ -4,17 +4,17 @@
     "description": {
       "identifier": "betterend:amber_land/foliage/amber_grass_scatter_feature"
     },
-    "iterations": "return 8 * t.SizePlant;",
+    "places_feature": "betterend:amber_land/foliage/amber_grass_single_block_feature",
+    "iterations": 96,
     "coordinate_eval_order": "zyx",
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "triangle"
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
     },
+    "y": "q.heightmap(v.worldx,v.worldz)-v.originy",
     "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "triangle"
-    },
-    "y": "q.heightmap(v.worldx, v.worldz)",
-    "places_feature": "betterend:amber_land/foliage/amber_grass_single_block_feature"
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
+    }
   }
 }

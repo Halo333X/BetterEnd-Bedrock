@@ -1,16 +1,16 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "betterend:ice_starfield/star_weighted_random_feature"
-        },
-        "features": [
-            ["betterend:ice_starfield/star_1_structure_template_feature", 5],
-            ["betterend:ice_starfield/star_2_structure_template_feature", 1],
-            ["betterend:ice_starfield/star_3_structure_template_feature", 3],
-            ["betterend:ice_starfield/star_4_structure_template_feature", 5],
-            ["betterend:ice_starfield/star_5_structure_template_feature", 9],
-            ["betterend:ice_starfield/star_6_structure_template_feature", 1]
-        ]
-    }
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:ice_starfield/star_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:ice_starfield/star_1_structure_template_feature", 5],
+      ["betterend:ice_starfield/star_2_structure_template_feature", 1],
+      ["betterend:ice_starfield/star_3_structure_template_feature", 3],
+      ["betterend:ice_starfield/star_4_structure_template_feature", 5],
+      ["betterend:ice_starfield/star_5_structure_template_feature", 9],
+      ["betterend:ice_starfield/star_6_structure_template_feature", 1]
+    ]
+  }
 }

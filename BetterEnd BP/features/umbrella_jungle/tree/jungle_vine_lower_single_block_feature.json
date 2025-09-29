@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:umbrella_jungle/tree/jungle_vine_lower_single_block_feature"
+    },
+    "places_block": {
+      "name": "betterend:jungle_vine",
+      "states": {
+        "betterend:top": false
+      }
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "top": [
+        "betterend:umbrella_tree_membrane"
+      ]
+    }
+  }
+}

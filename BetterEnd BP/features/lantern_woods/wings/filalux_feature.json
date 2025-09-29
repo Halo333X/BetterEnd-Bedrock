@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "betterend:lantern_woods/wings/filalux_feature"
+    },
+    "height_distribution": [
+      [{ "range_min": 2, "range_max": 3 }, 1],
+      [{ "range_min": 3, "range_max": 4 }, 6],
+      [{ "range_min": 4, "range_max": 5 }, 3]
+    ],
+    "growth_direction": "DOWN",
+    "body_blocks": [
+      [
+        {
+          "name": "betterend:filalux",
+          "states": {
+            "betterend:top": false
+          }
+        },
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        {
+          "name": "betterend:filalux",
+          "states": {
+            "betterend:top": true
+          }
+        },
+        1
+      ]
+    ],
+    "allow_water": false
+  }
+}

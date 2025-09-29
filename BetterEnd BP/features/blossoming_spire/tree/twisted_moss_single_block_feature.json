@@ -33,16 +33,18 @@
         "weight": 1
       }
     ],
-    "enforce_survivability_rules": true,
+    "enforce_survivability_rules": false,
     "enforce_placement_rules": false,
     "may_attach_to": {
       "sides": [ 
-          "betterend:tenanea_log", 
-          "betterend:tenanea_wood"
-          ],
+        "betterend:tenanea_log", 
+        "betterend:tenanea_wood"
+      ],
       "min_sides_must_attach": 1, 
       "auto_rotate": true
     }, 
-    "may_replace": [ "minecraft:air" ]
+    "may_replace": [
+      "minecraft:air"
+    ]
   }
 }

@@ -8,7 +8,7 @@
     "facing_direction": "random",
     "adjustment_radius": 8,
     "constraints": {
-        "grounded": {}
+      "grounded": {}
     }
   }
 }

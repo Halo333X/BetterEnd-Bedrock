@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:megalake/foliage/charnia_cyan_scatter_feature"
+    },
+    "places_feature": "betterend:megalake/foliage/charnia_cyan_single_block_feature",
+    "iterations": 24,
+    "coordinate_eval_order": "zyx",
+    "x": {
+      "extent": [ -5, 5 ],
+      "distribution": "gaussian"
+    },
+    "y": "t.MegalakeNoise",
+    "z": {
+      "extent": [ -5, 5 ],
+      "distribution": "gaussian"
+    }
+  }
+}

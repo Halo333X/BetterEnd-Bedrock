@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:neon_oasis/patch/end_moss_condition"
+    },
+    "places_feature": "betterend:neon_oasis/patch/end_moss_single_block_feature",
+    "iterations": "t.end_moss_area",
+    "x": 0,
+    "z": 0,
+    "y": "t.surface-1"
+  }
+}

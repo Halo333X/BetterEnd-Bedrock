@@ -7,20 +7,25 @@
     "places_block": "betterend:glowing_pillar_luminophor", 
     "enforce_survivability_rules": true,
     "enforce_placement_rules": true,
-    "may_replace": ["minecraft:air", "betterend:glowing_pillar_leaves"],
+    "may_replace": [
+      "minecraft:air",
+      "betterend:glowing_pillar_leaves"
+    ],
     "may_attach_to": {
-      "bottom": [{
-      "name": "betterend:glowing_pillar_seed",
-      "states": {
-        "betterend:growth": 4
-      }
-    }, 
-    {
-      "name": "betterend:glowing_pillar_seed",
-      "states": {
-        "betterend:growth": 6
-      }
-    }]
+      "bottom": [
+        {
+          "name": "betterend:glowing_pillar_seed",
+          "states": {
+            "betterend:growth": 4
+          }
+        }, 
+        {
+          "name": "betterend:glowing_pillar_seed",
+          "states": {
+            "betterend:growth": 6
+          }
+        }
+      ]
     }
   }
 }

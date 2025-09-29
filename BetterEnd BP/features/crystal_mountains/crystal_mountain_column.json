@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:crystal_mountains/crystal_mountain_column"
+    },
+    "iterations": "t.crystal_mountainsNoise",
+    "x": 0,
+    "z": 0,
+    "y": {
+      "extent": [ 0, "t.crystal_mountainsNoise" ],
+      "distribution": "fixed_grid"
+    },
+    "places_feature": "betterend:crystal_mountains/crystal_mountains_condition"
+  }
+}

@@ -5,10 +5,10 @@
       "identifier": "betterend:blossoming_spire/tree/blossom_tree_1_structure_template_feature"
     },
     "structure_name": "mystructure:blossoming_spire/blossom_tree1",
-    "facing_direction": "random",
-    "adjustment_radius": 0,
+    "facing_direction": "south",
+    "adjustment_radius": 16,
     "constraints": {
-        "grounded": {}
+      "grounded": {}
     }
   }
 }

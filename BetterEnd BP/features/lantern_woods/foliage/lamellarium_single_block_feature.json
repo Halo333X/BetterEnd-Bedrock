@@ -25,15 +25,19 @@
       }
     ],
     "enforce_survivability_rules": false,
-    "enforce_placement_rules": true,
-    "may_replace": ["minecraft:air"],
+    "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ],
     "may_attach_to": {
-      "bottom": [{
-      "name": "betterend:rutiscus",
-      "states": {
-        "betterend:biomes": "lantern_woods"
-      }
-    }]
+      "bottom": [
+        {
+          "name": "betterend:rutiscus",
+          "states": {
+            "betterend:biomes": "lantern_woods"
+          }
+        }
+      ]
     }
   }
 }

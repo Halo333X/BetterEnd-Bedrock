@@ -1,14 +1,14 @@
 {
-	"format_version": "1.21.0",
-	"minecraft:aggregate_feature": {
-		"description": {
-			"identifier": "betterend:amber_land/foliage/glowing_pillar_1_feature"
-		},
-		"features": [
-			"betterend:amber_land/foliage/glowing_pillar_both_single_block_feature",
-			"betterend:amber_land/foliage/glowing_pillar_luminophor_fixup_scatter_feature",
-			"betterend:amber_land/foliage/glowing_pillar_2_leaves_aggregate_feature"
-		],
-		"early_out": "first_failure"
-	}
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/foliage/glowing_pillar_1_feature"
+    },
+    "features": [
+      "betterend:amber_land/foliage/glowing_pillar_both_single_block_feature",
+      "betterend:amber_land/foliage/glowing_pillar_luminophor_fixup_scatter_feature",
+      "betterend:amber_land/foliage/glowing_pillar_2_leaves_aggregate_feature"
+    ],
+    "early_out": "first_failure"
+  }
 }

@@ -1,16 +1,16 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "betterend:foggy_mushroomland/tree/foggy_tree_weighted_random_feature"
-        },
-        "features": [
-            ["betterend:foggy_mushroomland/tree/foggy_tree_1_structure_template_feature", 2],
-            ["betterend:foggy_mushroomland/tree/foggy_tree_2_structure_template_feature", 4],
-            ["betterend:foggy_mushroomland/tree/foggy_tree_3_structure_template_feature", 4],
-            ["betterend:foggy_mushroomland/tree/foggy_tree_4_structure_template_feature", 1],
-            ["betterend:foggy_mushroomland/tree/foggy_tree_5_structure_template_feature", 4], 
-            ["betterend:foggy_mushroomland/tree/foggy_tree_6_structure_template_feature", 4]
-        ]
-    }
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/tree/foggy_tree_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:foggy_mushroomland/tree/foggy_tree_1_structure_template_feature", 2],
+      ["betterend:foggy_mushroomland/tree/foggy_tree_2_structure_template_feature", 4],
+      ["betterend:foggy_mushroomland/tree/foggy_tree_3_structure_template_feature", 4],
+      ["betterend:foggy_mushroomland/tree/foggy_tree_4_structure_template_feature", 1],
+      ["betterend:foggy_mushroomland/tree/foggy_tree_5_structure_template_feature", 4], 
+      ["betterend:foggy_mushroomland/tree/foggy_tree_6_structure_template_feature", 4]
+    ]
+  }
 }

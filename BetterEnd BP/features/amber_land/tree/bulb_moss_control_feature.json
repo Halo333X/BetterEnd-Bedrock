@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/tree/bulb_moss_control_feature"
+    },
+    "iterations": "math.random_integer(25, 40)", 
+    "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+    "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+    "y": {
+        "distribution": "uniform",
+        "extent": [ 48, 114 ]
+      },
+    "places_feature": "betterend:amber_land/tree/bulb_moss_scatter_feature"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/tree/dragon_mushroom_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:dragon_graveyards/tree/dragon_mushroom_1_structure_template_feature", 1],
+      ["betterend:dragon_graveyards/tree/dragon_mushroom_2_structure_template_feature", 1],
+      ["betterend:dragon_graveyards/tree/dragon_mushroom_3_structure_template_feature", 1],
+      ["betterend:dragon_graveyards/tree/dragon_mushroom_4_structure_template_feature", 1],
+      ["betterend:dragon_graveyards/tree/dragon_mushroom_5_structure_template_feature", 1],
+      ["betterend:dragon_graveyards/tree/dragon_mushroom_6_structure_template_feature", 1]
+    ]
+  }
+}

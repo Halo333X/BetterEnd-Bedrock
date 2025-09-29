@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:painted_mountains/painted_mountains_condition"
+    },
+    "iterations": "t.biome == 'Painted_Mountains'",
+    "x": 0,
+    "z": 0,
+    "y": 56,
+    "places_feature": "betterend:painted_mountains/end_stone_single_block_feature"
+  }
+}

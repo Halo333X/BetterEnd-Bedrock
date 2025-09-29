@@ -4,11 +4,11 @@
     "description": {
       "identifier": "betterend:chorus_forest/tree/chorus_tree_scatter_feature"
     },
-    "iterations": "t.BetterEndBiome == 2 ? 1.5 : 0",
+    "iterations": "t.biome == 'Chorus_Forest'",
     "coordinate_eval_order": "zxy",
     "x": -16,
     "z": -16,
-    "y": "t.surface > 50 ? { return t.surface - v.originy - 2; } : { return 400; };",
+    "y": "t.surface > 50 ? { return t.surface - 2; } : { return 400; };",
     "places_feature": "betterend:chorus_forest/tree/chorus_tree_weighted_random_feature"
   }
 }

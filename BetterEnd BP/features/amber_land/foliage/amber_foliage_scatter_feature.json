@@ -5,16 +5,15 @@
       "identifier": "betterend:amber_land/foliage/amber_foliage_scatter_feature"
     },
     "iterations": 1,
-    "scatter_chance": "variable.is_legacy ? 0.0 : 100.0",
     "x": {
-        "distribution": "uniform",
-        "extent": [ 0, "t.ExtentPlant" ]
-      },
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "y": "t.surface",
     "z": {
-        "distribution": "uniform",
-        "extent": [ 0, "t.ExtentPlant" ]
-      },
-    "y": 0,
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
     "places_feature": "betterend:amber_land/foliage/amber_foliage_weighted_random_feature"
   }
 }

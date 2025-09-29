@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:megalake_grove/megalake_grove_condition"
+    },
+    "iterations": "t.biome == 'Megalake_Grove'",
+    "x": 0,
+    "z": 0,
+    "y": "t.surface > 50 ? { return t.surface - 1; } : { return 400; };",
+    "places_feature": "betterend:megalake_grove/end_moss_single_block_feature"
+  }
+}

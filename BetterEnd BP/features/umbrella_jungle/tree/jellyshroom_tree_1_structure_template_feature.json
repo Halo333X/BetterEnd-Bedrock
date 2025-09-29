@@ -6,9 +6,9 @@
     },
     "structure_name": "mystructure:umbrella_jungle/jellyshroom_tree1",
     "facing_direction": "random",
-    "adjustment_radius": 0,
+    "adjustment_radius": 8,
     "constraints": {
-        "grounded": {}
+      "grounded": {}
     }
   }
 }

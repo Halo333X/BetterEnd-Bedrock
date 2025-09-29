@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:multiface_feature": {
+    "description": {
+      "identifier": "betterend:umbrella_jungle/foliage/small_jellyshroom_single_block_feature"
+    },
+    "search_range": 12,
+    "places_block": {
+      "name": "betterend:small_jellyshroom",
+      "states": {
+        "betterend:growth": 3,
+        "minecraft:facing_direction": "down"
+      }
+    }, 
+    "can_place_on_floor": true,
+    "can_place_on_ceiling": false,
+    "can_place_on_wall": false,
+    "chance_of_spreading": 0.7,
+    "can_place_on": [
+      "betterend:jungle_moss"
+    ]
+  }
+}

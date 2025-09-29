@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/lakes/lake_with_endstone_dust_feature"
+    },
+    "features": [
+      "betterend:foggy_mushroomland/lakes/endstone_dust_p2_feature",
+      "betterend:foggy_mushroomland/lakes/lake_p2_feature"
+    ]
+  }
+}

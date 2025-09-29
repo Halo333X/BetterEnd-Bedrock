@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:megalake_grove/end_moss_single_block_feature"
+    },
+    "places_block": {
+      "name": "betterend:end_moss",
+      "states": {
+        "betterend:biomes": "megalakes_grove"
+      }
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:shadow_forest/shadow_forest_condition"
+    },
+    "iterations": "t.biome == 'Shadow_Forest'",
+    "x": 0,
+    "z": 0,
+    "y": "t.surface > 50 ? { return t.surface - 1; } : { return 400; };",
+    "places_feature": "betterend:shadow_forest/shadow_grass_single_block_feature"
+  }
+}

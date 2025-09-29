@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/foliage/dragon_foliage_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:dragon_graveyards/foliage/clawfern_scatter_feature", 1],
+      ["betterend:dragon_graveyards/foliage/globulagus_scatter_feature", 1],
+      ["betterend:dragon_graveyards/foliage/small_amaranita_mushroom_scatter_feature", 1]
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:chorus_forest/foliage/chorus_grass_single_block_feature"
+    },
+    "places_block": [
+      {
+        "block": {
+          "name": "betterend:chorus_grass",
+          "states": {
+            "betterend:random": 0
+          }
+        },
+        "weight": 8
+      },
+      {
+        "block": {
+          "name": "betterend:chorus_grass",
+          "states": {
+            "betterend:random": 1
+          }
+        },
+        "weight": 8
+      },
+      {
+        "block": {
+          "name": "betterend:chorus_grass",
+          "states": {
+            "betterend:random": 2
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:chorus_grass",
+          "states": {
+            "betterend:random": 3
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:chorus_grass",
+          "states": {
+            "betterend:random": 4
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:chorus_grass",
+          "states": {
+            "betterend:random": 5
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:chorus_grass",
+          "states": {
+            "betterend:random": 6
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:chorus_grass",
+          "states": {
+            "betterend:random": 7
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false, 
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "bottom": [
+        "betterend:chorus_nylium"
+      ]
+    }
+  }
+}

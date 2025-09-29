@@ -1,13 +1,13 @@
 {
-	"format_version": "1.21.0",
-	"minecraft:scatter_feature": {
-		"description": {
-			"identifier": "betterend:amber_land/foliage/lanceleaf_top_fixup_scatter_feature"
-		},
-		"places_feature": "betterend:amber_land/foliage/lanceleaf_top_feature",
-		"iterations": 1,
-		"x": 0,
-		"z": 0,
-		"y": 2
-	}
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/foliage/lanceleaf_top_fixup_scatter_feature"
+    },
+    "places_feature": "betterend:amber_land/foliage/lanceleaf_top_feature",
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": 2
+  }
 }

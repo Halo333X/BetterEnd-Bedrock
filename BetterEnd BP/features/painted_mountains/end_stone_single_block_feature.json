@@ -4,9 +4,7 @@
     "description": {
       "identifier": "betterend:painted_mountains/end_stone_single_block_feature"
     },
-    "places_block": {
-      "name": "minecraft:end_stone"
-    },
+    "places_block": "minecraft:calcite",
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false
   }

@@ -4,18 +4,17 @@
     "description": {
       "identifier": "betterend:amber_land/foliage/lanceleaf_scatter_feature"
     },
-    "iterations": "return 2 * t.SizePlant;",
+    "iterations": 32,
     "coordinate_eval_order": "zyx",
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "triangle"
-    },
-    "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "triangle"
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
     },
     "y": 0,
-    "project_input_to_floor": false,
+    "z": {
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
+    },
     "places_feature": "betterend:amber_land/foliage/lanceleaf_snap_to_floor_feature"
   }
 }

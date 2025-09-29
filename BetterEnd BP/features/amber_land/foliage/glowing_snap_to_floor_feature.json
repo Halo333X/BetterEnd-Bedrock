@@ -8,12 +8,12 @@
     "vertical_search_range": 12,
     "surface": "floor",
     "allowed_surface_blocks": [
-    {
-      "name": "betterend:amber_moss",
-      "states": {
-        "betterend:biomes": "amberland"
+      {
+        "name": "betterend:amber_moss",
+        "states": {
+          "betterend:biomes": "amberland"
+        }
       }
-    }
     ]
   }
 }

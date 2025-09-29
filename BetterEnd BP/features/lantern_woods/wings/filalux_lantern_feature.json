@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:lantern_woods/wings/filalux_lantern_feature"
+    },
+    "features": [
+      "betterend:lantern_woods/wings/filalux_lantern_single_block_feature",
+      "betterend:lantern_woods/wings/filalux_wings_feature", 
+      "betterend:lantern_woods/wings/filalux_upper_scatter_feature"
+    ],
+    "early_out": "first_failure"
+  }
+}

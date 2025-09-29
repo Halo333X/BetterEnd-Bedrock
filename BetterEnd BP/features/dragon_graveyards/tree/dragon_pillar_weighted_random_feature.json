@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/tree/dragon_pillar_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:dragon_graveyards/tree/dragon_pillar_1_structure_template_feature", 1],
+      ["betterend:dragon_graveyards/tree/dragon_pillar_2_structure_template_feature", 1],
+      ["betterend:dragon_graveyards/tree/dragon_pillar_3_structure_template_feature", 1],
+      ["betterend:dragon_graveyards/tree/dragon_pillar_4_structure_template_feature", 1]
+    ]
+  }
+}

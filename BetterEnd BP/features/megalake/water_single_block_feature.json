@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:megalake/water_single_block_feature"
+    },
+    "places_block": "minecraft:water",
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false, 
+    "may_replace": [
+      "minecraft:end_stone",
+      "minecraft:chorus_plant",
+      "minecraft:chorus_flower",
+      "betterend:end_moss", 
+      "betterend:amber_ore",
+      "betterend:thallasium_ore",
+      "betterend:ender_ore",
+      "betterend:violecite",
+      "betterend:flavolite"
+    ],
+    "may_not_attach_to": {
+      "sides": {
+        "name": "minecraft:air"
+      },
+      "bottom": {
+        "name": "minecraft:air"
+      }
+    }
+  }
+}

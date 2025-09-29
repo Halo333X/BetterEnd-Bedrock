@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:umbra_valley/spiral/umbra_spiral_pallidium_1_feature"
+    },
+    "features": [
+      ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_1_east_structure_template_feature", 1], 
+      ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_1_north_structure_template_feature", 1],
+      ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_1_south_structure_template_feature", 1], 
+      ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_1_west_structure_template_feature", 1]
+    ]
+  }
+}

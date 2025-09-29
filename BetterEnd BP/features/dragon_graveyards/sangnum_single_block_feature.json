@@ -5,7 +5,10 @@
       "identifier": "betterend:dragon_graveyards/sangnum_single_block_feature"
     },
     "places_block": {
-      "name": "minecraft:end_stone"
+      "name": "betterend:sangnum",
+      "states": {
+        "betterend:biomes": "dragon_graveyards"
+      }
     },
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false

@@ -9,10 +9,14 @@
     },
     "enforce_survivability_rules": true,
     "enforce_placement_rules": true,
-    "may_replace": ["minecraft:air"],
+    "may_replace": [
+      "minecraft:air"
+    ],
     "may_attach_to": {
       "auto_rotate":true,
-      "sides": ["betterend:glowing_pillar_luminophor"],
+      "sides": [
+        "betterend:glowing_pillar_luminophor"
+      ],
       "min_sides_must_attach": 1
     }
   }

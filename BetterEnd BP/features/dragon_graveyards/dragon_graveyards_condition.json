@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/dragon_graveyards_condition"
+    },
+    "iterations": "t.biome == 'Dragon_Graveyards'",
+    "x": 0,
+    "z": 0,
+    "y": "t.surface > 50 ? { return t.surface - 1; } : { return 400; };",
+    "places_feature": "betterend:dragon_graveyards/sangnum_single_block_feature"
+  }
+}

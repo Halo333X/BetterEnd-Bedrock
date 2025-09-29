@@ -12,6 +12,13 @@
     },
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false,
-    "may_replace": [ "minecraft:end_stone", "minecraft:end_bricks", "betterend:amber_ore", "betterend:thallasium_ore", "betterend:ender_ore", "betterend:flavolite", "betterend:violecite", "betterend:fake_end_stone"]
+    "may_replace": [ 
+      "minecraft:end_stone",
+      "betterend:amber_ore", 
+      "betterend:thallasium_ore",
+      "betterend:ender_ore",
+      "betterend:flavolite", 
+      "betterend:violecite"
+    ]
   }
 }

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:sulphur_springs/brimstone_column"
+    },
+    "iterations": 3,
+    "x": 0,
+    "z": 0,
+    "y": {
+      "extent": [ 0, 2 ],
+      "distribution": "fixed_grid"
+    },
+    "places_feature": "betterend:sulphur_springs/brimstone_single_block_feature"
+  }
+}

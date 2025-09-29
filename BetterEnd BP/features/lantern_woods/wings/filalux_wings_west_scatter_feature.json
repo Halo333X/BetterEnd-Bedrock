@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:lantern_woods/wings/filalux_wings_west_scatter_feature"
+    },
+    "iterations": 1,
+    "x": 0,
+    "z": -1,
+    "y": 0,
+    "places_feature": "betterend:lantern_woods/wings/filalux_wings_single_block_feature"
+  }
+}

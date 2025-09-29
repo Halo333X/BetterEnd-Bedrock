@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:sulphur_springs/inactive_brimstone_column"
+    },
+    "iterations": "return t.sulphuric_rock;",
+    "x": 0,
+    "z": 0,
+    "y": {
+      "extent": [ "t.sulphuric_rock * - 1", 0 ],
+      "distribution": "fixed_grid"
+    },
+    "places_feature": "betterend:sulphur_springs/inactive_brimstone_single_block_feature"
+  }
+}

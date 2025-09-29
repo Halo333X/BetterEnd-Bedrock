@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:painted_mountains/painted_mountain_column"
+    },
+    "iterations": "t.painted_mountainsNoise",
+    "x": 0,
+    "z": 0,
+    "y": {
+      "extent": [ 0, "t.painted_mountainsNoise" ],
+      "distribution": "fixed_grid"
+    },
+    "places_feature": "betterend:painted_mountains/painted_mountains_condition"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:megalake/foliage/charnia_cyan_single_block_feature"
+    },
+    "places_block": [
+      {
+        "block": {
+          "name": "betterend:cyan_charnia",
+          "states": {
+            "betterend:rotation": 0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:cyan_charnia",
+          "states": {
+            "betterend:rotation": 1
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:cyan_charnia",
+          "states": {
+            "betterend:rotation": 2
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:cyan_charnia",
+          "states": {
+            "betterend:rotation": 3
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false, 
+    "may_replace": [
+      "minecraft:water"
+    ],
+    "may_attach_to": {
+      "bottom": [
+        "minecraft:end_stone",
+        "betterend:endstone_dust"
+      ]
+    }
+  }
+}

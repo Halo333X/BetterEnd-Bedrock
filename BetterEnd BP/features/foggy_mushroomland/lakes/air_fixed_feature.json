@@ -1,0 +1,15 @@
+{ 
+  "format_version": "1.21.10",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/lakes/air_fixed_feature"
+    },
+    "places_feature": "betterend:foggy_mushroomland/lakes/air_single_block_feature",
+    "distribution": {
+      "iterations": "v.dx = v.worldx - v.previous_x;v.dy = v.worldy - v.previous_y;v.dz = v.worldz - v.previous_z;v.rx = v.radiusX * (1 + 0.25 * q.noise(v.worldz/8, v.worldx/8));v.rz = v.radiusZ * (1 + 0.25 * q.noise(v.worldx/8, v.worldz/8));t.base = math.pow(v.dx/v.rx, 2) + math.pow(v.dy/v.radiusY, 2) + math.pow(v.dz/v.rz, 2);return t.base < 1 && v.worldy >= v.previous_y;",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    } 
+  }
+}

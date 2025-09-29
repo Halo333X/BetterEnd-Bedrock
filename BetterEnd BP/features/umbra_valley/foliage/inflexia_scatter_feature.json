@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:umbra_valley/foliage/inflexia_scatter_feature"
+    },
+    "iterations": 96,
+    "coordinate_eval_order": "zyx",
+    "x": {
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
+    },
+    "y": "q.heightmap(v.worldx,v.worldz)-v.originy",
+    "z": {
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
+    },
+    "places_feature": "betterend:umbra_valley/foliage/inflexia_single_block_feature"
+  }
+}

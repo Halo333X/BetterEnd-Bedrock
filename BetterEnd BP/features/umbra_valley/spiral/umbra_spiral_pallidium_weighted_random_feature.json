@@ -1,13 +1,13 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "betterend:umbra_valley/spiral/umbra_spiral_pallidium_weighted_random_feature"
-        },
-        "features": [
-            ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_1_structure_template_feature", 1], 
-            ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_2_structure_template_feature", 1],
-            ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_3_structure_template_feature", 1]
-        ]
-    }
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:umbra_valley/spiral/umbra_spiral_pallidium_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_1_feature", 1], 
+      ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_2_feature", 1],
+      ["betterend:umbra_valley/spiral/umbra_spiral_pallidium_3_feature", 1]
+    ]
+  }
 }

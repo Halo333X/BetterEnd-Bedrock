@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:lantern_woods/tree/aurant_polypore_control_scatter_feature"
+    },
+    "iterations": 16,
+    "x": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "y": {
+      "distribution": "uniform",
+      "extent": [ 48, 114 ]
+    },
+    "places_feature": "betterend:lantern_woods/tree/aurant_polypore_scatter_feature"
+  }
+}

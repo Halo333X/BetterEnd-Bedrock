@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:crystal_mountains/crystal_moss_cover_feature"
     },
-    "search_range": 20,
+    "search_range": 12,
     "places_block": {
       "name": "betterend:crystal_moss_cover",
       "states": {

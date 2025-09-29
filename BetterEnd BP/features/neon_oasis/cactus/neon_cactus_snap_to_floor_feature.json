@@ -8,12 +8,12 @@
     "vertical_search_range": 12,
     "surface": "floor",
     "allowed_surface_blocks": [
-    {
-      "name": "betterend:end_moss",
-      "states": {
-        "betterend:biomes": "neon_oasis"
+      {
+        "name": "betterend:end_moss",
+        "states": {
+          "betterend:biomes": "neon_oasis"
+        }
       }
-    }
     ]
   }
 }

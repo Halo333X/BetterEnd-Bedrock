@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/foliage/amaranita_mushroom_snap_to_floor_feature"
+    },
+    "feature_to_snap": "betterend:dragon_graveyards/foliage/amaranita_mushroom_feature", 
+    "vertical_search_range": 12,
+    "surface": "floor",
+    "allowed_surface_blocks": [
+      {
+        "name": "betterend:sangnum",
+        "states": {
+          "betterend:biomes": "dragon_graveyards"
+        }
+      }
+    ]
+  }
+}

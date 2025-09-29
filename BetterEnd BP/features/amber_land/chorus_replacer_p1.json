@@ -1,0 +1,15 @@
+{
+  "format_version":"1.21.40", 
+  "minecraft:scatter_feature": { 
+    "description": { 
+      "identifier": "betterend:amber_land/chorus_replacer_p1"
+    },
+    "places_feature":"betterend:amber_land/chorus_replacer_p2",
+    "distribution": { 
+      "iterations": "t.a=100;return1;",
+      "x": 0,
+      "y": 1,
+      "z": 0
+    }
+  }
+}

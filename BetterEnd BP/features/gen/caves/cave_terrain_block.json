@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:gen/caves/terrain/cave_terrain_block"
+    },
+    "iterations": "t.CarverChunk = (v.originy - t.originy);return t.cave_noise1 + (t.cave_noise2 - t.cave_noise1) * math.hermite_blend(t.CarverChunk/t.CaveHeight) + 1.5 * math.pow((t.CarverChunk - t.CaveHeight/2)/(t.CaveHeight/2),4) < -0.3;",
+    "x": 0,
+    "z": 0,
+    "y": 30,
+    "places_feature": "betterend:gen/caves/terrain/air_single_block_feature"
+  }
+}

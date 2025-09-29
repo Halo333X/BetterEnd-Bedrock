@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:shadow_forest/bush/dragon_bush_control_feature"
+    },
+    "iterations": 1,
+    "scatter_chance": 20.0,
+    "x": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "y": "t.surface",
+    "places_feature": "betterend:shadow_forest/bush/dragon_bush_vegetation_patch_feature"
+  }
+}

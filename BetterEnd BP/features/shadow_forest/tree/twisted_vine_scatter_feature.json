@@ -4,14 +4,13 @@
     "description": {
       "identifier": "betterend:shadow_forest/tree/twisted_vine_scatter_feature"
     },
-    "iterations": "return 2 * t.SizePlant;",
-    "scatter_chance": 100.0,
+    "iterations": 48,
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ -8, 8 ],
       "distribution": "gaussian"
     },
     "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ -8, 8 ],
       "distribution": "gaussian"
     },
     "y": 0,

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:lantern_woods/lantern_woods_condition"
+    },
+    "iterations": "t.biome == 'Lantern_Woods'",
+    "x": 0,
+    "z": 0,
+    "y": "t.surface > 50 ? { return t.surface - 1; } : { return 400; };",
+    "places_feature": "betterend:lantern_woods/rutiscus_single_block_feature"
+  }
+}

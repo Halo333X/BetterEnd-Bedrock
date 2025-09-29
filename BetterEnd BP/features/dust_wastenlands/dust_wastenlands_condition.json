@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:dust_wastenlands/dust_wastenlands_condition"
+    },
+    "iterations": "t.biome == 'Dust_Wastenlands'",
+    "x": 0,
+    "z": 0,
+    "y": "t.surface > math.random(42, 44) ? { return t.surface; } : { return 400; };",
+    "places_feature": "betterend:dust_wastenlands/endstone_dust_column"
+  }
+}

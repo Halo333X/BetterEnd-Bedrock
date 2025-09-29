@@ -11,15 +11,6 @@
       }
     },
     "enforce_survivability_rules": false,
-    "enforce_placement_rules": false,
-    "may_replace": ["minecraft:end_stone"], 
-    "may_attach_to": {
-      "top": [
-        "minecraft:air"
-      ], 
-      "bottom": [
-        "minecraft:end_stone"
-      ]
-    }
+    "enforce_placement_rules": false
   }
 }

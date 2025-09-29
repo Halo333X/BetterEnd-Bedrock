@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/foliage/blue_vine_fur_leaves_aggregate_feature"
+    },
+    "features": [
+      "betterend:foggy_mushroomland/foliage/blue_vine_fur_north_scatter_feature",
+      "betterend:foggy_mushroomland/foliage/blue_vine_fur_south_scatter_feature",
+      "betterend:foggy_mushroomland/foliage/blue_vine_fur_west_scatter_feature",
+      "betterend:foggy_mushroomland/foliage/blue_vine_fur_east_scatter_feature"
+    ]
+  }
+}

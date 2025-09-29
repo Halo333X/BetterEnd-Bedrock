@@ -1,13 +1,13 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:weighted_random_feature": {
-        "description": {
-            "identifier": "betterend:lantern_woods/foliage/lantern_foliage_weighted_random_feature"
-        },
-        "features": [
-            ["betterend:lantern_woods/foliage/lamellarium_scatter_feature", 1],
-            ["betterend:lantern_woods/foliage/bolux_mushroom_scatter_feature", 1], 
-            ["betterend:lantern_woods/foliage/aeridium_scatter_feature", 1]
-        ]
-    }
+  "format_version": "1.21.0",
+  "minecraft:weighted_random_feature": {
+    "description": {
+      "identifier": "betterend:lantern_woods/foliage/lantern_foliage_weighted_random_feature"
+    },
+    "features": [
+      ["betterend:lantern_woods/foliage/lamellarium_scatter_feature", 1],
+      ["betterend:lantern_woods/foliage/bolux_mushroom_scatter_feature", 1], 
+      ["betterend:lantern_woods/foliage/aeridium_scatter_feature", 1]
+    ]
+  }
 }

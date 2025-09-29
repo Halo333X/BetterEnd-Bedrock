@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:umbra_valley/pallidium_feature"
+    },
+    "features": [
+      "betterend:umbra_valley/pallidium_full_scatter_feature", 
+      "betterend:umbra_valley/pallidium_heavy_scatter_feature", 
+      "betterend:umbra_valley/pallidium_thin_scatter_feature", 
+      "betterend:umbra_valley/pallidium_tiny_scatter_feature"
+    ]
+  }
+}

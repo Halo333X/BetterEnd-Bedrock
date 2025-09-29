@@ -1,10 +1,9 @@
 {
   "format_version": "1.21.0",
-  "minecraft:aggregate_feature": {
+  "minecraft:sequence_feature": {
     "description": {
       "identifier": "betterend:shadow_forest/tree/twisted_vine_feature"
     },
-    "early_out": "first_failure",
     "features": [
       "betterend:shadow_forest/tree/twisted_vine_lower_single_block_feature",
       "betterend:shadow_forest/tree/twisted_vine_upper_scatter_feature"

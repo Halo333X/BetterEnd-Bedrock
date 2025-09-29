@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:megalake/air_single_block_feature"
+    },
+    "places_block": "minecraft:air",
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false, 
+    "may_replace": [
+      "betterend:end_moss",
+      "betterend:umbrella_moss", 
+      "minecraft:end_stone", 
+      "betterend:creeping_moss", 
+      "betterend:umbrella_moss",
+      "betterend:tall_umbrella_moss", 
+      "betterend:amber_ore",
+      "betterend:thallasium_ore",
+      "betterend:ender_ore",
+      "betterend:violecite",
+      "betterend:flavolite"
+    ]
+  }
+}

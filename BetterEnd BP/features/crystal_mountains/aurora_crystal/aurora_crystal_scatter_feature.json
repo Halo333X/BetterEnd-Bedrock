@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:crystal_mountains/aurora_crystal/aurora_crystal_scatter_feature"
+    },
+    "iterations": "t.biome == 'Crystal_Mountains'?q.noise(v.originx/8,v.originz/8)<-0:0",
+    "coordinate_eval_order":"zxy",
+    "x": "math.random(-8,8)",
+    "z": "math.random(-8,8)",
+    "y": "q.above_top_solid(v.worldx, v.worldz) - math.random_integer(13, 15)", 
+    "places_feature": "betterend:crystal_mountains/aurora_crystal/aurora_crystal_weighted_random_feature"
+  }
+}

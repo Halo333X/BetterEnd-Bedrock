@@ -1,0 +1,44 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:sulphur_springs/water_single_block_feature"
+    },
+    "places_block": "minecraft:water",
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false,
+    "may_replace": [ 
+      "minecraft:water",
+      {
+        "name": "betterend:brimstone",
+        "states": {
+          "betterend:biomes": "sulphur_springs",
+          "betterend:active": true
+        }
+      }
+    ],
+    "may_attach_to": {
+      "min_sides_must_attach": 4,
+      "bottom": [
+        {
+          "name": "betterend:brimstone",
+          "states": {
+            "betterend:biomes": "sulphur_springs",
+            "betterend:active": true
+          }
+        }
+      ], 
+      "sides": [
+        "minecraft:water", 
+        "minecraft:end_stone",
+        {
+          "name": "betterend:brimstone",
+          "states": {
+            "betterend:biomes": "sulphur_springs",
+            "betterend:active": true
+          }
+        }
+      ] 
+    }
+  }
+}

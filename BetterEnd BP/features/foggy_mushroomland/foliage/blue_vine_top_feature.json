@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/foliage/blue_vine_top_feature"
+    },
+    "features": [
+      "betterend:foggy_mushroomland/foliage/blue_vine_middle_feature",
+      "betterend:foggy_mushroomland/foliage/blue_vine_lantern_scatter_feature"
+    ],
+    "early_out": "first_failure"
+  }
+}

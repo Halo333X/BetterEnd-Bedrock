@@ -1,12 +1,12 @@
 {
-	"format_version": "1.21.0",
-	"minecraft:aggregate_feature": {
-		"description": {
-			"identifier": "betterend:crystal_mountains/crystal_patch_feature"
-		},
-		"features": [
-			"betterend:crystal_mountains/crystal_moss_scatter_proxy_feature", 
-			"betterend:crystal_mountains/crystal_moss_cover_proxy_scatter_feature"
-		]
-	}
+  "format_version": "1.21.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "betterend:crystal_mountains/crystal_patch_feature"
+    },
+    "features": [
+      "betterend:crystal_mountains/crystal_moss_scatter_proxy_feature", 
+      "betterend:crystal_mountains/crystal_moss_cover_proxy_scatter_feature"
+    ]
+  }
 }

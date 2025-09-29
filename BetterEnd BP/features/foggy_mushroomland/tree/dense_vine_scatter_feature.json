@@ -4,14 +4,13 @@
     "description": {
       "identifier": "betterend:foggy_mushroomland/tree/dense_vine_scatter_feature"
     },
-    "iterations": "return 4 * t.SizePlant;",
-    "scatter_chance": 100.0,
+    "iterations": 64,
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ -8, 8 ],
       "distribution": "gaussian"
     },
     "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ -8, 8 ],
       "distribution": "gaussian"
     },
     "y": 0,

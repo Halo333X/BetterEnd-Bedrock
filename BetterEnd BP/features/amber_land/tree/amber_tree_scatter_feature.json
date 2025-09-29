@@ -4,11 +4,11 @@
     "description": {
       "identifier": "betterend:amber_land/tree/amber_tree_scatter_feature"
     },
-    "iterations": "t.BetterEndBiome == 0 ? math.trunc(math.ceil(q.noise(math.trunc(v.originx), math.trunc(v.originz)))) : 0",
+    "iterations": "t.biome == 'Amber_Land'",
     "coordinate_eval_order": "zxy",
-    "x": 0,
-    "z": 0,
-    "y": "t.surface > 50 ? { return t.surface - v.originy - 1; } : { return 400; };",
+    "x": "math.random(-8,8)",
+    "z": "math.random(-8,8)",
+    "y": "t.surface > 50 ? { return t.surface; } : { return 400; };",
     "places_feature": "betterend:amber_land/tree/amber_tree_weighted_random_feature"
   }
 }

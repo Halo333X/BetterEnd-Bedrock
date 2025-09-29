@@ -1,0 +1,38 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:dragon_graveyards/foliage/globulagus_single_block_feature"
+    },
+    "places_block": [
+      {
+        "block": {
+          "name": "betterend:globulagus",
+          "states": {
+            "betterend:random": 0
+          }
+        },
+        "weight": 1
+      },
+      {
+        "block": {
+          "name": "betterend:globulagus",
+          "states": {
+            "betterend:random": 1
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false, 
+    "may_replace": [
+      "minecraft:air"
+    ],
+    "may_attach_to": {
+      "bottom": [
+        "betterend:sangnum"
+      ]
+    }
+  }
+}

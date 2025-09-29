@@ -4,17 +4,17 @@
     "description": {
       "identifier": "betterend:dry_shrubland/foliage/lutebus_scatter_feature"
     },
-    "iterations": "return 8 * t.SizePlant;",
+    "iterations": 96,
     "coordinate_eval_order": "zyx",
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "triangle"
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
     },
+    "y": "q.heightmap(v.worldx,v.worldz)-v.originy",
     "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "triangle"
+      "extent": [ -8, 8 ],
+      "distribution": "gaussian"
     },
-    "y": "q.heightmap(v.worldx, v.worldz)",
     "places_feature": "betterend:dry_shrubland/foliage/lutebus_single_block_feature"
   }
 }

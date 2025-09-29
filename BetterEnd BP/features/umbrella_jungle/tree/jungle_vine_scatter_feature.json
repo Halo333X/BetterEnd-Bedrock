@@ -4,8 +4,7 @@
     "description": {
       "identifier": "betterend:umbrella_jungle/tree/jungle_vine_scatter_feature"
     },
-    "iterations": 24,
-    "scatter_chance": 100.0,
+    "iterations": 64,
     "x": {
       "extent": [ -8, 8 ],
       "distribution": "gaussian"

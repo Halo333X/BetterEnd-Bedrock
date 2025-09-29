@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:shadow_forest/tree/twisted_vine_control_scatter_feature"
+    },
+    "iterations": "math.random_integer(4,9)",
+    "x": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [ 0, 16 ]
+    },
+    "y": {
+      "distribution": "uniform",
+      "extent": [ 48, 114 ]
+    }, 
+    "places_feature": "betterend:shadow_forest/tree/twisted_vine_scatter_feature"
+  }
+}

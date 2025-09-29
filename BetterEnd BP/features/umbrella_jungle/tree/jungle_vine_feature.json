@@ -1,43 +1,12 @@
 {
   "format_version": "1.21.0",
-  "minecraft:growing_plant_feature": {
+  "minecraft:sequence_feature": {
     "description": {
       "identifier": "betterend:umbrella_jungle/tree/jungle_vine_feature"
     },
-    "height_distribution": [
-      [{ "range_min": 12, "range_max": 13 }, 1],
-      [{ "range_min": 13, "range_max": 14 }, 2],
-      [{ "range_min": 14, "range_max": 15 }, 2],
-      [{ "range_min": 15, "range_max": 16 }, 3],
-      [{ "range_min": 16, "range_max": 17 }, 3],
-      [{ "range_min": 17, "range_max": 18 }, 4],
-      [{ "range_min": 18, "range_max": 19 }, 4],
-      [{ "range_min": 19, "range_max": 20 }, 5]
-    ],
-    "growth_direction": "DOWN",
-    "age": {"range_min": 7, "range_max": 15},
-    "body_blocks": [
-      [
-        {
-          "name": "betterend:jungle_vine",
-          "states": {
-            "betterend:top": false
-          }
-        },
-        1
-      ]
-    ],
-    "head_blocks": [
-      [
-        {
-          "name": "betterend:jungle_vine",
-          "states": {
-            "betterend:top": true
-          }
-        },
-        1
-      ]
-    ],
-    "allow_water": false
+    "features": [
+      "betterend:umbrella_jungle/tree/jungle_vine_lower_single_block_feature",
+      "betterend:umbrella_jungle/tree/jungle_vine_upper_scatter_feature"
+    ]
   }
 }

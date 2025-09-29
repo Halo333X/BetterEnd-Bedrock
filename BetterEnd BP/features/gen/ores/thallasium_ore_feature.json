@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "betterend:gen/ores/thallasium_ore_feature"
+    },
+    "count": 8,
+    "replace_rules": [
+      {
+        "places_block": "betterend:thallasium_ore",
+        "may_replace": [
+          {
+            "name": "minecraft:end_stone"
+          }
+        ]
+      }
+    ]
+  }
+}

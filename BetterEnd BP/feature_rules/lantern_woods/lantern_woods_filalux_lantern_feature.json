@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "betterend:lantern_woods_filalux_lantern_feature",
+      "places_feature": "betterend:lantern_woods/wings/filalux_lantern_scatter_feature"
+    },
+    "conditions": {
+      "placement_pass": "sky_pass",
+      "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "the_end"
+        }
+    },
+    "distribution": {
+      "iterations": "t.transitionnoise=q.noise(v.originx/256,v.originz/256)*0.25+q.noise(v.originx/128,v.originz/128)*0.05+q.noise(v.originx/64,v.originz/64)*0.025*q.noise(v.originx/32,v.originz/32)*0.01025+q.noise(v.originx/16,v.originz/16)*0.01065;t.x=v.originx/512;t.z=v.originz/512;t.d1=999.0;t.d2=999.0;t.c1=0.0;t.i=0.0;loop(9,{t.px=math.floor(t.x)+math.mod(t.i,3)-1;t.pz=math.floor(t.z)+math.floor(t.i/3)-1;t.hash_x=math.sin(t.px*12.9898+t.pz*78.233)*43758.5453;t.hash_z=math.sin(t.px*39.3467+t.pz*11.135)*96321.6543;t.rx=t.hash_x-math.floor(t.hash_x);t.rz=t.hash_z-math.floor(t.hash_z);t.d=math.pow(t.px+t.rx+t.transitionnoise-t.x,2)+math.pow(t.pz+t.rz+t.transitionnoise-t.z,2);(t.d<t.d1)?{t.d2=t.d1;t.d1=t.d;t.c1=t.rx;}:{(t.d<t.d2)?{t.d2=t.d;};};t.i=t.i+1;});t.LanterWoods=math.floor(t.c1*16);return(t.LanterWoods==10&&(math.abs(v.originx)>600||math.abs(v.originz)>600))?1:0;",
+      "scatter_chance": 50.0,
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+      "y": "q.heightmap(v.worldx,v.worldz)?math.random_integer(80,200):-100",
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

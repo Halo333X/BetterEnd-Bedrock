@@ -15,7 +15,6 @@
       [{ "range_min": 12, "range_max": 13 }, 5]
     ],
     "growth_direction": "DOWN",
-    "age": {"range_min": 8, "range_max": 19},
     "body_blocks": [
       [
         {
@@ -41,3 +40,4 @@
     "allow_water": false
   }
 }
+

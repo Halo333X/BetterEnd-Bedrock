@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:neon_oasis/neon_oasis_condition"
+    },
+    "iterations": "t.biome == 'Neon_oasis'",
+    "x": 0,
+    "z": 0,
+    "y": "t.surface > math.random(42, 44) ? { return t.surface; } : { return 400; };",
+    "places_feature": "betterend:neon_oasis/endstone_dust_column"
+  }
+}

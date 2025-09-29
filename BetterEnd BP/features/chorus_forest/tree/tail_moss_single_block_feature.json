@@ -34,17 +34,19 @@
       }
     ],
     "enforce_survivability_rules": true,
-    "enforce_placement_rules": false,
+    "enforce_placement_rules": true,
     "may_attach_to": {
       "sides": [ 
-          "betterend:pythadendron_log",
-          "betterend:pythadendron_wood", 
-          "betterend:dragon_tree_wood", 
-          "betterend:dragon_tree_log"
-          ],
+        "betterend:pythadendron_log",
+        "betterend:pythadendron_wood", 
+        "betterend:dragon_tree_wood", 
+        "betterend:dragon_tree_log"
+      ],
       "min_sides_must_attach": 1, 
       "auto_rotate": true
     }, 
-    "may_replace": [ "minecraft:air" ]
+    "may_replace": [
+      "minecraft:air"
+    ]
   }
 }

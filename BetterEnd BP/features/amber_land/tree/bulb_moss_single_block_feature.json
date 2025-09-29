@@ -33,17 +33,19 @@
         "weight": 1
       }
     ],
-    "enforce_survivability_rules": true,
+    "enforce_survivability_rules": false,
     "enforce_placement_rules": false,
+    "may_replace": [
+      "minecraft:air"
+    ],
     "may_attach_to": {
       "sides": [ 
-          "betterend:helix_tree_leaves",
-          "betterend:helix_tree_log", 
-          "betterend:helix_tree_wood" 
-          ],
+        "betterend:helix_tree_leaves",
+        "betterend:helix_tree_log", 
+        "betterend:helix_tree_wood"
+      ],
       "min_sides_must_attach": 1, 
       "auto_rotate": true
-    }, 
-    "may_replace": [ "minecraft:air" ]
+    }
   }
 }

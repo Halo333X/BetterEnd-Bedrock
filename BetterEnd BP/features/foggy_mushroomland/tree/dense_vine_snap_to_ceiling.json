@@ -8,9 +8,9 @@
     "vertical_search_range": 12,
     "surface": "ceiling",
     "allowed_surface_blocks": [
-        {
-            "name": "betterend:mossy_glowshroom_cap"
-        }
+      {
+        "name": "betterend:mossy_glowshroom_cap"
+      }
     ]
   }
 }

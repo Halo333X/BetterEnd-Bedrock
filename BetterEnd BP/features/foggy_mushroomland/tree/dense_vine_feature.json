@@ -1,10 +1,9 @@
 {
   "format_version": "1.21.0",
-  "minecraft:aggregate_feature": {
+  "minecraft:sequence_feature": {
     "description": {
       "identifier": "betterend:foggy_mushroomland/tree/dense_vine_feature"
     },
-    "early_out": "first_failure",
     "features": [
       "betterend:foggy_mushroomland/tree/dense_vine_lower_single_block_feature",
       "betterend:foggy_mushroomland/tree/dense_vine_upper_scatter_feature"

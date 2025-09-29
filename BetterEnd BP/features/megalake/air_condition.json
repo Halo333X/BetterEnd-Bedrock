@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:megalake/air_condition"
+    },
+    "iterations": "t.MegalakeNoise",
+    "x": 0,
+    "z": 0,
+    "y": 56,
+    "places_feature": "betterend:megalake/air_column"
+  }
+}
