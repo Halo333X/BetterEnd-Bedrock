@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:aeternium_block"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa",
+            "aaa",
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:aeternium_ingot"
+            }
+        },
+        "result": {
+            "item": "betterend:aeternium_block"
+        }
+    }
+}
