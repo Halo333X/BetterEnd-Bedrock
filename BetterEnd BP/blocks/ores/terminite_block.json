@@ -1,0 +1,19 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:terminite_block",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "tag:metal": {},
+            "tag:minecraft:iron_tier_destructible": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5
+            },
+            "minecraft:flammable": false
+        }
+    }
+}
