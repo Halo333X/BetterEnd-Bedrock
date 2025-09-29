@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:aeternium_ingot"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "ddd",
+            "ded",
+            "ddd"
+        ],
+        "key": {
+            "e": {
+                "item": "betterend:terminite_ingot"
+            },
+            "d": {
+                "item": "minecraft:netherite_scrap"
+            }
+        },
+        "result": {
+            "item": "betterend:aeternium_ingot"
+        }
+    }
+}
