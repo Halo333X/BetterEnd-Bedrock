@@ -1,72 +1,37 @@
 {
-	"format_version": "1.20.20",
-	"minecraft:block": {
-		"description": {
-			"identifier": "betterend:jellyshroom_cap_purple",
-			"menu_category": {
-				"category": "nature",
-				"group": "itemGroup.name.leaves"
-			},
-			"states": {
-				"betterend:up": [
-					true,
-					false
-				],
-				"betterend:down": [
-					true,
-					false
-				],
-				"betterend:west": [
-					true,
-					false
-				],
-				"betterend:east": [
-					true,
-					false
-				],
-				"betterend:north": [
-					true,
-					false
-				],
-				"betterend:south": [
-					true,
-					false
-				]
-			}
-		},
-		"components": {
-			"minecraft:custom_components": [ "betterend:umbrella_tree_membrane" ],
-			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 0.3
-			},
-			"minecraft:flammable": {
-				"catch_chance_modifier": 20,
-				"destroy_chance_modifier": 80
-			},
-			"minecraft:map_color": "#C467A2",
-			"tag:plant": {},
-			"tag:fertilize_area": {},
-			"tag:membrane": {},
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "purple_jellyshroom_cap",
-					"ambient_occlusion": true,
-					"face_dimming": true,
-					"render_method": "blend"
-				}
-			},
-			"minecraft:friction": 0.2,
-			"minecraft:geometry": {
-				"identifier": "geometry.umbrella_membrane",
-				"bone_visibility": {
-					"up": "q.block_state('betterend:up') == true",
-					"down": "q.block_state('betterend:down') == true",
-					"west": "q.block_state('betterend:west') == true",
-					"east": "q.block_state('betterend:east') == true",
-					"south": "q.block_state('betterend:south') == true",
-					"north": "q.block_state('betterend:north') == true"
-				}
-			}
-		}
-	}
+  "format_version": "1.20.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:jellyshroom_cap_purple",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.leaves"
+      }
+    },
+    "components": {
+      "minecraft:map_color": "#C467A2",
+      "tag:plant": {},
+      "tag:fertilize_area": {},
+      "tag:membrane": {},
+      "minecraft:custom_components": [
+        "betterend:umbrella_tree_membrane"
+      ],
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:friction": 0.2,
+      "minecraft:flammable": {
+        "catch_chance_modifier": 20,
+        "destroy_chance_modifier": 80
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "purple_jellyshroom_cap",
+          "render_method": "blend_to_opaque",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        }
+      }
+    }
+  }
 }

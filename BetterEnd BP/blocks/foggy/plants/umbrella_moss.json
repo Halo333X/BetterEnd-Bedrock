@@ -70,25 +70,25 @@
         "minecraft:material_instances": {
           "*": {
             "texture": "umbrella_moss_sporophyte",
-            "render_method": "alpha_test",
+            "render_method": "alpha_test_single_sided",
             "ambient_occlusion": false,
             "face_dimming": false
           },
           "umbrella_moss_small": {
             "texture": "umbrella_moss_small",
-            "render_method": "alpha_test",
+            "render_method": "alpha_test_single_sided",
             "ambient_occlusion": false,
             "face_dimming": false
           },
           "umbrella_moss_end": {
             "texture": "umbrella_moss_end",
-            "render_method": "alpha_test",
+            "render_method": "alpha_test_single_sided",
             "ambient_occlusion": false,
             "face_dimming": false
           },
           "umbrella_moss_up": {
             "texture": "umbrella_moss_up",
-            "render_method": "alpha_test",
+            "render_method": "alpha_test_single_sided",
             "ambient_occlusion": false,
             "face_dimming": false
           }

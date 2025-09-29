@@ -30,7 +30,6 @@
 			},
 			"minecraft:friction": 0.4,
 			"minecraft:map_color": "#ffffff",
-			"minecraft:light_dampening": 15,
 			"minecraft:light_emission": 0
 		}
 	}

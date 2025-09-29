@@ -2,37 +2,23 @@
   "format_version": "1.21.60",
   "minecraft:block": {
     "description": {
-      "identifier": "betterend:helix_tree_leaves",
-      "states": {
-        "betterend:decay_tier": [4, 3, 2, 1, 0],
-        "betterend:should_decay": [true, false]
-      }
+      "identifier": "betterend:helix_tree_leaves"
     },
     "components": {
-    	"tag:minecraft:is_sword_item_destructible": {},
-    	"tag:minecraft:is_shears_item_destructible": {},
-    	"tag:minecraft:is_hoe_item_destructible": {},
-    	"minecraft:liquid_detection": {
-						"detection_rules": [
-						{
-							"can_contain_liquid": true,
-							"liquid_type": "water",
-							"on_liquid_touches": "no_reaction"
-							}
-							]
-							},
+    	"tag:leaf": {},
+    	"tag:leaves": {},
+    	"tag:plant": {},
       "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:destructible_by_explosion": {
         "explosion_resistance": 1
       },
       "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 0.3
+        "seconds_to_destroy": 0.5
       },
       "minecraft:flammable": { 
 				"catch_chance_modifier": 5,
 				"destroy_chance_modifier": 20
 			},
-      "minecraft:custom_components": ["betterend:on_player_destroy", "betterend:random_tick", "betterend:leaf_place"],
       "minecraft:map_color": "#DDDDDD",
       "minecraft:light_dampening": 0,
       "minecraft:material_instances": {

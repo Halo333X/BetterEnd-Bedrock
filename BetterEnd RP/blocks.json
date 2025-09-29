@@ -727,7 +727,8 @@
   },
   // Umbrella
   "betterend:jellyshroom_cap_purple": {
-    "sound": "slime"
+    "sound": "slime",
+    "textures": "purple_jellyshroom_cap"
   },
   "betterend:small_jellyshroom": {
     "sound": "grass"

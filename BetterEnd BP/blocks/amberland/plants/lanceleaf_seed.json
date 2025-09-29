@@ -56,7 +56,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_seed_0",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -81,7 +81,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_seed_1",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -106,7 +106,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_seed_2",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -131,7 +131,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_seed_3",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -145,7 +145,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_stem",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -182,7 +182,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_leaf_bottom",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -226,7 +226,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_leaf_middle",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -270,7 +270,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_leaf_pre_top",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -314,7 +314,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lanceleaf_leaf_top",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }

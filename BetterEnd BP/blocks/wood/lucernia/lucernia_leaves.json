@@ -18,7 +18,7 @@
               "texture": "lucernia_leaves1",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": false,
               "render_method": "alpha_test_single_sided_to_opaque"
             },
@@ -26,7 +26,7 @@
               "texture": "lucernia_leaves1",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": true,
               "render_method": "alpha_test_single_sided_to_opaque"
             },
@@ -34,7 +34,7 @@
               "texture": "lucernia_leaves1",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": true,
               "render_method": "alpha_test_single_sided_to_opaque"
             }
@@ -49,7 +49,7 @@
               "texture": "lucernia_leaves2",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": false,
               "render_method": "alpha_test_single_sided_to_opaque"
             },
@@ -57,7 +57,7 @@
               "texture": "lucernia_leaves2",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": true,
               "render_method": "alpha_test_single_sided_to_opaque"
             },
@@ -65,7 +65,7 @@
               "texture": "lucernia_leaves2",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": true,
               "render_method": "alpha_test_single_sided_to_opaque"
             }
@@ -80,7 +80,7 @@
               "texture": "lucernia_leaves3",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": false,
               "render_method": "alpha_test_single_sided_to_opaque"
             },
@@ -88,7 +88,7 @@
               "texture": "lucernia_leaves3",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": true,
               "render_method": "alpha_test_single_sided_to_opaque"
             },
@@ -96,7 +96,7 @@
               "texture": "lucernia_leaves3",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": true,
               "render_method": "alpha_test_single_sided_to_opaque"
             }
@@ -111,7 +111,7 @@
               "texture": "lucernia_leaves4",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": false,
               "render_method": "alpha_test_single_sided_to_opaque"
             },
@@ -119,7 +119,7 @@
               "texture": "lucernia_leaves4",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": true,
               "render_method": "alpha_test_single_sided_to_opaque"
             },
@@ -127,7 +127,7 @@
               "texture": "lucernia_leaves4",
               "ambient_occlusion": false,
               "face_dimming": false, 
-              "ambient_occlusion": 0.8,
+              "ambient_occlusion": 1.0,
               "isotropic": true,
               "render_method": "alpha_test_single_sided_to_opaque"
             }

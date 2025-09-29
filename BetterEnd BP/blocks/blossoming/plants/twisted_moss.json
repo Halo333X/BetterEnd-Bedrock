@@ -69,7 +69,6 @@
       }
     ],
     "components": {
-      "minecraft:light_emission": 10,
       "minecraft:custom_components": ["betterend:blossoming_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:material_instances": {

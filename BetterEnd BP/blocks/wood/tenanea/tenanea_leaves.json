@@ -38,26 +38,10 @@
       "minecraft:material_instances": {
         "*": {
           "texture": "tenanea_leaves",
-          "ambient_occlusion": false,
-          "face_dimming": false, 
-          "ambient_occlusion": 0.8,
+          "ambient_occlusion": true,
+          "face_dimming": true, 
+          "ambient_occlusion": 1.0,
           "isotropic": false,
-          "render_method": "alpha_test_single_sided_to_opaque"
-        },
-        "up": {
-          "texture": "tenanea_leaves",
-          "ambient_occlusion": false,
-          "face_dimming": false, 
-          "ambient_occlusion": 0.8,
-          "isotropic": true,
-          "render_method": "alpha_test_single_sided_to_opaque"
-        },
-        "down": {
-          "texture": "tenanea_leaves",
-          "ambient_occlusion": false,
-          "face_dimming": false, 
-          "ambient_occlusion": 0.8,
-          "isotropic": true,
           "render_method": "alpha_test_single_sided_to_opaque"
         }
       }

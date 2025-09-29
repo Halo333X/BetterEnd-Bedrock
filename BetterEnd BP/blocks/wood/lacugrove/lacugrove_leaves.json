@@ -40,7 +40,7 @@
           "texture": "lacugrove_leaves",
           "ambient_occlusion": true,
           "face_dimming": true, 
-          "ambient_occlusion": 0.8,
+          "ambient_occlusion": 1.0,
           "isotropic": false,
           "render_method": "alpha_test_single_sided_to_opaque"
         },
@@ -48,7 +48,7 @@
           "texture": "lacugrove_leaves",
           "ambient_occlusion": true,
           "face_dimming": true, 
-          "ambient_occlusion": 0.8,
+          "ambient_occlusion": 1.0,
           "isotropic": true,
           "render_method": "alpha_test_single_sided_to_opaque"
         },
@@ -56,7 +56,7 @@
           "texture": "lacugrove_leaves",
           "ambient_occlusion": true,
           "face_dimming": true, 
-          "ambient_occlusion": 0.8,
+          "ambient_occlusion": 1.0,
           "isotropic": true,
           "render_method": "alpha_test_single_sided_to_opaque"
         }
