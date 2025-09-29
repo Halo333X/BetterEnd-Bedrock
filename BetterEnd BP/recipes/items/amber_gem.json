@@ -1,0 +1,14 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "betterend:amber_gem"
+        },
+        "tags": [
+            "furnace",
+            "blast_furnace"
+        ],
+        "input": "betterend:raw_amber",
+        "output": "betterend:amber_gem"
+    }
+}
