@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:terminite_boots"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a a",
+            "a a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:terminite_ingot"
+            }
+        },
+        "result": {
+            "item": "betterend:terminite_boots"
+        }
+    }
+}
