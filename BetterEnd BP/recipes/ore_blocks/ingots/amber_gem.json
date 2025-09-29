@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:amber_gem2"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:amber_block"
+            }
+        },
+        "result": {
+            "item": "betterend:amber_gem",
+            "count": 9
+        }
+    }
+}
