@@ -580,7 +580,7 @@
   },
   "betterend:sangnum": {
     "sound": "gravel",
-	"isotropic": {
+    "isotropic": {
       "up": true
     },
     "textures": {
@@ -598,22 +598,22 @@
     }
   },
   //Ice Starfield
-	"betterend:ancient_emerald_ice": {
-		"sound": "glass",
-		"textures": "ancient_emerald_ice"
-	},
-	"betterend:dense_emerald_ice": {
-		"sound": "glass",
-		"textures": "dense_emerald_ice"
-	},
-	"betterend:dense_snow": {
-		"sound": "glass",
-		"textures": "dense_snow"
-	},
-	"betterend:emerald_ice": {
-		"sound": "glass",
-		"textures":"emerald_ice"
-	},
+  "betterend:ancient_emerald_ice": {
+    "sound": "glass",
+    "textures": "ancient_emerald_ice"
+  },
+  "betterend:dense_emerald_ice": {
+    "sound": "glass",
+    "textures": "dense_emerald_ice"
+  },
+  "betterend:dense_snow": {
+    "sound": "glass",
+    "textures": "dense_snow"
+  },
+  "betterend:emerald_ice": {
+    "sound": "glass",
+    "textures": "emerald_ice"
+  },
   // Lantern
   "betterend:lucernia_outer_leaves": {
     "sound": "grass"
@@ -1030,6 +1030,22 @@
     }
   },
   // Ores
+  "betterend:aeternium_block": {
+    "textures": "aeternium_block",
+    "sound": "metal"
+  },
+  "betterend:terminite_block": {
+    "textures": "terminite_block",
+    "sound": "metal"
+  },
+  "betterend:thallasium_block": {
+    "textures": "thallasium_block",
+    "sound": "metal"
+  },
+  "betterend:amber_block": {
+    "textures": "amber_block",
+    "sound": "metal"
+  },
   "betterend:amber_ore": {
     "sound": "stone",
     "textures": "amber_ore"

@@ -1638,6 +1638,15 @@
       "textures": "textures/blocks/_extras/aurora_crystal"
     },
     // Ores
+    "aeternium_block": {
+      "textures": "textures/blocks/ore/aeternium_block"
+    },
+    "terminite_block": {
+      "textures": "textures/blocks/ore/terminite_block"
+    },
+    "thallasium_block": {
+      "textures": "textures/blocks/ore/thallasium_block"
+    },
     "amber_block": {
       "textures": "textures/blocks/ore/amber_block"
     },
