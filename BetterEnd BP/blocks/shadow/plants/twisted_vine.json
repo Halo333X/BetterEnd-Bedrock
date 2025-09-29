@@ -23,13 +23,13 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "twisted_vine",
-              "render_method": "alpha_test_single_sided",
+              "render_method": "alpha_test",
               "ambient_occlusion": false,
               "face_dimming": false
             },
             "blue_vine_roots": {
               "texture": "twisted_vine_roots",
-              "render_method": "alpha_test_single_sided",
+              "render_method": "alpha_test",
               "ambient_occlusion": false,
               "face_dimming": false
             }
