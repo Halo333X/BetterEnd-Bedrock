@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:thallasium_hoe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "ii",
+            " s",
+            " s"
+        ],
+        "key": {
+            "i": {
+                "item": "betterend:thallasium_ingot"
+            },
+            "s": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "betterend:thallasium_hoe"
+        }
+    }
+}
