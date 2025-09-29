@@ -2,14 +2,15 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:terminite_helmet"
+            "identifier": "betterend:terminite_block"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
             "aaa",
-            "a a"
+            "aaa",
+            "aaa"
         ],
         "key": {
             "a": {
@@ -17,7 +18,7 @@
             }
         },
         "result": {
-            "item": "betterend:terminite_helmet"
+            "item": "betterend:terminite_block"
         }
     }
 }
