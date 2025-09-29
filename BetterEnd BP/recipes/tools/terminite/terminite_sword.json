@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:terminite_sword"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "i",
+            "i",
+            "s"
+        ],
+        "key": {
+            "i": {
+                "item": "betterend:terminite_ingot"
+            },
+            "s": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "betterend:terminite_sword"
+        }
+    }
+}
