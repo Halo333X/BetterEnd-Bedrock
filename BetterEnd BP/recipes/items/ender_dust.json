@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:ender_dust"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "e"
+        ],
+        "key": {
+            "e": {
+                "item": "betterend:ender_shard"
+            }
+        },
+        "result": {
+            "item": "betterend:ender_dust",
+            "count": 3
+        }
+    }
+}
