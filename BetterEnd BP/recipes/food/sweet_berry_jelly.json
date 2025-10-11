@@ -1,0 +1,32 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:sweet_berry_jelly"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "bs",
+            "wg"
+        ],
+        "key": {
+            "b": {
+                "item": "minecraft:sweet_berries"
+            },
+            "s": {
+                "item": "minecraft:sugar"
+            },
+            "w": {
+                "item": "minecraft:water_bucket"
+            },
+            "g": {
+                "item": "betterend:gelatine"
+            }
+        },
+        "result": {
+            "item": "betterend:sweet_berry_jelly"
+        }
+    }
+}
