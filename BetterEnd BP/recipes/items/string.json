@@ -1,0 +1,25 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:sring"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "s",
+            "s",
+            "s"
+        ],
+        "key": {
+            "s": {
+                "item": "betterend:silk_fiber"
+            }
+        },
+        "result": {
+            "item": "minecraft:string",
+            "count": 6
+        }
+    }
+}
