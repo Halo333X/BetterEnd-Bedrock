@@ -1,0 +1,30 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:silk_moth_hive"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "plp",
+            "lsl",
+            "plp"
+        ],
+        "key": {
+            "p": {
+                "item": "betterend:tenanea_planks"
+            },
+            "l": {
+                "item": "betterend:tenanea_leaves"
+            },
+            "s": {
+                "item": "betterend:silk_moth_matrix"
+            }
+        },
+        "result": {
+            "item": "betterend:silk_moth_hive"
+        }
+    }
+}
