@@ -19,7 +19,7 @@
 				"catch_chance_modifier": 5,
 				"destroy_chance_modifier": 20
 			},
-      "minecraft:map_color": "#DDDDDD",
+      "minecraft:map_color": "#985200",
       "minecraft:light_dampening": 0,
       "minecraft:material_instances": {
         "*": {

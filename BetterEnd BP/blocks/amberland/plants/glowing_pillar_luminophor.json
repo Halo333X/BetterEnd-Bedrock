@@ -8,6 +8,7 @@
             }
         },
         "components": {
+            "minecraft:map_color": "#ffb300",
       "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:material_instances": {
         "*": {

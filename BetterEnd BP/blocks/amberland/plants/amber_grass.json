@@ -30,6 +30,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#b35b00",
       "tag:offset:-12": {},
       "tag:particle:betterend:amber_sphere": {},
       "minecraft:custom_components": [

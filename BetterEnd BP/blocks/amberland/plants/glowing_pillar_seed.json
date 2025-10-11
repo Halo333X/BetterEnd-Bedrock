@@ -218,6 +218,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#ffb300",
       "minecraft:custom_components": ["betterend:glowing_pillar_seed"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:geometry": "geometry.random_model2",

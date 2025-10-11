@@ -78,6 +78,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#b35b00",
       "minecraft:custom_components": ["betterend:amber_root_seed"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:geometry": "geometry.random_model1",

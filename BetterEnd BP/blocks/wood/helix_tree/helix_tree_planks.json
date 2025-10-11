@@ -18,7 +18,7 @@
         "destroy_chance_modifier": 20
       },
       "minecraft:custom_components": ["betterend:on_player_destroy"],
-      "minecraft:map_color": "#B16A4A",
+      "minecraft:map_color": "#5f5e5d",
       "minecraft:material_instances": {
         "*": {
           "texture": "planks_helix_tree",
