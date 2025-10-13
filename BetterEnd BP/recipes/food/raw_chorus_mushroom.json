@@ -2,7 +2,7 @@
     "format_version": "1.17.41",
     "minecraft:recipe_furnace": {
         "description": {
-            "identifier": "betterend:raw_chorus_mushroom"
+            "identifier": "betterend:chorus_mushroom"
         },
         "tags": [
             "furnace",
@@ -10,7 +10,7 @@
             "campfire",
             "soul_campfire"
         ],
-        "input": "betterend:raw_chorus_mushroom",
+        "input": "betterend:chorus_mushroom",
         "output": "betterend:chorus_mushroom_cooked"
     }
 }

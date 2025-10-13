@@ -33,7 +33,7 @@
 				"destroy_chance_modifier": 20
 			},
       "minecraft:custom_components": ["betterend:on_player_destroy", "betterend:random_tick", "betterend:leaf_place", "betterend:tenanea_outer_leaves_generator"],
-      "minecraft:map_color": "#DDDDDD",
+      "minecraft:map_color": "#a53bac",
       "minecraft:light_dampening": 15,
       "minecraft:material_instances": {
         "*": {

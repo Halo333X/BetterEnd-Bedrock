@@ -26,7 +26,7 @@ system.runInterval(() => {
                 playerUtils.fallVelocity();
                 playerUtils.ambientStuff();
                 playerUtils.armor();
-                playerUtils.waila();
+                // playerUtils.waila();
                 // playerUtils.wailaArmor();
             }
             else {
