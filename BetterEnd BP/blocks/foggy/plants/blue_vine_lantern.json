@@ -8,6 +8,7 @@
       }
     },
     "components": {
+      "minecraft:map_color": "#29fcff",
       "minecraft:light_emission": 15,
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": {

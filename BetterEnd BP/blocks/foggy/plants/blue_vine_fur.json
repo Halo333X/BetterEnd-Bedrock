@@ -48,6 +48,7 @@
         }
       ],
       "components": {
+        "minecraft:map_color": "#00f5ff",
         "minecraft:selection_box": {
           "origin": [-8, 0, -8],
           "size": [16, 8, 16]

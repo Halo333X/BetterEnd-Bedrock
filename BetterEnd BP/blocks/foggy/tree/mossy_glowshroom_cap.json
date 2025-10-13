@@ -39,6 +39,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#0061c5",
       "minecraft:custom_components": [
         "betterend:mossy_glowshroom_cap"
       ],

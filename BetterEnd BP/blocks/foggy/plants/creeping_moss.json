@@ -5,6 +5,7 @@
       "identifier": "betterend:creeping_moss"
     },
     "components": {
+      "minecraft:map_color": "#29fcff",
       "tag:offset:-12": {},
       "tag:particle:betterend:glowing_sphere": {},
       "minecraft:custom_components": ["betterend:foggy_index", "betterend:particle_emitter"],

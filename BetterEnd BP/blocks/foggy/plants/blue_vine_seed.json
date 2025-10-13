@@ -229,6 +229,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#29fcff",
       "minecraft:custom_components": ["betterend:blue_vine_seed"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:geometry": "geometry.random_model2",

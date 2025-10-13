@@ -69,6 +69,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#00566a",
       "minecraft:light_emission": 0,
       "minecraft:custom_components": ["betterend:foggy_index"],
       "minecraft:loot": "loot_tables/empty.json",
