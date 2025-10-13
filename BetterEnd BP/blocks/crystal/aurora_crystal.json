@@ -460,6 +460,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#00f1d0",
       "tag:stone": {},
       "minecraft:tick": {
         "interval_range": [10, 20],

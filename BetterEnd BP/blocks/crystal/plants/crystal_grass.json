@@ -82,6 +82,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#e7f87a",
       "minecraft:custom_components": ["betterend:crystal_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:destructible_by_explosion": true,
