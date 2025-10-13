@@ -78,6 +78,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#d07dd5",
       "minecraft:custom_components": ["betterend:chorus_mushroom_seed"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:geometry": "geometry.random_model1",

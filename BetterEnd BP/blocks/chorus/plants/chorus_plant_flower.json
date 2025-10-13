@@ -56,6 +56,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#812a87",
       "minecraft:custom_components": ["betterend:chorus_index"],
       "minecraft:flammable": false,
       "minecraft:destructible_by_explosion": true,

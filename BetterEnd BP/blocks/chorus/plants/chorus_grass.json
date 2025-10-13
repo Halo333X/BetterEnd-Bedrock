@@ -154,6 +154,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#812a87",
       "minecraft:custom_components": ["betterend:chorus_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:destructible_by_explosion": true,
