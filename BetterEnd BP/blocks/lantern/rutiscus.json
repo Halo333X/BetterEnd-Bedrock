@@ -43,7 +43,7 @@
                 "seconds_to_destroy": 1
             },
             "minecraft:flammable": false,
-            "minecraft:map_color": "#ac00ba"
+            "minecraft:map_color": "#ff7627"
         }
     }
 }

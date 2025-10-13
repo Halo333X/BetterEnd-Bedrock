@@ -166,7 +166,7 @@
        "betterend:lucernia_index",
        "betterend:lucernia_outer_leaves_generator"
       ],
-      "minecraft:map_color": "#DDDDDD",
+      "minecraft:map_color": "#b43a13",
       "minecraft:light_dampening": 15
     }
   }

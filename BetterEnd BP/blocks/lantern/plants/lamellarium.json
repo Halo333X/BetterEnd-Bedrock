@@ -24,6 +24,7 @@
             }
         ],
         "components": {
+            "minecraft:map_color": "#ec6d25",
             "minecraft:custom_components": [ "betterend:lucernia_index" ],
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:material_instances": {

@@ -5,6 +5,7 @@
             "identifier": "betterend:aeridium"
         },
         "components": {
+            "minecraft:map_color": "#ec6d25",
             "minecraft:geometry": "geometry.random_model2",
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:material_instances": {

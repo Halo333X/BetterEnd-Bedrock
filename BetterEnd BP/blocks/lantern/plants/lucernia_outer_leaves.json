@@ -116,6 +116,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#b43a13",
       "minecraft:selection_box": {
         "origin": [-8, 0, -8],
         "size": [16, 8, 16]
