@@ -30,6 +30,7 @@
         }
       ],
       "components": {
+        "minecraft:map_color": "#29fcff",
         "tag:offset:-12": {},
         "tag:particle:betterend:firefly": {},
         "minecraft:custom_components": ["betterend:glowing_index", "betterend:particle_emitter"],

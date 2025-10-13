@@ -167,6 +167,7 @@
             }
         ],
         "components": {
+            "minecraft:map_color": "#80fdff",
             "minecraft:collision_box": true,
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1

@@ -336,6 +336,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#80fdff",
       "minecraft:custom_components": [
         "betterend:lumecorn_seed"
       ],
