@@ -38,7 +38,7 @@
       "minecraft:custom_components": [
         "falling_block:custom_component"
       ],
-      "minecraft:map_color": "#f0ebb3",
+      "minecraft:map_color": "#dfc597",
       "minecraft:collision_box": true,
       "minecraft:selection_box": true,
       "tag:isFallingBlock": {}
