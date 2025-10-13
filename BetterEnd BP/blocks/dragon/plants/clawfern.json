@@ -30,6 +30,7 @@
         }
       ],
       "components": {
+        "minecraft:map_color": "#ea686c",
         "minecraft:custom_components": ["betterend:dragon_index"],
         "minecraft:loot": "loot_tables/empty.json",
         "minecraft:material_instances": {

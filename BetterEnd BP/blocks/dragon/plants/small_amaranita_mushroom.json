@@ -364,6 +364,7 @@
       }
     ],
     "components": {
+      "minecraft:map_color": "#fd4247",
       "minecraft:custom_components": [
         "betterend:small_amaranita_mushroom"
       ],

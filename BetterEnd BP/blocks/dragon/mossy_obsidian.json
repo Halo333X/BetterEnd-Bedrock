@@ -8,6 +8,7 @@
             }
         },
         "components": {
+            "minecraft:map_color": "#000000",
             "tag:obsidian": {},
             "tag:minecraft:diamond_tier_destructible": {},
             "tag:minecraft:netherite_tier_destructible": {},
