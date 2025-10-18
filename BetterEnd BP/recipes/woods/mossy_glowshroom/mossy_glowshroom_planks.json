@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:mossy_glowshroom_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:mossy_glowshroom_log"
+            }
+        },
+        "result": {
+            "item": "betterend:mossy_glowshroom_planks",
+            "count": 4
+        }
+    }
+}

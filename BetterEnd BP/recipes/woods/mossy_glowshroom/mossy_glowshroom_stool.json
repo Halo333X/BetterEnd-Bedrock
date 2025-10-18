@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:mossy_glowshroom_stool"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "pp",
+            "ss"
+        ],
+        "key": {
+            "s": {
+                "item": "minecraft:stick"
+            },
+            "p": {
+                "item": "betterend:mossy_glowshroom_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:mossy_glowshroom_stool",
+            "count": 1
+        }
+    }
+}

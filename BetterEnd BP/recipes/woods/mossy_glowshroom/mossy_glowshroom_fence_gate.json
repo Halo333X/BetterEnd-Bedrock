@@ -1,0 +1,26 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:mossy_glowshroom_fence_gate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "apa",
+            "apa"
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:stick"
+            },
+            "p": {
+                "item": "betterend:mossy_glowshroom_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:mossy_glowshroom_fence_gate"
+        }
+    }
+}

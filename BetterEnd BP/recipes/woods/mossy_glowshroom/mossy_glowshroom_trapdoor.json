@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:mossy_glowshroom_trapdoor"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa",
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:mossy_glowshroom_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:mossy_glowshroom_trapdoor",
+            "count": 2
+        }
+    }
+}
