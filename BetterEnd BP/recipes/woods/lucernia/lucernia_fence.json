@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:lucernia_fence"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "pap",
+            "pap"
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:stick"
+            },
+            "p": {
+                "item": "betterend:lucernia_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:lucernia_fence",
+            "count": 3
+        }
+    }
+}

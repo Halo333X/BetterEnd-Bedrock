@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:lucernia_planks2"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:lucernia_wood"
+            }
+        },
+        "result": {
+            "item": "betterend:lucernia_planks",
+            "count": 4
+        }
+    }
+}

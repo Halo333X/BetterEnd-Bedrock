@@ -1,0 +1,25 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:lucernia_chair"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " a",
+            "aa",
+            "aa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:lucernia_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:lucernia_chair",
+            "count": 2
+        }
+    }
+}

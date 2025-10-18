@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:lucernia_stick"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a",
+            "a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:lucernia_planks"
+            }
+        },
+        "result": {
+            "item": "minecraft:stick",
+            "count": 4
+        }
+    }
+}
