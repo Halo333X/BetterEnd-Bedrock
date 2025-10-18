@@ -1,0 +1,25 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:end_lotus_door"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aa",
+            "aa",
+            "aa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:end_lotus_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:end_lotus_door",
+            "count": 3
+        }
+    }
+}

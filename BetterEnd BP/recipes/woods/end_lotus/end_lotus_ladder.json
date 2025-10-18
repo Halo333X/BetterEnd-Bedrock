@@ -1,0 +1,28 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:end_lotus_ladder"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "s s",
+            "asa",
+            "s s"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:end_lotus_planks"
+            },
+            "s": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "betterend:end_lotus_ladder",
+            "count": 3
+        }
+    }
+}
