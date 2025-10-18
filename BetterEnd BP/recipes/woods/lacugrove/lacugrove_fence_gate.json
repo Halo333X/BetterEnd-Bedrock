@@ -2,22 +2,25 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:jellyshroom_planks3"
+            "identifier": "betterend:lacugrove_fence_gate"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "a"
+            "apa",
+            "apa"
         ],
         "key": {
             "a": {
-                "item": "betterend:stripped_jellyshroom_wood"
+                "item": "minecraft:stick"
+            },
+            "p": {
+                "item": "betterend:lacugrove_planks"
             }
         },
         "result": {
-            "item": "betterend:jellyshroom_planks",
-            "count": 4
+            "item": "betterend:lacugrove_fence_gate"
         }
     }
 }

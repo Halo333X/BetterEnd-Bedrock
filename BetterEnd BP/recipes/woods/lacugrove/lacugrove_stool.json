@@ -2,27 +2,26 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:jellyshroom_ladder"
+            "identifier": "betterend:lacugrove_stool"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "s s",
-            "asa",
-            "s s"
+            "pp",
+            "ss"
         ],
         "key": {
-            "a": {
-                "item": "betterend:jellyshroom_planks"
-            },
             "s": {
                 "item": "minecraft:stick"
+            },
+            "p": {
+                "item": "betterend:lacugrove_planks"
             }
         },
         "result": {
-            "item": "betterend:jellyshroom_ladder",
-            "count": 3
+            "item": "betterend:lacugrove_stool",
+            "count": 1
         }
     }
 }

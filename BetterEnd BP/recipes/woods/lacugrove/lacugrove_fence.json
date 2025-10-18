@@ -2,26 +2,26 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:jellyshroom_stool"
+            "identifier": "betterend:lacugrove_fence"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "pp",
-            "ss"
+            "pap",
+            "pap"
         ],
         "key": {
-            "s": {
+            "a": {
                 "item": "minecraft:stick"
             },
             "p": {
-                "item": "betterend:jellyshroom_planks"
+                "item": "betterend:lacugrove_planks"
             }
         },
         "result": {
-            "item": "betterend:jellyshroom_stool",
-            "count": 1
+            "item": "betterend:lacugrove_fence",
+            "count": 3
         }
     }
 }

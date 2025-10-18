@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:lacugrove_trapdoor"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa",
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:lacugrove_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:lacugrove_trapdoor",
+            "count": 2
+        }
+    }
+}

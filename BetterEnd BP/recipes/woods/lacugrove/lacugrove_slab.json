@@ -2,22 +2,22 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:jellyshroom_planks4"
+            "identifier": "betterend:lacugrove_slab"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "a"
+            "aaa"
         ],
         "key": {
             "a": {
-                "item": "betterend:stripped_jellyshroom_log"
+                "item": "betterend:lacugrove_planks"
             }
         },
         "result": {
-            "item": "betterend:jellyshroom_planks",
-            "count": 4
+            "item": "betterend:lacugrove_slab",
+            "count": 6
         }
     }
 }

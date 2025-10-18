@@ -2,23 +2,26 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:jellyshroom_door"
+            "identifier": "betterend:lacugrove_ladder"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "aa",
-            "aa",
-            "aa"
+            "s s",
+            "asa",
+            "s s"
         ],
         "key": {
             "a": {
-                "item": "betterend:jellyshroom_planks"
+                "item": "betterend:lacugrove_planks"
+            },
+            "s": {
+                "item": "minecraft:stick"
             }
         },
         "result": {
-            "item": "betterend:jellyshroom_door",
+            "item": "betterend:lacugrove_ladder",
             "count": 3
         }
     }

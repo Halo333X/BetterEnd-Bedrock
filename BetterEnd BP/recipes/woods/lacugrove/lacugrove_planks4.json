@@ -2,24 +2,22 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:jellyshroom_chair"
+            "identifier": "betterend:lacugrove_planks4"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            " a",
-            "aa",
-            "aa"
+            "a"
         ],
         "key": {
             "a": {
-                "item": "betterend:jellyshroom_planks"
+                "item": "betterend:stripped_lacugrove_log"
             }
         },
         "result": {
-            "item": "betterend:jellyshroom_chair",
-            "count": 2
+            "item": "betterend:lacugrove_planks",
+            "count": 4
         }
     }
 }
