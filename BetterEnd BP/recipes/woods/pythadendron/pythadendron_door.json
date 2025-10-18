@@ -1,0 +1,25 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:pythadendron_door"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aa",
+            "aa",
+            "aa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:pythadendron_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:pythadendron_door",
+            "count": 3
+        }
+    }
+}

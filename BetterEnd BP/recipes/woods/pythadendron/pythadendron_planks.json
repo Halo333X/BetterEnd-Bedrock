@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:pythadendron_planks"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:pythadendron_log"
+            }
+        },
+        "result": {
+            "item": "betterend:pythadendron_planks",
+            "count": 4
+        }
+    }
+}

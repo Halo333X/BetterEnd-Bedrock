@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:pythadendron_stool"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "pp",
+            "ss"
+        ],
+        "key": {
+            "s": {
+                "item": "minecraft:stick"
+            },
+            "p": {
+                "item": "betterend:pythadendron_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:pythadendron_stool",
+            "count": 1
+        }
+    }
+}
