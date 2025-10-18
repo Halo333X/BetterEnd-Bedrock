@@ -1,0 +1,26 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:tenanea_fence_gate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "apa",
+            "apa"
+        ],
+        "key": {
+            "a": {
+                "item": "minecraft:stick"
+            },
+            "p": {
+                "item": "betterend:tenanea_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:tenanea_fence_gate"
+        }
+    }
+}
