@@ -1,0 +1,25 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:helix_tree_chair"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " a",
+            "aa",
+            "aa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:helix_tree_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:helix_tree_chair",
+            "count": 2
+        }
+    }
+}

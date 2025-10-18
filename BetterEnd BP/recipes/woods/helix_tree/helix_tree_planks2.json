@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:helix_tree_planks2"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:helix_tree_wood"
+            }
+        },
+        "result": {
+            "item": "betterend:helix_tree_planks",
+            "count": 4
+        }
+    }
+}

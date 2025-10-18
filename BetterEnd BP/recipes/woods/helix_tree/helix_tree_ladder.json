@@ -1,0 +1,28 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:helix_tree_ladder"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "s s",
+            "asa",
+            "s s"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:helix_tree_planks"
+            },
+            "s": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "betterend:helix_tree_ladder",
+            "count": 3
+        }
+    }
+}
