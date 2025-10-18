@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:dragon_tree_planks4"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:stripped_dragon_tree_log"
+            }
+        },
+        "result": {
+            "item": "betterend:dragon_tree_planks",
+            "count": 4
+        }
+    }
+}

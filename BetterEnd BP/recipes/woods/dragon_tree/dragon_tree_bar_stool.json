@@ -1,0 +1,31 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:dragon_tree_bar_stool"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " w ",
+            "sps",
+            "s s"
+        ],
+        "key": {
+            "s": {
+                "item": "minecraft:stick"
+            },
+            "w": {
+                "item": "minecraft:black_wool"
+            },
+            "p": {
+                "item": "betterend:dragon_tree_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:dragon_tree_bar_stool",
+            "count": 2
+        }
+    }
+}

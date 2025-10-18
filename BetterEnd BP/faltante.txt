@@ -1,0 +1,12 @@
+IDEA PARA ELYTRAS
+
+AL EQUIPAR LAS ELYTRAS CUSTOM, AÑADIR UN DYNAMIC PROPERTY AL PLAYER, PARA ASI DETECTAR DESDE EL CLIENT
+DE LA ELYTRA VANILLA Y CAMBIAR LA TEXTURA A LA CUSTOM
+
+
+MISSING THINGS
+
+Pumpkin Cave Plant
+Saplings
+Crafteos de maderas y piedras y otros bloques
+Color maps (Ice Starfield, Megalakes, Painted, Shadow, Sulphur, Umbra, Umbrella)
