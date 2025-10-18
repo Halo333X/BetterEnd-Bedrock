@@ -1,0 +1,25 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:jellyshroom_chair"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " a",
+            "aa",
+            "aa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:jellyshroom_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:jellyshroom_chair",
+            "count": 2
+        }
+    }
+}

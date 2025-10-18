@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:jellyshroom_crafting_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aa",
+            "aa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:jellyshroom_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:jellyshroom_crafting_table"
+        }
+    }
+}
