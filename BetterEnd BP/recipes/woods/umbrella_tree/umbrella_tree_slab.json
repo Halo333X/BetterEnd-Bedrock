@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:umbrella_tree_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:umbrella_tree_planks"
+            }
+        },
+        "result": {
+            "item": "betterend:umbrella_tree_slab",
+            "count": 6
+        }
+    }
+}
