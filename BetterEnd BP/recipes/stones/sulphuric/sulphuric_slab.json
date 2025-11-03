@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:sulphuric_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:sulphuric"
+            }
+        },
+        "result": {
+            "item": "betterend:sulphuric_slab",
+            "count": 6
+        }
+    }
+}
