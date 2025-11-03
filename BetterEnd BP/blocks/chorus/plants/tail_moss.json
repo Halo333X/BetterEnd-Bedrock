@@ -70,7 +70,7 @@
     ],
     "components": {
       "minecraft:custom_components": ["betterend:chorus_index"],
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/chorus/tail_moss.json",
       "minecraft:material_instances": {
         "*": {
           "texture": "tail_moss",

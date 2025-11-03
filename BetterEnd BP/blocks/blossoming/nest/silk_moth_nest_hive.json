@@ -93,7 +93,6 @@
                 ],
                 "looping": true
             },
-            "minecraft:loot": "loot_tables/empty.json",
             "minecraft:material_instances": {
                 "*": {
                     "texture": "silk_moth_hive",

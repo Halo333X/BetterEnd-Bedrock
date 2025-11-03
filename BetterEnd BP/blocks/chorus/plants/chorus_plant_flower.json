@@ -56,6 +56,7 @@
       }
     ],
     "components": {
+      "minecraft:loot": "loot_tables/chorus/chorus_plant_flower.json",
       "minecraft:map_color": "#812a87",
       "minecraft:custom_components": ["betterend:chorus_index"],
       "minecraft:flammable": false,

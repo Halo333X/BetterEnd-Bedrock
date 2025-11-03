@@ -57,6 +57,7 @@
       }
     ],
     "components": {
+      "minecraft:loot": "loot_tables/chorus/purple_polypore.json",
       "minecraft:custom_components": ["betterend:chorus_index"],
       "minecraft:flammable": false,
       "minecraft:light_emission": 5,
