@@ -51,6 +51,7 @@
       }
     ],
     "components": {
+      "minecraft:loot": "loot_tables/crystal/crystal_moss_cover.json",
       "minecraft:material_instances": {
         "*": {
           "texture": "crystal_moss_cover",
