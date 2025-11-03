@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:virid_jadestone_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "bb",
+            "bb"
+        ],
+        "key": {
+            "b": {
+                "item": "betterend:virid_jadestone_bricks"
+            }
+        },
+        "result": {
+            "item": "betterend:virid_jadestone_polished",
+            "count": 4
+        }
+    }
+}

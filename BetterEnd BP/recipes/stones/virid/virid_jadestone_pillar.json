@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:virid_jadestone_pillar"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "s",
+            "s"
+        ],
+        "key": {
+            "s": {
+                "item": "betterend:virid_jadestone_slab"
+            }
+        },
+        "result": {
+            "item": "betterend:virid_jadestone_pillar",
+            "count": 1
+        }
+    }
+}

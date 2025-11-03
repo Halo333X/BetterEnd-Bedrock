@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:virid_jadestone_tiles"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "pp",
+            "pp"
+        ],
+        "key": {
+            "p": {
+                "item": "betterend:virid_jadestone_polished"
+            }
+        },
+        "result": {
+            "item": "betterend:virid_jadestone_tiles",
+            "count": 4
+        }
+    }
+}
