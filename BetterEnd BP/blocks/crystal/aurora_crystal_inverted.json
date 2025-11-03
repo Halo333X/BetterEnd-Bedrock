@@ -479,7 +479,7 @@
           "north2": "!query.block_state('betterend:north') == false"
         }
       },
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/crystal/eternal_crystal.json",
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 3
       }
