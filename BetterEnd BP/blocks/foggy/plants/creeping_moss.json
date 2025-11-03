@@ -9,7 +9,7 @@
       "tag:offset:-12": {},
       "tag:particle:betterend:glowing_sphere": {},
       "minecraft:custom_components": ["betterend:foggy_index", "betterend:particle_emitter"],
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/foggy/creeping_moss.json",
       "minecraft:geometry": "geometry.creeping_moss",
       "minecraft:light_emission": 15,
       "minecraft:material_instances": {

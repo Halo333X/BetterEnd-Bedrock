@@ -48,6 +48,7 @@
       }
     ],
     "components": {
+      "minecraft:loot": "loot_tables/foggy/mossy_glowshroom_fur.json",
       "minecraft:map_color": "#29fcff",
       "minecraft:selection_box": {
         "origin": [-8, 0, -8],

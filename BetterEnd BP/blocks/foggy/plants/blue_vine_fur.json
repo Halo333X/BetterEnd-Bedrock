@@ -48,6 +48,7 @@
         }
       ],
       "components": {
+        "minecraft:loot": "loot_tables/foggy/blue_vine_fur.json",
         "minecraft:map_color": "#00f5ff",
         "minecraft:selection_box": {
           "origin": [-8, 0, -8],
