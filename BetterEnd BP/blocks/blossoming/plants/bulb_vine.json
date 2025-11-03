@@ -58,6 +58,7 @@
       {
         "condition": "q.block_state('betterend:growth') == 2",
         "components": {
+          "minecraft:loot": "loot_tables/blossoming/bulb_vine.json",
           "minecraft:light_emission": 15,
           "minecraft:tick": {
             "interval_range": [10, 10],
