@@ -1,0 +1,28 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:flavolite_pedestal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "s",
+            "p",
+            "s"
+        ],
+        "key": {
+            "s": {
+                "item": "betterend:flavolite_slab"
+            },
+            "p": {
+                "item": "betterend:flavolite_pillar"
+            }
+        },
+        "result": {
+            "item": "betterend:flavolite_pedestal",
+            "count": 2
+        }
+    }
+}

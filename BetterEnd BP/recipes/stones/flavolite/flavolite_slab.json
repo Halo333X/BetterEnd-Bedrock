@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:flavolite_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:flavolite"
+            }
+        },
+        "result": {
+            "item": "betterend:flavolite_slab",
+            "count": 6
+        }
+    }
+}
