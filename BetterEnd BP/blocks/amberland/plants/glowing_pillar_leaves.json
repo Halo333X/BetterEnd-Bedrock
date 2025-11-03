@@ -74,6 +74,7 @@
       }
     ],
     "components": {
+      "minecraft:loot": "loot_tables/amberland/glowing_pillar_leaves.json",
       "minecraft:map_color": "#ffb300",
       "minecraft:selection_box": {
         "origin": [-8, 0, -8],
