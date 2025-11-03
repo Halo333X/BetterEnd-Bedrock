@@ -1,0 +1,28 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:sandy_jadestone_pedestal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "s",
+            "p",
+            "s"
+        ],
+        "key": {
+            "s": {
+                "item": "betterend:sandy_jadestone_slab"
+            },
+            "p": {
+                "item": "betterend:sandy_jadestone_pillar"
+            }
+        },
+        "result": {
+            "item": "betterend:sandy_jadestone_pedestal",
+            "count": 2
+        }
+    }
+}
