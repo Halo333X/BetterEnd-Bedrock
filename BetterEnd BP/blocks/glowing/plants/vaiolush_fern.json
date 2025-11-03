@@ -32,7 +32,7 @@
       "components": {
         "minecraft:map_color": "#29fcff",
         "minecraft:custom_components": ["betterend:glowing_index"],
-        "minecraft:loot": "loot_tables/empty.json",
+        "minecraft:loot": "loot_tables/glowing/vaiolush_fern.json",
         "minecraft:material_instances": {
           "*": {
             "texture": "vaiolush_fern",

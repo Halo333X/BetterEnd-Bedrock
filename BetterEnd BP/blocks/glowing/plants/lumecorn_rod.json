@@ -167,6 +167,7 @@
             }
         ],
         "components": {
+            "minecraft:loot": "loot_tables/glowing/lumecorn_rod.json",
             "minecraft:map_color": "#80fdff",
             "minecraft:collision_box": true,
             "minecraft:destructible_by_mining": {

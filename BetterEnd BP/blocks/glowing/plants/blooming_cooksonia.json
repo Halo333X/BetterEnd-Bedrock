@@ -34,7 +34,7 @@
         "tag:offset:-12": {},
         "tag:particle:betterend:firefly": {},
         "minecraft:custom_components": ["betterend:glowing_index", "betterend:particle_emitter"],
-        "minecraft:loot": "loot_tables/empty.json",
+        "minecraft:loot": "loot_tables/glowing/blooming_cooksonia.json",
         "minecraft:material_instances": {
           "*": {
             "texture": "blooming_cooksonia",
