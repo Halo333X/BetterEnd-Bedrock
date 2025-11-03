@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:azure_jadestone_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:azure_jadestone"
+            }
+        },
+        "result": {
+            "item": "betterend:azure_jadestone_slab",
+            "count": 6
+        }
+    }
+}
