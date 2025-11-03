@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:violecite_slab"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:violecite"
+            }
+        },
+        "result": {
+            "item": "betterend:violecite_slab",
+            "count": 6
+        }
+    }
+}
