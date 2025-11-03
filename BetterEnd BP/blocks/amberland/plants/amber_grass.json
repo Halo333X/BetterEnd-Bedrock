@@ -37,7 +37,7 @@
         "betterend:amberland_index",
         "betterend:particle_emitter"
       ],
-      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:loot": "loot_tables/amberland/amber_grass.json",
       "minecraft:material_instances": {
         "*": {
           "texture": "amber_grass",
