@@ -2,22 +2,23 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:sulphuric_bricks_slab"
+            "identifier": "betterend:sulphuric_rock_pillar"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "aaa"
+            "s",
+            "s"
         ],
         "key": {
-            "a": {
-                "item": "betterend:sulphuric_bricks"
+            "s": {
+                "item": "betterend:sulphuric_rock_slab"
             }
         },
         "result": {
-            "item": "betterend:sulphuric_bricks_slab",
-            "count": 6
+            "item": "betterend:sulphuric_rock_pillar",
+            "count": 1
         }
     }
 }

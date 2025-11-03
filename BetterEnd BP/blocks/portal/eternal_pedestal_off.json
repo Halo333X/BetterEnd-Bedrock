@@ -2,6 +2,9 @@
 	"format_version": "1.21.80",
 	"minecraft:block": {
 		"description": {
+			"menu_category": {
+				"category": "construction"
+			},
 			"identifier": "betterend:eternal_pedestal_off",
 			"states": {
 				"pillar_template:top_bit": [

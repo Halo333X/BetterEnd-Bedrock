@@ -542,10 +542,7 @@
     }
   },
   // The End
-  "betterend:fake_end_stone": {
-    "sound": "stone",
-    "textures": "end_stone"
-  },
+  
   // Dragon Graveyards
   "betterend:amaranita_fur": {
     "sound": "grass"

@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:smaragdant_bricks_slab"
+            "identifier": "betterend:smaragdant_crystal_bricks_slab"
         },
         "tags": [
             "crafting_table"
@@ -12,11 +12,11 @@
         ],
         "key": {
             "a": {
-                "item": "betterend:smaragdant_bricks"
+                "item": "betterend:smaragdant_crystal_bricks"
             }
         },
         "result": {
-            "item": "betterend:smaragdant_bricks_slab",
+            "item": "betterend:smaragdant_crystal_bricks_slab",
             "count": 6
         }
     }

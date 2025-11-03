@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:sulphuric_stairs"
+            "identifier": "betterend:sulphuric_rock_polished"
         },
         "tags": [
             "crafting_table"
@@ -13,11 +13,11 @@
         ],
         "key": {
             "b": {
-                "item": "betterend:sulphuric_bricks"
+                "item": "betterend:sulphuric_rock_bricks"
             }
         },
         "result": {
-            "item": "betterend:sulphuric_polished",
+            "item": "betterend:sulphuric_rock_polished",
             "count": 4
         }
     }

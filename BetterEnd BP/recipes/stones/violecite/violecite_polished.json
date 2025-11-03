@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:violecite_stairs"
+            "identifier": "betterend:violecite_polished"
         },
         "tags": [
             "crafting_table"

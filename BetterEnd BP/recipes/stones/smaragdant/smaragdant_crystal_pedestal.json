@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:smaragdant_pedestal"
+            "identifier": "betterend:smaragdant_crystal_pedestal"
         },
         "tags": [
             "crafting_table"
@@ -14,14 +14,14 @@
         ],
         "key": {
             "s": {
-                "item": "betterend:smaragdant_slab"
+                "item": "betterend:smaragdant_crystal_slab"
             },
             "p": {
-                "item": "betterend:smaragdant_pillar"
+                "item": "betterend:smaragdant_crystal_pillar"
             }
         },
         "result": {
-            "item": "betterend:smaragdant_pedestal",
+            "item": "betterend:smaragdant_crystal_pedestal",
             "count": 2
         }
     }

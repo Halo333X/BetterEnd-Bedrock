@@ -2,22 +2,23 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:smaragdant_stairs"
+            "identifier": "betterend:smaragdant_crystal_stairs2"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "bb",
-            "bb"
+            "  a",
+            " aa",
+            "aaa"
         ],
         "key": {
-            "b": {
-                "item": "betterend:smaragdant_bricks"
+            "a": {
+                "item": "betterend:smaragdant_crystal"
             }
         },
         "result": {
-            "item": "betterend:smaragdant_polished",
+            "item": "betterend:smaragdant_crystal_stairs",
             "count": 4
         }
     }

@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:sulphuric_pedestal"
+            "identifier": "betterend:sulphuric_rock_pedestal"
         },
         "tags": [
             "crafting_table"
@@ -14,14 +14,14 @@
         ],
         "key": {
             "s": {
-                "item": "betterend:sulphuric_slab"
+                "item": "betterend:sulphuric_rock_slab"
             },
             "p": {
-                "item": "betterend:sulphuric_pillar"
+                "item": "betterend:sulphuric_rock_pillar"
             }
         },
         "result": {
-            "item": "betterend:sulphuric_pedestal",
+            "item": "betterend:sulphuric_rock_pedestal",
             "count": 2
         }
     }

@@ -2,22 +2,23 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:sulphuric_tiles"
+            "identifier": "betterend:smaragdant_crystal_bricks_stairs"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "pp",
-            "pp"
+            "a  ",
+            "aa ",
+            "aaa"
         ],
         "key": {
-            "p": {
-                "item": "betterend:sulphuric_polished"
+            "a": {
+                "item": "betterend:smaragdant_crystal_bricks"
             }
         },
         "result": {
-            "item": "betterend:sulphuric_tiles",
+            "item": "betterend:smaragdant_crystal_bricks_stairs",
             "count": 4
         }
     }

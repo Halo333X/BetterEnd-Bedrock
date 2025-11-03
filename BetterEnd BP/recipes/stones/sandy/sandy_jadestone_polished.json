@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:sandy_jadestone_stairs"
+            "identifier": "betterend:sandy_jadestone_polished"
         },
         "tags": [
             "crafting_table"

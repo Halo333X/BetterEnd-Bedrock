@@ -2,23 +2,23 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:smaragdant_pillar"
+            "identifier": "betterend:sulphuric_rock_tiles"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "s",
-            "s"
+            "pp",
+            "pp"
         ],
         "key": {
-            "s": {
-                "item": "betterend:smaragdant_slab"
+            "p": {
+                "item": "betterend:sulphuric_rock_polished"
             }
         },
         "result": {
-            "item": "betterend:smaragdant_pillar",
-            "count": 1
+            "item": "betterend:sulphuric_rock_tiles",
+            "count": 4
         }
     }
 }

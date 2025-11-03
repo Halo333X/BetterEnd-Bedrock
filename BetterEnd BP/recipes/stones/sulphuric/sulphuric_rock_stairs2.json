@@ -2,23 +2,23 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:smaragdant_bricks_stairs"
+            "identifier": "betterend:sulphuric_rock_stairs2"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "a  ",
-            "aa ",
+            "  a",
+            " aa",
             "aaa"
         ],
         "key": {
             "a": {
-                "item": "betterend:smaragdant_bricks"
+                "item": "betterend:sulphuric_rock"
             }
         },
         "result": {
-            "item": "betterend:smaragdant_bricks_stairs",
+            "item": "betterend:sulphuric_rock_stairs",
             "count": 4
         }
     }

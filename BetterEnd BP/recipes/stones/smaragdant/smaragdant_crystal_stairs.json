@@ -2,7 +2,7 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:sulphuric_stairs"
+            "identifier": "betterend:smaragdant_crystal_stairs"
         },
         "tags": [
             "crafting_table"
@@ -14,11 +14,11 @@
         ],
         "key": {
             "a": {
-                "item": "betterend:sulphuric"
+                "item": "betterend:smaragdant_crystal"
             }
         },
         "result": {
-            "item": "betterend:sulphuric_stairs",
+            "item": "betterend:smaragdant_crystal_stairs",
             "count": 4
         }
     }

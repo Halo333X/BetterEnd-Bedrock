@@ -2,23 +2,22 @@
     "format_version": "1.19.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "betterend:smaragdant_tiles"
+            "identifier": "betterend:smaragdant_crystal_slab"
         },
         "tags": [
             "crafting_table"
         ],
         "pattern": [
-            "pp",
-            "pp"
+            "aaa"
         ],
         "key": {
-            "p": {
-                "item": "betterend:smaragdant_polished"
+            "a": {
+                "item": "betterend:smaragdant_crystal"
             }
         },
         "result": {
-            "item": "betterend:smaragdant_tiles",
-            "count": 4
+            "item": "betterend:smaragdant_crystal_slab",
+            "count": 6
         }
     }
 }
