@@ -1,0 +1,25 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:umbralith_bricks_stairs"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "a  ",
+            "aa ",
+            "aaa"
+        ],
+        "key": {
+            "a": {
+                "item": "betterend:umbralith_bricks"
+            }
+        },
+        "result": {
+            "item": "betterend:umbralith_bricks_stairs",
+            "count": 4
+        }
+    }
+}

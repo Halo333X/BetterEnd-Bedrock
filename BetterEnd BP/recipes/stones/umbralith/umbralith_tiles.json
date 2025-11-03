@@ -1,0 +1,24 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:umbralith_tiles"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "pp",
+            "pp"
+        ],
+        "key": {
+            "p": {
+                "item": "betterend:umbralith_polished"
+            }
+        },
+        "result": {
+            "item": "betterend:umbralith_tiles",
+            "count": 4
+        }
+    }
+}

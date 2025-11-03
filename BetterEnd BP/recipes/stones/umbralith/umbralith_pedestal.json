@@ -1,0 +1,28 @@
+{
+    "format_version": "1.19.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "betterend:umbralith_pedestal"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "s",
+            "p",
+            "s"
+        ],
+        "key": {
+            "s": {
+                "item": "betterend:umbralith_slab"
+            },
+            "p": {
+                "item": "betterend:umbralith_pillar"
+            }
+        },
+        "result": {
+            "item": "betterend:umbralith_pedestal",
+            "count": 2
+        }
+    }
+}
